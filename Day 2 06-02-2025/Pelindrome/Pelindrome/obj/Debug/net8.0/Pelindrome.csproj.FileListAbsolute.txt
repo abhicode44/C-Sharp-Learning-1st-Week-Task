@@ -1,0 +1,28 @@
+C:\Users\Abhishek Chudasama\source\repos\Pelindrome\Pelindrome\bin\Debug\net8.0\Pelindrome.exe
+C:\Users\Abhishek Chudasama\source\repos\Pelindrome\Pelindrome\bin\Debug\net8.0\Pelindrome.deps.json
+C:\Users\Abhishek Chudasama\source\repos\Pelindrome\Pelindrome\bin\Debug\net8.0\Pelindrome.runtimeconfig.json
+C:\Users\Abhishek Chudasama\source\repos\Pelindrome\Pelindrome\bin\Debug\net8.0\Pelindrome.dll
+C:\Users\Abhishek Chudasama\source\repos\Pelindrome\Pelindrome\bin\Debug\net8.0\Pelindrome.pdb
+C:\Users\Abhishek Chudasama\source\repos\Pelindrome\Pelindrome\obj\Debug\net8.0\Pelindrome.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\source\repos\Pelindrome\Pelindrome\obj\Debug\net8.0\Pelindrome.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\source\repos\Pelindrome\Pelindrome\obj\Debug\net8.0\Pelindrome.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\source\repos\Pelindrome\Pelindrome\obj\Debug\net8.0\Pelindrome.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\source\repos\Pelindrome\Pelindrome\obj\Debug\net8.0\Pelindrome.dll
+C:\Users\Abhishek Chudasama\source\repos\Pelindrome\Pelindrome\obj\Debug\net8.0\refint\Pelindrome.dll
+C:\Users\Abhishek Chudasama\source\repos\Pelindrome\Pelindrome\obj\Debug\net8.0\Pelindrome.pdb
+C:\Users\Abhishek Chudasama\source\repos\Pelindrome\Pelindrome\obj\Debug\net8.0\Pelindrome.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\source\repos\Pelindrome\Pelindrome\obj\Debug\net8.0\ref\Pelindrome.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Pelindrome\Pelindrome\bin\Debug\net8.0\Pelindrome.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Pelindrome\Pelindrome\bin\Debug\net8.0\Pelindrome.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Pelindrome\Pelindrome\bin\Debug\net8.0\Pelindrome.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Pelindrome\Pelindrome\bin\Debug\net8.0\Pelindrome.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Pelindrome\Pelindrome\bin\Debug\net8.0\Pelindrome.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Pelindrome\Pelindrome\obj\Debug\net8.0\Pelindrome.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Pelindrome\Pelindrome\obj\Debug\net8.0\Pelindrome.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Pelindrome\Pelindrome\obj\Debug\net8.0\Pelindrome.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Pelindrome\Pelindrome\obj\Debug\net8.0\Pelindrome.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Pelindrome\Pelindrome\obj\Debug\net8.0\Pelindrome.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Pelindrome\Pelindrome\obj\Debug\net8.0\refint\Pelindrome.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Pelindrome\Pelindrome\obj\Debug\net8.0\Pelindrome.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Pelindrome\Pelindrome\obj\Debug\net8.0\Pelindrome.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Pelindrome\Pelindrome\obj\Debug\net8.0\ref\Pelindrome.dll

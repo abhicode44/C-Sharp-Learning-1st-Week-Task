@@ -1,0 +1,28 @@
+C:\Users\Abhishek Chudasama\source\repos\Amstrong number\Amstrong number\bin\Debug\net8.0\Amstrong number.exe
+C:\Users\Abhishek Chudasama\source\repos\Amstrong number\Amstrong number\bin\Debug\net8.0\Amstrong number.deps.json
+C:\Users\Abhishek Chudasama\source\repos\Amstrong number\Amstrong number\bin\Debug\net8.0\Amstrong number.runtimeconfig.json
+C:\Users\Abhishek Chudasama\source\repos\Amstrong number\Amstrong number\bin\Debug\net8.0\Amstrong number.dll
+C:\Users\Abhishek Chudasama\source\repos\Amstrong number\Amstrong number\bin\Debug\net8.0\Amstrong number.pdb
+C:\Users\Abhishek Chudasama\source\repos\Amstrong number\Amstrong number\obj\Debug\net8.0\Amstrong number.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\source\repos\Amstrong number\Amstrong number\obj\Debug\net8.0\Amstrong number.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\source\repos\Amstrong number\Amstrong number\obj\Debug\net8.0\Amstrong number.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\source\repos\Amstrong number\Amstrong number\obj\Debug\net8.0\Amstrong number.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\source\repos\Amstrong number\Amstrong number\obj\Debug\net8.0\Amstrong number.dll
+C:\Users\Abhishek Chudasama\source\repos\Amstrong number\Amstrong number\obj\Debug\net8.0\refint\Amstrong number.dll
+C:\Users\Abhishek Chudasama\source\repos\Amstrong number\Amstrong number\obj\Debug\net8.0\Amstrong number.pdb
+C:\Users\Abhishek Chudasama\source\repos\Amstrong number\Amstrong number\obj\Debug\net8.0\Amstrong number.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\source\repos\Amstrong number\Amstrong number\obj\Debug\net8.0\ref\Amstrong number.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Amstrong number\Amstrong number\bin\Debug\net8.0\Amstrong number.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Amstrong number\Amstrong number\bin\Debug\net8.0\Amstrong number.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Amstrong number\Amstrong number\bin\Debug\net8.0\Amstrong number.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Amstrong number\Amstrong number\bin\Debug\net8.0\Amstrong number.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Amstrong number\Amstrong number\bin\Debug\net8.0\Amstrong number.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Amstrong number\Amstrong number\obj\Debug\net8.0\Amstrong number.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Amstrong number\Amstrong number\obj\Debug\net8.0\Amstrong number.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Amstrong number\Amstrong number\obj\Debug\net8.0\Amstrong number.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Amstrong number\Amstrong number\obj\Debug\net8.0\Amstrong number.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Amstrong number\Amstrong number\obj\Debug\net8.0\Amstrong number.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Amstrong number\Amstrong number\obj\Debug\net8.0\refint\Amstrong number.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Amstrong number\Amstrong number\obj\Debug\net8.0\Amstrong number.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Amstrong number\Amstrong number\obj\Debug\net8.0\Amstrong number.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Amstrong number\Amstrong number\obj\Debug\net8.0\ref\Amstrong number.dll

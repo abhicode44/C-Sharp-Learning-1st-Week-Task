@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "For Loop ,  While  Loop , Do while Loop/1.0.0": {
+        "runtime": {
+          "For Loop ,  While  Loop , Do while Loop.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "For Loop ,  While  Loop , Do while Loop/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
