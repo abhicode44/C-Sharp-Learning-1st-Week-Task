@@ -27,12 +27,13 @@
         Console.Write("Enter a string: ");
         string input = Console.ReadLine();
 
-        Console.WriteLine("The Given String is pelindrome ");
+    
         if (IsPalindrome(input))
-            Console.WriteLine("True");
+            Console.WriteLine("The Given String is pelindrome ");
         else
-            Console.WriteLine("False");
+            Console.WriteLine("The Given String is Not pelindrome ");
 
+        Console.ReadLine();
 
     }
 }

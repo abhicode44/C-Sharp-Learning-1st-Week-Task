@@ -35,6 +35,8 @@
         {
             Console.WriteLine($"The Given Number {number}  is Not Amstrong Number");
         }
+
+        Console.ReadLine();
         
 
         

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Call by Reference/1.0.0": {
+        "runtime": {
+          "Call by Reference.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Call by Reference/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

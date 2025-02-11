@@ -1,0 +1,15 @@
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Call by Reference\Call by Reference\bin\Debug\net8.0\Call by Reference.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Call by Reference\Call by Reference\bin\Debug\net8.0\Call by Reference.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Call by Reference\Call by Reference\bin\Debug\net8.0\Call by Reference.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Call by Reference\Call by Reference\bin\Debug\net8.0\Call by Reference.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Call by Reference\Call by Reference\bin\Debug\net8.0\Call by Reference.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Call by Reference\Call by Reference\obj\Debug\net8.0\Call by Reference.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Call by Reference\Call by Reference\obj\Debug\net8.0\Call by Reference.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Call by Reference\Call by Reference\obj\Debug\net8.0\Call by Reference.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Call by Reference\Call by Reference\obj\Debug\net8.0\Call by Reference.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Call by Reference\Call by Reference\obj\Debug\net8.0\Call by Reference.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Call by Reference\Call by Reference\obj\Debug\net8.0\Call by Reference.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Call by Reference\Call by Reference\obj\Debug\net8.0\refint\Call by Reference.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Call by Reference\Call by Reference\obj\Debug\net8.0\Call by Reference.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Call by Reference\Call by Reference\obj\Debug\net8.0\Call by Reference.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Call by Reference\Call by Reference\obj\Debug\net8.0\ref\Call by Reference.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\fibonacci series\\fibonacci series\\fibonacci series.csproj": {}
+    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 2 06-02-2025\\fibonacci series\\fibonacci series\\fibonacci series.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\fibonacci series\\fibonacci series\\fibonacci series.csproj": {
+    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 2 06-02-2025\\fibonacci series\\fibonacci series\\fibonacci series.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\fibonacci series\\fibonacci series\\fibonacci series.csproj",
+        "projectUniqueName": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 2 06-02-2025\\fibonacci series\\fibonacci series\\fibonacci series.csproj",
         "projectName": "fibonacci series",
-        "projectPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\fibonacci series\\fibonacci series\\fibonacci series.csproj",
+        "projectPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 2 06-02-2025\\fibonacci series\\fibonacci series\\fibonacci series.csproj",
         "packagesPath": "C:\\Users\\Abhishek Chudasama\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\fibonacci series\\fibonacci series\\obj\\",
+        "outputPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 2 06-02-2025\\fibonacci series\\fibonacci series\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,15 @@
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Palindrome new\Palindrome new\bin\Debug\net8.0\Palindrome new.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Palindrome new\Palindrome new\bin\Debug\net8.0\Palindrome new.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Palindrome new\Palindrome new\bin\Debug\net8.0\Palindrome new.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Palindrome new\Palindrome new\bin\Debug\net8.0\Palindrome new.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Palindrome new\Palindrome new\bin\Debug\net8.0\Palindrome new.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Palindrome new\Palindrome new\obj\Debug\net8.0\Palindrome new.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Palindrome new\Palindrome new\obj\Debug\net8.0\Palindrome new.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Palindrome new\Palindrome new\obj\Debug\net8.0\Palindrome new.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Palindrome new\Palindrome new\obj\Debug\net8.0\Palindrome new.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Palindrome new\Palindrome new\obj\Debug\net8.0\Palindrome new.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Palindrome new\Palindrome new\obj\Debug\net8.0\Palindrome new.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Palindrome new\Palindrome new\obj\Debug\net8.0\refint\Palindrome new.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Palindrome new\Palindrome new\obj\Debug\net8.0\Palindrome new.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Palindrome new\Palindrome new\obj\Debug\net8.0\Palindrome new.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Palindrome new\Palindrome new\obj\Debug\net8.0\ref\Palindrome new.dll
