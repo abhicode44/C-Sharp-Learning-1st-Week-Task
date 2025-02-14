@@ -1,0 +1,15 @@
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Immutable Object\Immutable Object\bin\Debug\net8.0\Immutable Object.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Immutable Object\Immutable Object\bin\Debug\net8.0\Immutable Object.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Immutable Object\Immutable Object\bin\Debug\net8.0\Immutable Object.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Immutable Object\Immutable Object\bin\Debug\net8.0\Immutable Object.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Immutable Object\Immutable Object\bin\Debug\net8.0\Immutable Object.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Immutable Object\Immutable Object\obj\Debug\net8.0\Immutable Object.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Immutable Object\Immutable Object\obj\Debug\net8.0\Immutable Object.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Immutable Object\Immutable Object\obj\Debug\net8.0\Immutable Object.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Immutable Object\Immutable Object\obj\Debug\net8.0\Immutable Object.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Immutable Object\Immutable Object\obj\Debug\net8.0\Immutable Object.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Immutable Object\Immutable Object\obj\Debug\net8.0\Immutable Object.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Immutable Object\Immutable Object\obj\Debug\net8.0\refint\Immutable Object.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Immutable Object\Immutable Object\obj\Debug\net8.0\Immutable Object.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Immutable Object\Immutable Object\obj\Debug\net8.0\Immutable Object.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Immutable Object\Immutable Object\obj\Debug\net8.0\ref\Immutable Object.dll

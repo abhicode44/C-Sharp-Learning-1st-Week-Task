@@ -19,11 +19,22 @@ internal class Program
     static int[] ReverseArray ( int[] modifyArray )
     {
         int [] ReverseModifyArray = new int[modifyArray.Length];
-        {
-            for (int i = 0; i < modifyArray.Length; i++) { 
-                 ReverseModifyArray[i] = modifyArray[modifyArray.Length - 1 - i ] ;
+        {   
+            int j = modifyArray.Length - 1  ;
+
+            
+
+            
+            foreach (int ele in modifyArray) { 
+
+                 
+                 ReverseModifyArray[j] = ele;
+                 j-- ;
+                 
             }
+
         }
+
         return ReverseModifyArray;
     }
     

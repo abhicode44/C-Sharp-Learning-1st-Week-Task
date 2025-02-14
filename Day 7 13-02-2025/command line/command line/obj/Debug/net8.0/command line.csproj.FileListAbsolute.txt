@@ -1,0 +1,15 @@
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\command line\command line\bin\Debug\net8.0\command line.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\command line\command line\bin\Debug\net8.0\command line.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\command line\command line\bin\Debug\net8.0\command line.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\command line\command line\bin\Debug\net8.0\command line.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\command line\command line\bin\Debug\net8.0\command line.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\command line\command line\obj\Debug\net8.0\command line.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\command line\command line\obj\Debug\net8.0\command line.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\command line\command line\obj\Debug\net8.0\command line.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\command line\command line\obj\Debug\net8.0\command line.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\command line\command line\obj\Debug\net8.0\command line.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\command line\command line\obj\Debug\net8.0\command line.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\command line\command line\obj\Debug\net8.0\refint\command line.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\command line\command line\obj\Debug\net8.0\command line.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\command line\command line\obj\Debug\net8.0\command line.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\command line\command line\obj\Debug\net8.0\ref\command line.dll

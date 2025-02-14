@@ -1,0 +1,27 @@
+j = 5
+
+ReverseModifyArray[5] = 2
+
+j = 4 
+ReverseModifyArray[4] = 3
+
+j = 3 
+ReverseModifyArray[3] = 4
+
+j = 2
+ReverseModifyArray[2] = 5
+
+j = 1
+ReverseModifyArray[1] = 6
+
+j = 0
+ReverseModifyArray[0] = 7
+
+
+
+ReverseModifyArray = { 7 6 5 4 3 2 1 }
+
+
+
+
+ 

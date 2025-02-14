@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Reverse Array\\Reverse Array\\Reverse Array.csproj": {}
+    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 4 10-02-2025\\Reverse Array\\Reverse Array\\Reverse Array.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Reverse Array\\Reverse Array\\Reverse Array.csproj": {
+    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 4 10-02-2025\\Reverse Array\\Reverse Array\\Reverse Array.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Reverse Array\\Reverse Array\\Reverse Array.csproj",
+        "projectUniqueName": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 4 10-02-2025\\Reverse Array\\Reverse Array\\Reverse Array.csproj",
         "projectName": "Reverse Array",
-        "projectPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Reverse Array\\Reverse Array\\Reverse Array.csproj",
+        "projectPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 4 10-02-2025\\Reverse Array\\Reverse Array\\Reverse Array.csproj",
         "packagesPath": "C:\\Users\\Abhishek Chudasama\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Reverse Array\\Reverse Array\\obj\\",
+        "outputPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 4 10-02-2025\\Reverse Array\\Reverse Array\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

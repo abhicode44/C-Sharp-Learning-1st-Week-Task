@@ -1,0 +1,15 @@
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Mutable Objects\Mutable Objects\bin\Debug\net8.0\Mutable Objects.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Mutable Objects\Mutable Objects\bin\Debug\net8.0\Mutable Objects.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Mutable Objects\Mutable Objects\bin\Debug\net8.0\Mutable Objects.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Mutable Objects\Mutable Objects\bin\Debug\net8.0\Mutable Objects.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Mutable Objects\Mutable Objects\bin\Debug\net8.0\Mutable Objects.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Mutable Objects\Mutable Objects\obj\Debug\net8.0\Mutable Objects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Mutable Objects\Mutable Objects\obj\Debug\net8.0\Mutable Objects.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Mutable Objects\Mutable Objects\obj\Debug\net8.0\Mutable Objects.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Mutable Objects\Mutable Objects\obj\Debug\net8.0\Mutable Objects.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Mutable Objects\Mutable Objects\obj\Debug\net8.0\Mutable Objects.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Mutable Objects\Mutable Objects\obj\Debug\net8.0\Mutable Objects.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Mutable Objects\Mutable Objects\obj\Debug\net8.0\refint\Mutable Objects.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Mutable Objects\Mutable Objects\obj\Debug\net8.0\Mutable Objects.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Mutable Objects\Mutable Objects\obj\Debug\net8.0\Mutable Objects.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Mutable Objects\Mutable Objects\obj\Debug\net8.0\ref\Mutable Objects.dll

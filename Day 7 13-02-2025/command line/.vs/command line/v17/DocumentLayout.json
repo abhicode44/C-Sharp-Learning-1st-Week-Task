@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\command line\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A64E6F4-EF7A-4DFA-A49B-64BAC5185116}|command line\\command line.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\command line\\command line\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A64E6F4-EF7A-4DFA-A49B-64BAC5185116}|command line\\command line.csproj|solutionrelative:command line\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A64E6F4-EF7A-4DFA-A49B-64BAC5185116}|command line\\command line.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\command line\\command line\\command line.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{1A64E6F4-EF7A-4DFA-A49B-64BAC5185116}|command line\\command line.csproj|solutionrelative:command line\\command line.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "command line",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\command line\\command line\\command line.csproj",
+              "RelativeDocumentMoniker": "command line\\command line.csproj",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\command line\\command line\\command line.csproj",
+              "RelativeToolTip": "command line\\command line.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-13T10:48:43.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\command line\\command line\\Program.cs",
+              "RelativeDocumentMoniker": "command line\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\command line\\command line\\Program.cs",
+              "RelativeToolTip": "command line\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T10:46:17.969Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Play PIG GAME\Play PIG GAME\bin\Debug\net8.0\Play PIG GAME.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Play PIG GAME\Play PIG GAME\bin\Debug\net8.0\Play PIG GAME.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Play PIG GAME\Play PIG GAME\bin\Debug\net8.0\Play PIG GAME.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Play PIG GAME\Play PIG GAME\bin\Debug\net8.0\Play PIG GAME.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Play PIG GAME\Play PIG GAME\bin\Debug\net8.0\Play PIG GAME.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Play PIG GAME\Play PIG GAME\obj\Debug\net8.0\Play PIG GAME.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Play PIG GAME\Play PIG GAME\obj\Debug\net8.0\Play PIG GAME.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Play PIG GAME\Play PIG GAME\obj\Debug\net8.0\Play PIG GAME.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Play PIG GAME\Play PIG GAME\obj\Debug\net8.0\Play PIG GAME.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Play PIG GAME\Play PIG GAME\obj\Debug\net8.0\Play PIG GAME.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Play PIG GAME\Play PIG GAME\obj\Debug\net8.0\Play PIG GAME.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Play PIG GAME\Play PIG GAME\obj\Debug\net8.0\refint\Play PIG GAME.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Play PIG GAME\Play PIG GAME\obj\Debug\net8.0\Play PIG GAME.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Play PIG GAME\Play PIG GAME\obj\Debug\net8.0\Play PIG GAME.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Play PIG GAME\Play PIG GAME\obj\Debug\net8.0\ref\Play PIG GAME.dll
