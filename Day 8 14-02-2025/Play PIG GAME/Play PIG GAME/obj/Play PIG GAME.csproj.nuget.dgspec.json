@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Play PIG GAME\\Play PIG GAME\\Play PIG GAME.csproj": {}
+    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 8 14-02-2025\\Play PIG GAME\\Play PIG GAME\\Play PIG GAME.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Play PIG GAME\\Play PIG GAME\\Play PIG GAME.csproj": {
+    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 8 14-02-2025\\Play PIG GAME\\Play PIG GAME\\Play PIG GAME.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Play PIG GAME\\Play PIG GAME\\Play PIG GAME.csproj",
+        "projectUniqueName": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 8 14-02-2025\\Play PIG GAME\\Play PIG GAME\\Play PIG GAME.csproj",
         "projectName": "Play PIG GAME",
-        "projectPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Play PIG GAME\\Play PIG GAME\\Play PIG GAME.csproj",
+        "projectPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 8 14-02-2025\\Play PIG GAME\\Play PIG GAME\\Play PIG GAME.csproj",
         "packagesPath": "C:\\Users\\Abhishek Chudasama\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Play PIG GAME\\Play PIG GAME\\obj\\",
+        "outputPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 8 14-02-2025\\Play PIG GAME\\Play PIG GAME\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

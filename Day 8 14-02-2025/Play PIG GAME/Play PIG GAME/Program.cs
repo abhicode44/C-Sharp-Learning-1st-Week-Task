@@ -1,7 +1,8 @@
 ﻿using System;
 using System.ComponentModel.Design;
 
-internal class Program
+internal class Program 
+
 {   
 
     public static void CheckResponseRoll(ref string response , ref Random random , ref string currentplayername , ref int eachroundscore , ref bool player1chance , ref int player1score , ref int player2score , ref bool playGame)
@@ -78,8 +79,7 @@ internal class Program
             string response = Console.ReadLine();
 
             CheckResponseRoll(ref response, ref random, ref currentplayername, ref eachroundscore, ref player1chance, ref player1score, ref player2score , ref playGame );
-
-            
+          
         }
 
 
@@ -145,13 +145,6 @@ internal class Program
 
 
     }
-
-        
-        
-
-    
-    
-
 
     private static void Main(string[] args)
     {

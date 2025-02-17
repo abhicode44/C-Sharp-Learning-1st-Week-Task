@@ -1,0 +1,15 @@
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Water Bill\Water Bill\bin\Debug\net8.0\Water Bill.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Water Bill\Water Bill\bin\Debug\net8.0\Water Bill.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Water Bill\Water Bill\bin\Debug\net8.0\Water Bill.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Water Bill\Water Bill\bin\Debug\net8.0\Water Bill.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Water Bill\Water Bill\bin\Debug\net8.0\Water Bill.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Water Bill\Water Bill\obj\Debug\net8.0\Water Bill.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Water Bill\Water Bill\obj\Debug\net8.0\Water Bill.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Water Bill\Water Bill\obj\Debug\net8.0\Water Bill.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Water Bill\Water Bill\obj\Debug\net8.0\Water Bill.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Water Bill\Water Bill\obj\Debug\net8.0\Water Bill.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Water Bill\Water Bill\obj\Debug\net8.0\Water Bill.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Water Bill\Water Bill\obj\Debug\net8.0\refint\Water Bill.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Water Bill\Water Bill\obj\Debug\net8.0\Water Bill.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Water Bill\Water Bill\obj\Debug\net8.0\Water Bill.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Water Bill\Water Bill\obj\Debug\net8.0\ref\Water Bill.dll

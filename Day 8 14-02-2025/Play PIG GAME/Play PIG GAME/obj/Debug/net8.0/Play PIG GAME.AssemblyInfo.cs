@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Play PIG GAME")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5788bb7d9e1b6380492c1fc25b964fdb6bba8632")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fc8744a0bd2c32b555a34f8412f0cb90fdb80e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Play PIG GAME")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Play PIG GAME")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

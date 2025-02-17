@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Number Guessing Game\\",
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 8 14-02-2025\\Number Guessing Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{424C6CF0-209A-4430-90E3-8EA9C29853AF}|Number Guessing Game\\Number Guessing Game.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\number guessing game\\number guessing game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{424C6CF0-209A-4430-90E3-8EA9C29853AF}|Number Guessing Game\\Number Guessing Game.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 8 14-02-2025\\number guessing game\\number guessing game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{424C6CF0-209A-4430-90E3-8EA9C29853AF}|Number Guessing Game\\Number Guessing Game.csproj|solutionrelative:number guessing game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Number Guessing Game\\Number Guessing Game\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 8 14-02-2025\\Number Guessing Game\\Number Guessing Game\\Program.cs",
               "RelativeDocumentMoniker": "Number Guessing Game\\Program.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Number Guessing Game\\Number Guessing Game\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 8 14-02-2025\\Number Guessing Game\\Number Guessing Game\\Program.cs",
               "RelativeToolTip": "Number Guessing Game\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T05:22:59.125Z",
               "EditorCaption": ""
