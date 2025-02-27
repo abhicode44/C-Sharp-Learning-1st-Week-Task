@@ -1,0 +1,15 @@
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Single Inharitance\Single Inharitance\bin\Debug\net8.0\Single Inharitance.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Single Inharitance\Single Inharitance\bin\Debug\net8.0\Single Inharitance.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Single Inharitance\Single Inharitance\bin\Debug\net8.0\Single Inharitance.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Single Inharitance\Single Inharitance\bin\Debug\net8.0\Single Inharitance.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Single Inharitance\Single Inharitance\bin\Debug\net8.0\Single Inharitance.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Single Inharitance\Single Inharitance\obj\Debug\net8.0\Single Inharitance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Single Inharitance\Single Inharitance\obj\Debug\net8.0\Single Inharitance.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Single Inharitance\Single Inharitance\obj\Debug\net8.0\Single Inharitance.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Single Inharitance\Single Inharitance\obj\Debug\net8.0\Single Inharitance.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Single Inharitance\Single Inharitance\obj\Debug\net8.0\Single Inharitance.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Single Inharitance\Single Inharitance\obj\Debug\net8.0\Single Inharitance.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Single Inharitance\Single Inharitance\obj\Debug\net8.0\refint\Single Inharitance.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Single Inharitance\Single Inharitance\obj\Debug\net8.0\Single Inharitance.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Single Inharitance\Single Inharitance\obj\Debug\net8.0\Single Inharitance.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Single Inharitance\Single Inharitance\obj\Debug\net8.0\ref\Single Inharitance.dll

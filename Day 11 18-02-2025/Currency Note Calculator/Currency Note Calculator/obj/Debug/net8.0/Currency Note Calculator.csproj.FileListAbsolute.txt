@@ -1,0 +1,15 @@
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Currency Note Calculator\Currency Note Calculator\bin\Debug\net8.0\Currency Note Calculator.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Currency Note Calculator\Currency Note Calculator\bin\Debug\net8.0\Currency Note Calculator.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Currency Note Calculator\Currency Note Calculator\bin\Debug\net8.0\Currency Note Calculator.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Currency Note Calculator\Currency Note Calculator\bin\Debug\net8.0\Currency Note Calculator.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Currency Note Calculator\Currency Note Calculator\bin\Debug\net8.0\Currency Note Calculator.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Currency Note Calculator\Currency Note Calculator\obj\Debug\net8.0\Currency Note Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Currency Note Calculator\Currency Note Calculator\obj\Debug\net8.0\Currency Note Calculator.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Currency Note Calculator\Currency Note Calculator\obj\Debug\net8.0\Currency Note Calculator.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Currency Note Calculator\Currency Note Calculator\obj\Debug\net8.0\Currency Note Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Currency Note Calculator\Currency Note Calculator\obj\Debug\net8.0\Currency Note Calculator.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Currency Note Calculator\Currency Note Calculator\obj\Debug\net8.0\Currency Note Calculator.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Currency Note Calculator\Currency Note Calculator\obj\Debug\net8.0\refint\Currency Note Calculator.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Currency Note Calculator\Currency Note Calculator\obj\Debug\net8.0\Currency Note Calculator.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Currency Note Calculator\Currency Note Calculator\obj\Debug\net8.0\Currency Note Calculator.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Currency Note Calculator\Currency Note Calculator\obj\Debug\net8.0\ref\Currency Note Calculator.dll

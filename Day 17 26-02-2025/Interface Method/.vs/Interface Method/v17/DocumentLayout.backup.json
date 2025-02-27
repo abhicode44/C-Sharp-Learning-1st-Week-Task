@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Interface Method\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{747B1D6F-DAEE-4E4E-86F8-C8ED29F23A23}|Interface Method\\Interface Method.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\interface method\\interface method\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{747B1D6F-DAEE-4E4E-86F8-C8ED29F23A23}|Interface Method\\Interface Method.csproj|solutionrelative:interface method\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{747B1D6F-DAEE-4E4E-86F8-C8ED29F23A23}|Interface Method\\Interface Method.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\interface method\\interface method\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{747B1D6F-DAEE-4E4E-86F8-C8ED29F23A23}|Interface Method\\Interface Method.csproj|solutionrelative:interface method\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{747B1D6F-DAEE-4E4E-86F8-C8ED29F23A23}|Interface Method\\Interface Method.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\interface method\\interface method\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{747B1D6F-DAEE-4E4E-86F8-C8ED29F23A23}|Interface Method\\Interface Method.csproj|solutionrelative:interface method\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dog.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Interface Method\\Interface Method\\Dog.cs",
+              "RelativeDocumentMoniker": "Interface Method\\Dog.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Interface Method\\Interface Method\\Dog.cs",
+              "RelativeToolTip": "Interface Method\\Dog.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T07:44:53.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Interface Method\\Interface Method\\Animal.cs",
+              "RelativeDocumentMoniker": "Interface Method\\Animal.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Interface Method\\Interface Method\\Animal.cs",
+              "RelativeToolTip": "Interface Method\\Animal.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T07:42:30.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Interface Method\\Interface Method\\Program.cs",
+              "RelativeDocumentMoniker": "Interface Method\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Interface Method\\Interface Method\\Program.cs",
+              "RelativeToolTip": "Interface Method\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T07:41:42.038Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

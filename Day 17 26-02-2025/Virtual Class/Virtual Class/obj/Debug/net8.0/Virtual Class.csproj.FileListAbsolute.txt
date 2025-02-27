@@ -1,0 +1,15 @@
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Virtual Class\Virtual Class\bin\Debug\net8.0\Virtual Class.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Virtual Class\Virtual Class\bin\Debug\net8.0\Virtual Class.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Virtual Class\Virtual Class\bin\Debug\net8.0\Virtual Class.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Virtual Class\Virtual Class\bin\Debug\net8.0\Virtual Class.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Virtual Class\Virtual Class\bin\Debug\net8.0\Virtual Class.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Virtual Class\Virtual Class\obj\Debug\net8.0\Virtual Class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Virtual Class\Virtual Class\obj\Debug\net8.0\Virtual Class.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Virtual Class\Virtual Class\obj\Debug\net8.0\Virtual Class.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Virtual Class\Virtual Class\obj\Debug\net8.0\Virtual Class.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Virtual Class\Virtual Class\obj\Debug\net8.0\Virtual Class.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Virtual Class\Virtual Class\obj\Debug\net8.0\Virtual Class.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Virtual Class\Virtual Class\obj\Debug\net8.0\refint\Virtual Class.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Virtual Class\Virtual Class\obj\Debug\net8.0\Virtual Class.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Virtual Class\Virtual Class\obj\Debug\net8.0\Virtual Class.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Virtual Class\Virtual Class\obj\Debug\net8.0\ref\Virtual Class.dll

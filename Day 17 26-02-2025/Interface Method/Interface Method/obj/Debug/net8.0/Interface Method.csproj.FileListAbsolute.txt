@@ -1,0 +1,15 @@
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Interface Method\Interface Method\bin\Debug\net8.0\Interface Method.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Interface Method\Interface Method\bin\Debug\net8.0\Interface Method.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Interface Method\Interface Method\bin\Debug\net8.0\Interface Method.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Interface Method\Interface Method\bin\Debug\net8.0\Interface Method.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Interface Method\Interface Method\bin\Debug\net8.0\Interface Method.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Interface Method\Interface Method\obj\Debug\net8.0\Interface Method.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Interface Method\Interface Method\obj\Debug\net8.0\Interface Method.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Interface Method\Interface Method\obj\Debug\net8.0\Interface Method.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Interface Method\Interface Method\obj\Debug\net8.0\Interface Method.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Interface Method\Interface Method\obj\Debug\net8.0\Interface Method.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Interface Method\Interface Method\obj\Debug\net8.0\Interface Method.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Interface Method\Interface Method\obj\Debug\net8.0\refint\Interface Method.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Interface Method\Interface Method\obj\Debug\net8.0\Interface Method.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Interface Method\Interface Method\obj\Debug\net8.0\Interface Method.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Interface Method\Interface Method\obj\Debug\net8.0\ref\Interface Method.dll

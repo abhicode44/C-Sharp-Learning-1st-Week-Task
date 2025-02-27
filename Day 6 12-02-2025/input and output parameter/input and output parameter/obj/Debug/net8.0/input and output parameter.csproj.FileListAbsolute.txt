@@ -13,3 +13,18 @@ C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\input and output parameter\
 C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\input and output parameter\input and output parameter\obj\Debug\net8.0\input and output parameter.pdb
 C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\input and output parameter\input and output parameter\obj\Debug\net8.0\input and output parameter.genruntimeconfig.cache
 C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\input and output parameter\input and output parameter\obj\Debug\net8.0\ref\input and output parameter.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 6 12-02-2025\input and output parameter\input and output parameter\bin\Debug\net8.0\input and output parameter.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 6 12-02-2025\input and output parameter\input and output parameter\bin\Debug\net8.0\input and output parameter.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 6 12-02-2025\input and output parameter\input and output parameter\bin\Debug\net8.0\input and output parameter.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 6 12-02-2025\input and output parameter\input and output parameter\bin\Debug\net8.0\input and output parameter.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 6 12-02-2025\input and output parameter\input and output parameter\bin\Debug\net8.0\input and output parameter.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 6 12-02-2025\input and output parameter\input and output parameter\obj\Debug\net8.0\input and output parameter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 6 12-02-2025\input and output parameter\input and output parameter\obj\Debug\net8.0\input and output parameter.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 6 12-02-2025\input and output parameter\input and output parameter\obj\Debug\net8.0\input and output parameter.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 6 12-02-2025\input and output parameter\input and output parameter\obj\Debug\net8.0\input and output parameter.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 6 12-02-2025\input and output parameter\input and output parameter\obj\Debug\net8.0\input and output parameter.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 6 12-02-2025\input and output parameter\input and output parameter\obj\Debug\net8.0\input and output parameter.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 6 12-02-2025\input and output parameter\input and output parameter\obj\Debug\net8.0\refint\input and output parameter.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 6 12-02-2025\input and output parameter\input and output parameter\obj\Debug\net8.0\input and output parameter.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 6 12-02-2025\input and output parameter\input and output parameter\obj\Debug\net8.0\input and output parameter.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 6 12-02-2025\input and output parameter\input and output parameter\obj\Debug\net8.0\ref\input and output parameter.dll

@@ -1,0 +1,15 @@
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Parent class reference as parameter\Parent class reference as parameter\bin\Debug\net8.0\Parent class reference as parameter.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Parent class reference as parameter\Parent class reference as parameter\bin\Debug\net8.0\Parent class reference as parameter.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Parent class reference as parameter\Parent class reference as parameter\bin\Debug\net8.0\Parent class reference as parameter.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Parent class reference as parameter\Parent class reference as parameter\bin\Debug\net8.0\Parent class reference as parameter.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Parent class reference as parameter\Parent class reference as parameter\bin\Debug\net8.0\Parent class reference as parameter.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Parent class reference as parameter\Parent class reference as parameter\obj\Debug\net8.0\Parent class reference as parameter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Parent class reference as parameter\Parent class reference as parameter\obj\Debug\net8.0\Parent class reference as parameter.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Parent class reference as parameter\Parent class reference as parameter\obj\Debug\net8.0\Parent class reference as parameter.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Parent class reference as parameter\Parent class reference as parameter\obj\Debug\net8.0\Parent class reference as parameter.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Parent class reference as parameter\Parent class reference as parameter\obj\Debug\net8.0\Parent class reference as parameter.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Parent class reference as parameter\Parent class reference as parameter\obj\Debug\net8.0\Parent class reference as parameter.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Parent class reference as parameter\Parent class reference as parameter\obj\Debug\net8.0\refint\Parent class reference as parameter.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Parent class reference as parameter\Parent class reference as parameter\obj\Debug\net8.0\Parent class reference as parameter.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Parent class reference as parameter\Parent class reference as parameter\obj\Debug\net8.0\Parent class reference as parameter.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Parent class reference as parameter\Parent class reference as parameter\obj\Debug\net8.0\ref\Parent class reference as parameter.dll

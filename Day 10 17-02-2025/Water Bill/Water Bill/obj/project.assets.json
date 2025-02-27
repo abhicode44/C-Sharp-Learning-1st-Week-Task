@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Water Bill\\Water Bill\\Water Bill.csproj",
+      "projectUniqueName": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 10 17-02-2025\\Water Bill\\Water Bill\\Water Bill.csproj",
       "projectName": "Water Bill",
-      "projectPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Water Bill\\Water Bill\\Water Bill.csproj",
+      "projectPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 10 17-02-2025\\Water Bill\\Water Bill\\Water Bill.csproj",
       "packagesPath": "C:\\Users\\Abhishek Chudasama\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Water Bill\\Water Bill\\obj\\",
+      "outputPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 10 17-02-2025\\Water Bill\\Water Bill\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

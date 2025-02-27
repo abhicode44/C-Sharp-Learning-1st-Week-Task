@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\input and output parameter\\input and output parameter\\input and output parameter.csproj",
+      "projectUniqueName": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 6 12-02-2025\\input and output parameter\\input and output parameter\\input and output parameter.csproj",
       "projectName": "input and output parameter",
-      "projectPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\input and output parameter\\input and output parameter\\input and output parameter.csproj",
+      "projectPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 6 12-02-2025\\input and output parameter\\input and output parameter\\input and output parameter.csproj",
       "packagesPath": "C:\\Users\\Abhishek Chudasama\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\input and output parameter\\input and output parameter\\obj\\",
+      "outputPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 6 12-02-2025\\input and output parameter\\input and output parameter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

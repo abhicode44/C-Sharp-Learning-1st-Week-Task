@@ -1,0 +1,44 @@
+input = 500
+
+
+c = 5 
+isInvalid = false
+
+number[0] = 1 
+number[0] == 5
+isInvalid = true 
+
+
+number[1] = 2 
+number[1] == 5
+isInvalid = true
+
+number[2] = 3 
+number[2] == 5
+isInvalid = true
+
+number[3] = 4 
+number[3] == 5
+isInvalid = true
+
+number[4] = 5 
+number[4] == 5
+isInvalid = false
+
+
+c = 0
+isInvalid = false
+
+number[0] = 1 
+number[0] == 0
+isInvalid = true;
+
+number[1] = 2
+number[1] == 0
+isInvalid = true ;
+
+number[2] = 3
+number[2] == 0
+isInvalid = true ;
+
+

@@ -1,0 +1,15 @@
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Differences Between Class and Struct\Differences Between Class and Struct\bin\Debug\net8.0\Differences Between Class and Struct.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Differences Between Class and Struct\Differences Between Class and Struct\bin\Debug\net8.0\Differences Between Class and Struct.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Differences Between Class and Struct\Differences Between Class and Struct\bin\Debug\net8.0\Differences Between Class and Struct.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Differences Between Class and Struct\Differences Between Class and Struct\bin\Debug\net8.0\Differences Between Class and Struct.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Differences Between Class and Struct\Differences Between Class and Struct\bin\Debug\net8.0\Differences Between Class and Struct.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Differences Between Class and Struct\Differences Between Class and Struct\obj\Debug\net8.0\Differences Between Class and Struct.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Differences Between Class and Struct\Differences Between Class and Struct\obj\Debug\net8.0\Differences Between Class and Struct.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Differences Between Class and Struct\Differences Between Class and Struct\obj\Debug\net8.0\Differences Between Class and Struct.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Differences Between Class and Struct\Differences Between Class and Struct\obj\Debug\net8.0\Differences Between Class and Struct.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Differences Between Class and Struct\Differences Between Class and Struct\obj\Debug\net8.0\Differences Between Class and Struct.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Differences Between Class and Struct\Differences Between Class and Struct\obj\Debug\net8.0\Differences Between Class and Struct.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Differences Between Class and Struct\Differences Between Class and Struct\obj\Debug\net8.0\refint\Differences Between Class and Struct.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Differences Between Class and Struct\Differences Between Class and Struct\obj\Debug\net8.0\Differences Between Class and Struct.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Differences Between Class and Struct\Differences Between Class and Struct\obj\Debug\net8.0\Differences Between Class and Struct.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Differences Between Class and Struct\Differences Between Class and Struct\obj\Debug\net8.0\ref\Differences Between Class and Struct.dll

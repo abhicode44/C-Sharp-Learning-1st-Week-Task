@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "example of input and output parameter/1.0.0": {
+        "runtime": {
+          "example of input and output parameter.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "example of input and output parameter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

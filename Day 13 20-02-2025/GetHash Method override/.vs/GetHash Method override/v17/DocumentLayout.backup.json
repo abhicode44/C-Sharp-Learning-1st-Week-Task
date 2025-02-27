@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\GetHash Method override\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68DBEAFA-19A4-4D24-B1B4-BF7A3AEBB3B7}|GetHash Method override\\GetHash Method override.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\gethash method override\\gethash method override\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68DBEAFA-19A4-4D24-B1B4-BF7A3AEBB3B7}|GetHash Method override\\GetHash Method override.csproj|solutionrelative:gethash method override\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\GetHash Method override\\GetHash Method override\\Program.cs",
+              "RelativeDocumentMoniker": "GetHash Method override\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\GetHash Method override\\GetHash Method override\\Program.cs",
+              "RelativeToolTip": "GetHash Method override\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:44:55.655Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Abstract Class\Abstract Class\bin\Debug\net8.0\Abstract Class.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Abstract Class\Abstract Class\bin\Debug\net8.0\Abstract Class.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Abstract Class\Abstract Class\bin\Debug\net8.0\Abstract Class.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Abstract Class\Abstract Class\bin\Debug\net8.0\Abstract Class.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Abstract Class\Abstract Class\bin\Debug\net8.0\Abstract Class.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Abstract Class\Abstract Class\obj\Debug\net8.0\Abstract Class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Abstract Class\Abstract Class\obj\Debug\net8.0\Abstract Class.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Abstract Class\Abstract Class\obj\Debug\net8.0\Abstract Class.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Abstract Class\Abstract Class\obj\Debug\net8.0\Abstract Class.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Abstract Class\Abstract Class\obj\Debug\net8.0\Abstract Class.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Abstract Class\Abstract Class\obj\Debug\net8.0\Abstract Class.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Abstract Class\Abstract Class\obj\Debug\net8.0\refint\Abstract Class.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Abstract Class\Abstract Class\obj\Debug\net8.0\Abstract Class.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Abstract Class\Abstract Class\obj\Debug\net8.0\Abstract Class.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Abstract Class\Abstract Class\obj\Debug\net8.0\ref\Abstract Class.dll

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Class\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E0CBCA-C74B-4C4E-B1C1-45609092ED17}|Abstract Class\\Abstract Class.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\abstract class\\abstract class\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8E0CBCA-C74B-4C4E-B1C1-45609092ED17}|Abstract Class\\Abstract Class.csproj|solutionrelative:abstract class\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E0CBCA-C74B-4C4E-B1C1-45609092ED17}|Abstract Class\\Abstract Class.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\abstract class\\abstract class\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8E0CBCA-C74B-4C4E-B1C1-45609092ED17}|Abstract Class\\Abstract Class.csproj|solutionrelative:abstract class\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E0CBCA-C74B-4C4E-B1C1-45609092ED17}|Abstract Class\\Abstract Class.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\abstract class\\abstract class\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8E0CBCA-C74B-4C4E-B1C1-45609092ED17}|Abstract Class\\Abstract Class.csproj|solutionrelative:abstract class\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dog.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Class\\Abstract Class\\Dog.cs",
+              "RelativeDocumentMoniker": "Abstract Class\\Dog.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Class\\Abstract Class\\Dog.cs",
+              "RelativeToolTip": "Abstract Class\\Dog.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T08:01:28.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Class\\Abstract Class\\Animal.cs",
+              "RelativeDocumentMoniker": "Abstract Class\\Animal.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Class\\Abstract Class\\Animal.cs",
+              "RelativeToolTip": "Abstract Class\\Animal.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T07:57:44.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Class\\Abstract Class\\Program.cs",
+              "RelativeDocumentMoniker": "Abstract Class\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Class\\Abstract Class\\Program.cs",
+              "RelativeToolTip": "Abstract Class\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T07:34:02.199Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

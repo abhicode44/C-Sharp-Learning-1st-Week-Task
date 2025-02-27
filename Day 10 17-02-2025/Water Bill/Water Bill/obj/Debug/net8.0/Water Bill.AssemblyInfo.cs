@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Water Bill")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fc8744a0bd2c32b555a34f8412f0cb90fdb80e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d660fa61fadb28fcd7cc74054feeab5802ef09c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Water Bill")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Water Bill")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
