@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LinkedList_Operations/1.0.0": {
+        "runtime": {
+          "LinkedList_Operations.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LinkedList_Operations/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

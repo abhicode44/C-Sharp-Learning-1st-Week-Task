@@ -13,3 +13,18 @@ C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\MovieApp\MovieApp\obj\Debug
 C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\MovieApp\MovieApp\obj\Debug\net8.0\MovieApp.pdb
 C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\MovieApp\MovieApp\obj\Debug\net8.0\MovieApp.genruntimeconfig.cache
 C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\MovieApp\MovieApp\obj\Debug\net8.0\ref\MovieApp.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 18 27-02-2025\MovieApp\MovieApp\bin\Debug\net8.0\MovieApp.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 18 27-02-2025\MovieApp\MovieApp\bin\Debug\net8.0\MovieApp.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 18 27-02-2025\MovieApp\MovieApp\bin\Debug\net8.0\MovieApp.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 18 27-02-2025\MovieApp\MovieApp\bin\Debug\net8.0\MovieApp.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 18 27-02-2025\MovieApp\MovieApp\bin\Debug\net8.0\MovieApp.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 18 27-02-2025\MovieApp\MovieApp\obj\Debug\net8.0\MovieApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 18 27-02-2025\MovieApp\MovieApp\obj\Debug\net8.0\MovieApp.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 18 27-02-2025\MovieApp\MovieApp\obj\Debug\net8.0\MovieApp.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 18 27-02-2025\MovieApp\MovieApp\obj\Debug\net8.0\MovieApp.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 18 27-02-2025\MovieApp\MovieApp\obj\Debug\net8.0\MovieApp.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 18 27-02-2025\MovieApp\MovieApp\obj\Debug\net8.0\MovieApp.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 18 27-02-2025\MovieApp\MovieApp\obj\Debug\net8.0\refint\MovieApp.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 18 27-02-2025\MovieApp\MovieApp\obj\Debug\net8.0\MovieApp.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 18 27-02-2025\MovieApp\MovieApp\obj\Debug\net8.0\MovieApp.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 18 27-02-2025\MovieApp\MovieApp\obj\Debug\net8.0\ref\MovieApp.dll

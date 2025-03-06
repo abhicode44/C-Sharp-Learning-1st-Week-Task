@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\StudentApp\\",
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 15 24-02-2025\\StudentApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00A6DDDD-BE46-4074-AF7C-A5CB96C37755}|StudentApp\\StudentApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\studentapp\\studentapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00A6DDDD-BE46-4074-AF7C-A5CB96C37755}|StudentApp\\StudentApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 15 24-02-2025\\studentapp\\studentapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00A6DDDD-BE46-4074-AF7C-A5CB96C37755}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00A6DDDD-BE46-4074-AF7C-A5CB96C37755}|StudentApp\\StudentApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\studentapp\\studentapp\\model\\new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00A6DDDD-BE46-4074-AF7C-A5CB96C37755}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\model\\new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00A6DDDD-BE46-4074-AF7C-A5CB96C37755}|StudentApp\\StudentApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 15 24-02-2025\\studentapp\\studentapp\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A6DDDD-BE46-4074-AF7C-A5CB96C37755}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00A6DDDD-BE46-4074-AF7C-A5CB96C37755}|StudentApp\\StudentApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\studentapp\\studentapp\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00A6DDDD-BE46-4074-AF7C-A5CB96C37755}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00A6DDDD-BE46-4074-AF7C-A5CB96C37755}|StudentApp\\StudentApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 15 24-02-2025\\studentapp\\studentapp\\model\\new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A6DDDD-BE46-4074-AF7C-A5CB96C37755}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\model\\new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,26 +26,26 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "New.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\StudentApp\\StudentApp\\Model\\New.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 15 24-02-2025\\StudentApp\\StudentApp\\Model\\New.cs",
               "RelativeDocumentMoniker": "StudentApp\\Model\\New.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\StudentApp\\StudentApp\\Model\\New.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 15 24-02-2025\\StudentApp\\StudentApp\\Model\\New.cs",
               "RelativeToolTip": "StudentApp\\Model\\New.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T09:27:13.442Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\StudentApp\\StudentApp\\Model\\Student.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 15 24-02-2025\\StudentApp\\StudentApp\\Model\\Student.cs",
               "RelativeDocumentMoniker": "StudentApp\\Model\\Student.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\StudentApp\\StudentApp\\Model\\Student.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 15 24-02-2025\\StudentApp\\StudentApp\\Model\\Student.cs",
               "RelativeToolTip": "StudentApp\\Model\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwCIAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T06:02:16.647Z",
               "EditorCaption": ""
@@ -54,11 +54,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\StudentApp\\StudentApp\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 15 24-02-2025\\StudentApp\\StudentApp\\Program.cs",
               "RelativeDocumentMoniker": "StudentApp\\Program.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\StudentApp\\StudentApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 15 24-02-2025\\StudentApp\\StudentApp\\Program.cs",
               "RelativeToolTip": "StudentApp\\Program.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAQwDcAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwEMAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T05:47:58.582Z",
               "EditorCaption": ""

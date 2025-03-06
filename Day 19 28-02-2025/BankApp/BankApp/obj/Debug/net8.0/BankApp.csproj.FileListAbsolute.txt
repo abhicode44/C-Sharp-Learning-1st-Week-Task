@@ -1,0 +1,30 @@
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\BankApp\BankApp\bin\Debug\net8.0\BankApp.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\BankApp\BankApp\bin\Debug\net8.0\BankApp.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\BankApp\BankApp\bin\Debug\net8.0\BankApp.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\BankApp\BankApp\bin\Debug\net8.0\BankApp.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\BankApp\BankApp\bin\Debug\net8.0\BankApp.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\BankApp\BankApp\obj\Debug\net8.0\BankApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\BankApp\BankApp\obj\Debug\net8.0\BankApp.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\BankApp\BankApp\obj\Debug\net8.0\BankApp.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\BankApp\BankApp\obj\Debug\net8.0\BankApp.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\BankApp\BankApp\obj\Debug\net8.0\BankApp.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\BankApp\BankApp\obj\Debug\net8.0\BankApp.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\BankApp\BankApp\obj\Debug\net8.0\refint\BankApp.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\BankApp\BankApp\obj\Debug\net8.0\BankApp.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\BankApp\BankApp\obj\Debug\net8.0\BankApp.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\BankApp\BankApp\obj\Debug\net8.0\ref\BankApp.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 19 28-02-2025\BankApp\BankApp\bin\Debug\net8.0\BankApp.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 19 28-02-2025\BankApp\BankApp\bin\Debug\net8.0\BankApp.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 19 28-02-2025\BankApp\BankApp\bin\Debug\net8.0\BankApp.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 19 28-02-2025\BankApp\BankApp\bin\Debug\net8.0\BankApp.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 19 28-02-2025\BankApp\BankApp\bin\Debug\net8.0\BankApp.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 19 28-02-2025\BankApp\BankApp\obj\Debug\net8.0\BankApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 19 28-02-2025\BankApp\BankApp\obj\Debug\net8.0\BankApp.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 19 28-02-2025\BankApp\BankApp\obj\Debug\net8.0\BankApp.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 19 28-02-2025\BankApp\BankApp\obj\Debug\net8.0\BankApp.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 19 28-02-2025\BankApp\BankApp\obj\Debug\net8.0\BankApp.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 19 28-02-2025\BankApp\BankApp\obj\Debug\net8.0\BankApp.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 19 28-02-2025\BankApp\BankApp\obj\Debug\net8.0\refint\BankApp.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 19 28-02-2025\BankApp\BankApp\obj\Debug\net8.0\BankApp.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 19 28-02-2025\BankApp\BankApp\obj\Debug\net8.0\BankApp.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 19 28-02-2025\BankApp\BankApp\obj\Debug\net8.0\ref\BankApp.dll

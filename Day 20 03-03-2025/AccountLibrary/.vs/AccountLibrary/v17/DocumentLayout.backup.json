@@ -1,0 +1,234 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\accountlibrary\\accountlibrary\\services\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|solutionrelative:accountlibrary\\services\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\accountlibrary\\exceptions\\invalidpancardnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|solutionrelative:accountlibrary\\exceptions\\invalidpancardnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\accountlibrary\\accountlibrary\\exceptions\\invalidmiddlename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|solutionrelative:accountlibrary\\exceptions\\invalidmiddlename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\accountlibrary\\accountlibrary\\exceptions\\invalidlastname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|solutionrelative:accountlibrary\\exceptions\\invalidlastname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\accountlibrary\\accountlibrary\\exceptions\\invalidfirstname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|solutionrelative:accountlibrary\\exceptions\\invalidfirstname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\accountlibrary\\exceptions\\invalidchoiceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|solutionrelative:accountlibrary\\exceptions\\invalidchoiceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\accountlibrary\\services\\dataserialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|solutionrelative:accountlibrary\\services\\dataserialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\accountlibrary\\exceptions\\listfullexpection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|solutionrelative:accountlibrary\\exceptions\\listfullexpection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\accountlibrary\\exceptions\\listemptyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|solutionrelative:accountlibrary\\exceptions\\listemptyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\accountlibrary\\exceptions\\invalidaadharcardnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|solutionrelative:accountlibrary\\exceptions\\invalidaadharcardnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\accountlibrary\\exceptions\\accountnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|solutionrelative:accountlibrary\\exceptions\\accountnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\accountlibrary\\accounttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E317E522-B508-456E-B32F-E85119CBCD5F}|AccountLibrary\\AccountLibrary.csproj|solutionrelative:accountlibrary\\accounttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Models\\DetailsOfAccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AccountLibrary\\Models\\DetailsOfAccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InvalidMiddleName.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Exceptions\\InvalidMiddleName.cs",
+              "RelativeDocumentMoniker": "AccountLibrary\\Exceptions\\InvalidMiddleName.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Exceptions\\InvalidMiddleName.cs*",
+              "RelativeToolTip": "AccountLibrary\\Exceptions\\InvalidMiddleName.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T06:56:18.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InvalidLastName.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Exceptions\\InvalidLastName.cs",
+              "RelativeDocumentMoniker": "AccountLibrary\\Exceptions\\InvalidLastName.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Exceptions\\InvalidLastName.cs*",
+              "RelativeToolTip": "AccountLibrary\\Exceptions\\InvalidLastName.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T06:56:11.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InvalidFirstName.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Exceptions\\InvalidFirstName.cs",
+              "RelativeDocumentMoniker": "AccountLibrary\\Exceptions\\InvalidFirstName.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Exceptions\\InvalidFirstName.cs*",
+              "RelativeToolTip": "AccountLibrary\\Exceptions\\InvalidFirstName.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T06:56:02.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ListEmptyException.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Exceptions\\ListEmptyException.cs",
+              "RelativeDocumentMoniker": "AccountLibrary\\Exceptions\\ListEmptyException.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Exceptions\\ListEmptyException.cs",
+              "RelativeToolTip": "AccountLibrary\\Exceptions\\ListEmptyException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T12:34:22.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InvalidPanCardNumber.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Exceptions\\InvalidPanCardNumber.cs",
+              "RelativeDocumentMoniker": "AccountLibrary\\Exceptions\\InvalidPanCardNumber.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Exceptions\\InvalidPanCardNumber.cs",
+              "RelativeToolTip": "AccountLibrary\\Exceptions\\InvalidPanCardNumber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T10:26:11.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Exceptions\\AccountNotFoundException.cs",
+              "RelativeDocumentMoniker": "AccountLibrary\\Exceptions\\AccountNotFoundException.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Exceptions\\AccountNotFoundException.cs",
+              "RelativeToolTip": "AccountLibrary\\Exceptions\\AccountNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T10:25:48.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountType.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\AccountType.cs",
+              "RelativeDocumentMoniker": "AccountLibrary\\AccountType.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\AccountType.cs",
+              "RelativeToolTip": "AccountLibrary\\AccountType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T10:23:52.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataSerialization.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Services\\DataSerialization.cs",
+              "RelativeDocumentMoniker": "AccountLibrary\\Services\\DataSerialization.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Services\\DataSerialization.cs",
+              "RelativeToolTip": "AccountLibrary\\Services\\DataSerialization.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T10:13:48.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountManager.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Services\\AccountManager.cs",
+              "RelativeDocumentMoniker": "AccountLibrary\\Services\\AccountManager.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Services\\AccountManager.cs",
+              "RelativeToolTip": "AccountLibrary\\Services\\AccountManager.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwJkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T10:13:33.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InvalidChoiceException.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Exceptions\\InvalidChoiceException.cs",
+              "RelativeDocumentMoniker": "AccountLibrary\\Exceptions\\InvalidChoiceException.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Exceptions\\InvalidChoiceException.cs",
+              "RelativeToolTip": "AccountLibrary\\Exceptions\\InvalidChoiceException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T10:12:55.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InvalidAadharCardNumber.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Exceptions\\InvalidAadharCardNumber.cs",
+              "RelativeDocumentMoniker": "AccountLibrary\\Exceptions\\InvalidAadharCardNumber.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Exceptions\\InvalidAadharCardNumber.cs",
+              "RelativeToolTip": "AccountLibrary\\Exceptions\\InvalidAadharCardNumber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T10:12:54.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ListFullExpection.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Exceptions\\ListFullExpection.cs",
+              "RelativeDocumentMoniker": "AccountLibrary\\Exceptions\\ListFullExpection.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Exceptions\\ListFullExpection.cs",
+              "RelativeToolTip": "AccountLibrary\\Exceptions\\ListFullExpection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T10:12:53.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DetailsOfAccounts.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Models\\DetailsOfAccounts.cs",
+              "RelativeDocumentMoniker": "AccountLibrary\\Models\\DetailsOfAccounts.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\AccountLibrary\\AccountLibrary\\Models\\DetailsOfAccounts.cs",
+              "RelativeToolTip": "AccountLibrary\\Models\\DetailsOfAccounts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T10:10:09Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

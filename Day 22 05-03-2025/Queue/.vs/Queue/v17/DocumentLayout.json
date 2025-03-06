@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Queue\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59C79BB0-66D4-4270-920C-C9D50238C15E}|Queue\\Queue.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\queue\\queue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59C79BB0-66D4-4270-920C-C9D50238C15E}|Queue\\Queue.csproj|solutionrelative:queue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C79BB0-66D4-4270-920C-C9D50238C15E}|Queue\\Queue.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\queue\\queue\\queue_operations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59C79BB0-66D4-4270-920C-C9D50238C15E}|Queue\\Queue.csproj|solutionrelative:queue\\queue_operations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C79BB0-66D4-4270-920C-C9D50238C15E}|Queue\\Queue.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\queue\\queue\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59C79BB0-66D4-4270-920C-C9D50238C15E}|Queue\\Queue.csproj|solutionrelative:queue\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Queue\\Queue\\Node.cs",
+              "RelativeDocumentMoniker": "Queue\\Node.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Queue\\Queue\\Node.cs",
+              "RelativeToolTip": "Queue\\Node.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T12:28:24.364Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Queue_operations.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Queue\\Queue\\Queue_operations.cs",
+              "RelativeDocumentMoniker": "Queue\\Queue_operations.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Queue\\Queue\\Queue_operations.cs",
+              "RelativeToolTip": "Queue\\Queue_operations.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAewCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T12:33:08.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Queue\\Queue\\Program.cs",
+              "RelativeDocumentMoniker": "Queue\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Queue\\Queue\\Program.cs",
+              "RelativeToolTip": "Queue\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T12:23:11.668Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

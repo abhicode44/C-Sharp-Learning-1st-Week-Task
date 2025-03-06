@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\StudentApp\\StudentApp\\StudentApp.csproj": {}
+    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 15 24-02-2025\\StudentApp\\StudentApp\\StudentApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\StudentApp\\StudentApp\\StudentApp.csproj": {
+    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 15 24-02-2025\\StudentApp\\StudentApp\\StudentApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\StudentApp\\StudentApp\\StudentApp.csproj",
+        "projectUniqueName": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 15 24-02-2025\\StudentApp\\StudentApp\\StudentApp.csproj",
         "projectName": "StudentApp",
-        "projectPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\StudentApp\\StudentApp\\StudentApp.csproj",
+        "projectPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 15 24-02-2025\\StudentApp\\StudentApp\\StudentApp.csproj",
         "packagesPath": "C:\\Users\\Abhishek Chudasama\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\StudentApp\\StudentApp\\obj\\",
+        "outputPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 15 24-02-2025\\StudentApp\\StudentApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

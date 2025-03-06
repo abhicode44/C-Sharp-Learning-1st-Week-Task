@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "CNKCCEd/OYs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 20 03-03-2025\\Bank_Application\\Bank_Application\\Bank_Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Abhishek Chudasama\\.nuget\\packages\\system.io.pipelines\\9.0.2\\system.io.pipelines.9.0.2.nupkg.sha512",
+    "C:\\Users\\Abhishek Chudasama\\.nuget\\packages\\system.text.encodings.web\\9.0.2\\system.text.encodings.web.9.0.2.nupkg.sha512",
+    "C:\\Users\\Abhishek Chudasama\\.nuget\\packages\\system.text.json\\9.0.2\\system.text.json.9.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

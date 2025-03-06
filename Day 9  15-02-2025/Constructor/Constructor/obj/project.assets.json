@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Constructor\\Constructor\\Constructor.csproj",
+      "projectUniqueName": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 9  15-02-2025\\Constructor\\Constructor\\Constructor.csproj",
       "projectName": "Constructor",
-      "projectPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Constructor\\Constructor\\Constructor.csproj",
+      "projectPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 9  15-02-2025\\Constructor\\Constructor\\Constructor.csproj",
       "packagesPath": "C:\\Users\\Abhishek Chudasama\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Constructor\\Constructor\\obj\\",
+      "outputPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 9  15-02-2025\\Constructor\\Constructor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

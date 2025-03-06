@@ -1,0 +1,15 @@
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Stack Operations\Stack Operations\bin\Debug\net8.0\Stack Operations.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Stack Operations\Stack Operations\bin\Debug\net8.0\Stack Operations.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Stack Operations\Stack Operations\bin\Debug\net8.0\Stack Operations.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Stack Operations\Stack Operations\bin\Debug\net8.0\Stack Operations.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Stack Operations\Stack Operations\bin\Debug\net8.0\Stack Operations.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Stack Operations\Stack Operations\obj\Debug\net8.0\Stack Operations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Stack Operations\Stack Operations\obj\Debug\net8.0\Stack Operations.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Stack Operations\Stack Operations\obj\Debug\net8.0\Stack Operations.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Stack Operations\Stack Operations\obj\Debug\net8.0\Stack Operations.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Stack Operations\Stack Operations\obj\Debug\net8.0\Stack Operations.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Stack Operations\Stack Operations\obj\Debug\net8.0\Stack Operations.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Stack Operations\Stack Operations\obj\Debug\net8.0\refint\Stack Operations.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Stack Operations\Stack Operations\obj\Debug\net8.0\Stack Operations.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Stack Operations\Stack Operations\obj\Debug\net8.0\Stack Operations.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Stack Operations\Stack Operations\obj\Debug\net8.0\ref\Stack Operations.dll
