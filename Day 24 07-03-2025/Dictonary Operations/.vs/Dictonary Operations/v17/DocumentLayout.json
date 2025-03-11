@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Dictonary Operations\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9257F0B8-CEDF-434C-90B8-42ED21251D62}|Dictonary Operations\\Dictonary Operations.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\dictonary operations\\dictonary operations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9257F0B8-CEDF-434C-90B8-42ED21251D62}|Dictonary Operations\\Dictonary Operations.csproj|solutionrelative:dictonary operations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9257F0B8-CEDF-434C-90B8-42ED21251D62}|Dictonary Operations\\Dictonary Operations.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\dictonary operations\\dictonary operations\\dictonary_method.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9257F0B8-CEDF-434C-90B8-42ED21251D62}|Dictonary Operations\\Dictonary Operations.csproj|solutionrelative:dictonary operations\\dictonary_method.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9257F0B8-CEDF-434C-90B8-42ED21251D62}|Dictonary Operations\\Dictonary Operations.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\dictonary operations\\dictonary operations\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9257F0B8-CEDF-434C-90B8-42ED21251D62}|Dictonary Operations\\Dictonary Operations.csproj|solutionrelative:dictonary operations\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dictonary_method.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Dictonary Operations\\Dictonary Operations\\Dictonary_method.cs",
+              "RelativeDocumentMoniker": "Dictonary Operations\\Dictonary_method.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Dictonary Operations\\Dictonary Operations\\Dictonary_method.cs",
+              "RelativeToolTip": "Dictonary Operations\\Dictonary_method.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAgwDAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T07:03:43.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Dictonary Operations\\Dictonary Operations\\Node.cs",
+              "RelativeDocumentMoniker": "Dictonary Operations\\Node.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Dictonary Operations\\Dictonary Operations\\Node.cs",
+              "RelativeToolTip": "Dictonary Operations\\Node.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T06:40:57.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Dictonary Operations\\Dictonary Operations\\Program.cs",
+              "RelativeDocumentMoniker": "Dictonary Operations\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Dictonary Operations\\Dictonary Operations\\Program.cs",
+              "RelativeToolTip": "Dictonary Operations\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAkwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T06:39:44.086Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

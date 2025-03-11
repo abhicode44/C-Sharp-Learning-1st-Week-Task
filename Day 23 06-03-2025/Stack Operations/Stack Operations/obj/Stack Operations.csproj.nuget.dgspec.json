@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Stack Operations\\Stack Operations\\Stack Operations.csproj": {}
+    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 23 06-03-2025\\Stack Operations\\Stack Operations\\Stack Operations.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Stack Operations\\Stack Operations\\Stack Operations.csproj": {
+    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 23 06-03-2025\\Stack Operations\\Stack Operations\\Stack Operations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Stack Operations\\Stack Operations\\Stack Operations.csproj",
+        "projectUniqueName": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 23 06-03-2025\\Stack Operations\\Stack Operations\\Stack Operations.csproj",
         "projectName": "Stack Operations",
-        "projectPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Stack Operations\\Stack Operations\\Stack Operations.csproj",
+        "projectPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 23 06-03-2025\\Stack Operations\\Stack Operations\\Stack Operations.csproj",
         "packagesPath": "C:\\Users\\Abhishek Chudasama\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Stack Operations\\Stack Operations\\obj\\",
+        "outputPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 23 06-03-2025\\Stack Operations\\Stack Operations\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

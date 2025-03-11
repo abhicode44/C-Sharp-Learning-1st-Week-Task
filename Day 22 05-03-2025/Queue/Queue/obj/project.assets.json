@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Queue\\Queue\\Queue.csproj",
+      "projectUniqueName": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 22 05-03-2025\\Queue\\Queue\\Queue.csproj",
       "projectName": "Queue",
-      "projectPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Queue\\Queue\\Queue.csproj",
+      "projectPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 22 05-03-2025\\Queue\\Queue\\Queue.csproj",
       "packagesPath": "C:\\Users\\Abhishek Chudasama\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Queue\\Queue\\obj\\",
+      "outputPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 22 05-03-2025\\Queue\\Queue\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

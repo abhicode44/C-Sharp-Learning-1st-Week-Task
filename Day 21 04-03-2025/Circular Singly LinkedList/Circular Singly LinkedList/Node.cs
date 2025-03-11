@@ -8,10 +8,10 @@ namespace Circular_Singly_LinkedList
 {
     internal class Node
     {
-        public Object Data;
+        public object Data;
         public Node Next;
 
-        public Node(Object obj)
+        public Node(object obj)
         {
             Data = obj;
             Next = null;

@@ -1,0 +1,15 @@
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Dictonary Operations\Dictonary Operations\bin\Debug\net8.0\Dictonary Operations.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Dictonary Operations\Dictonary Operations\bin\Debug\net8.0\Dictonary Operations.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Dictonary Operations\Dictonary Operations\bin\Debug\net8.0\Dictonary Operations.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Dictonary Operations\Dictonary Operations\bin\Debug\net8.0\Dictonary Operations.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Dictonary Operations\Dictonary Operations\bin\Debug\net8.0\Dictonary Operations.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Dictonary Operations\Dictonary Operations\obj\Debug\net8.0\Dictonary Operations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Dictonary Operations\Dictonary Operations\obj\Debug\net8.0\Dictonary Operations.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Dictonary Operations\Dictonary Operations\obj\Debug\net8.0\Dictonary Operations.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Dictonary Operations\Dictonary Operations\obj\Debug\net8.0\Dictonary Operations.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Dictonary Operations\Dictonary Operations\obj\Debug\net8.0\Dictonary Operations.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Dictonary Operations\Dictonary Operations\obj\Debug\net8.0\Dictonary Operations.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Dictonary Operations\Dictonary Operations\obj\Debug\net8.0\refint\Dictonary Operations.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Dictonary Operations\Dictonary Operations\obj\Debug\net8.0\Dictonary Operations.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Dictonary Operations\Dictonary Operations\obj\Debug\net8.0\Dictonary Operations.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Dictonary Operations\Dictonary Operations\obj\Debug\net8.0\ref\Dictonary Operations.dll

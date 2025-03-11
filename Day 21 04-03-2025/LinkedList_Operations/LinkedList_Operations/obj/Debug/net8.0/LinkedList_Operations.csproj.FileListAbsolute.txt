@@ -13,3 +13,18 @@ C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\LinkedList_Operations\Linke
 C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\LinkedList_Operations\LinkedList_Operations\obj\Debug\net8.0\LinkedList_Operations.pdb
 C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\LinkedList_Operations\LinkedList_Operations\obj\Debug\net8.0\LinkedList_Operations.genruntimeconfig.cache
 C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\LinkedList_Operations\LinkedList_Operations\obj\Debug\net8.0\ref\LinkedList_Operations.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 21 04-03-2025\LinkedList_Operations\LinkedList_Operations\bin\Debug\net8.0\LinkedList_Operations.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 21 04-03-2025\LinkedList_Operations\LinkedList_Operations\bin\Debug\net8.0\LinkedList_Operations.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 21 04-03-2025\LinkedList_Operations\LinkedList_Operations\bin\Debug\net8.0\LinkedList_Operations.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 21 04-03-2025\LinkedList_Operations\LinkedList_Operations\bin\Debug\net8.0\LinkedList_Operations.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 21 04-03-2025\LinkedList_Operations\LinkedList_Operations\bin\Debug\net8.0\LinkedList_Operations.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 21 04-03-2025\LinkedList_Operations\LinkedList_Operations\obj\Debug\net8.0\LinkedList_Operations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 21 04-03-2025\LinkedList_Operations\LinkedList_Operations\obj\Debug\net8.0\LinkedList_Operations.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 21 04-03-2025\LinkedList_Operations\LinkedList_Operations\obj\Debug\net8.0\LinkedList_Operations.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 21 04-03-2025\LinkedList_Operations\LinkedList_Operations\obj\Debug\net8.0\LinkedList_Operations.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 21 04-03-2025\LinkedList_Operations\LinkedList_Operations\obj\Debug\net8.0\LinkedList_Operations.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 21 04-03-2025\LinkedList_Operations\LinkedList_Operations\obj\Debug\net8.0\LinkedList_Operations.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 21 04-03-2025\LinkedList_Operations\LinkedList_Operations\obj\Debug\net8.0\refint\LinkedList_Operations.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 21 04-03-2025\LinkedList_Operations\LinkedList_Operations\obj\Debug\net8.0\LinkedList_Operations.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 21 04-03-2025\LinkedList_Operations\LinkedList_Operations\obj\Debug\net8.0\LinkedList_Operations.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Day 21 04-03-2025\LinkedList_Operations\LinkedList_Operations\obj\Debug\net8.0\ref\LinkedList_Operations.dll

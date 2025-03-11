@@ -240,39 +240,41 @@ namespace BankApp.Services
                         throw new InvalidPanCardNumber("Please Enter a 10-Digit Pan Card Number.");
                     }
 
-                    string[] number = { "1", "2", "3", "4", "5", "6", "7", "8", "9", "0" ,
-                                         "A" , "B" , "C" , "D" , "E" , "F" ,  "G" , "H" , "I" ,
-                                          "J" , "K" , "L" , "M" , "N" , "O" , "P" , "Q" , "R" ,
-                                          "S" , "T" , "U" , "V" , "W" , "X" , "Y" , "Z"
-                                       };
+                    string[] alphabet = { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" };
+                    string[] number = { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
                     bool isInvalid = false;
 
-                    foreach (char c in pannumber)
+                    for (int j = 0; j < 5; j++)
                     {
-                        bool found = false;
-                        foreach (string num in number)
-                        {
-                            if (num == c.ToString())
-                            {
-                                found = true;
-                                break;
-                            }
-                        }
-                        if (!found)
+                        if (!alphabet.Contains(pannumber[j].ToString()))
                         {
                             isInvalid = true;
                             break;
                         }
                     }
 
+                    for (int k = 5; k < 9; k++)
+                    {
+                        if (!number.Contains(pannumber[k].ToString()))
+                        {
+                            isInvalid = true;
+                            break;
+                        }
+                    }
+                    if (!alphabet.Contains(pannumber[9].ToString()))
+                    {
+                        isInvalid = true;
+                    }
+
                     if (isInvalid)
                     {
-                        throw new InvalidPanCardNumber("Invalid Input! Please enter a Valid Pan Card Number.");
+                        throw new InvalidPanCardNumber("Invalid Input! Please enter a valid Pan Card Number (Format: ABCDE1234F).");
                     }
 
                     break;
                 }
+
                 catch (Exception e)
                 {
                     Console.WriteLine(e.ToString());

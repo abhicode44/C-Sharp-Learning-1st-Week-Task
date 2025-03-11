@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\LinkedList\\",
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 21 04-03-2025\\LinkedList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C91692A9-191B-41F1-A8C4-5B46BDCBD93D}|LinkedList\\LinkedList.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\linkedlist\\linkedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C91692A9-191B-41F1-A8C4-5B46BDCBD93D}|LinkedList\\LinkedList.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 21 04-03-2025\\linkedlist\\linkedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C91692A9-191B-41F1-A8C4-5B46BDCBD93D}|LinkedList\\LinkedList.csproj|solutionrelative:linkedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\LinkedList\\LinkedList\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 21 04-03-2025\\LinkedList\\LinkedList\\Program.cs",
               "RelativeDocumentMoniker": "LinkedList\\Program.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\LinkedList\\LinkedList\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 21 04-03-2025\\LinkedList\\LinkedList\\Program.cs",
               "RelativeToolTip": "LinkedList\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T09:27:13.302Z",
               "EditorCaption": ""

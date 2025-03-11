@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Circular Doubly Linkedlist\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19174825-EF0C-428D-8A73-6A5EB92698D2}|Circular Doubly Linkedlist\\Circular Doubly Linkedlist.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\circular doubly linkedlist\\circular doubly linkedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19174825-EF0C-428D-8A73-6A5EB92698D2}|Circular Doubly Linkedlist\\Circular Doubly Linkedlist.csproj|solutionrelative:circular doubly linkedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19174825-EF0C-428D-8A73-6A5EB92698D2}|Circular Doubly Linkedlist\\Circular Doubly Linkedlist.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\circular doubly linkedlist\\circular doubly linkedlist\\linkedlists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19174825-EF0C-428D-8A73-6A5EB92698D2}|Circular Doubly Linkedlist\\Circular Doubly Linkedlist.csproj|solutionrelative:circular doubly linkedlist\\linkedlists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19174825-EF0C-428D-8A73-6A5EB92698D2}|Circular Doubly Linkedlist\\Circular Doubly Linkedlist.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\circular doubly linkedlist\\circular doubly linkedlist\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19174825-EF0C-428D-8A73-6A5EB92698D2}|Circular Doubly Linkedlist\\Circular Doubly Linkedlist.csproj|solutionrelative:circular doubly linkedlist\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Circular Doubly Linkedlist\\Circular Doubly Linkedlist\\Node.cs",
+              "RelativeDocumentMoniker": "Circular Doubly Linkedlist\\Node.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Circular Doubly Linkedlist\\Circular Doubly Linkedlist\\Node.cs",
+              "RelativeToolTip": "Circular Doubly Linkedlist\\Node.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T09:50:58.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LinkedLists.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Circular Doubly Linkedlist\\Circular Doubly Linkedlist\\LinkedLists.cs",
+              "RelativeDocumentMoniker": "Circular Doubly Linkedlist\\LinkedLists.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Circular Doubly Linkedlist\\Circular Doubly Linkedlist\\LinkedLists.cs",
+              "RelativeToolTip": "Circular Doubly Linkedlist\\LinkedLists.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T09:50:50.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Circular Doubly Linkedlist\\Circular Doubly Linkedlist\\Program.cs",
+              "RelativeDocumentMoniker": "Circular Doubly Linkedlist\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Circular Doubly Linkedlist\\Circular Doubly Linkedlist\\Program.cs*",
+              "RelativeToolTip": "Circular Doubly Linkedlist\\Program.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwCIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T09:50:09.237Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -8,7 +8,8 @@ internal class Program
     {
         LinkedLists linklistobj = new LinkedLists() ;
 
-        int a = 10;
+
+        int a = 100;
         Object o = a ;
         linklistobj.AddFirstNode(o) ;
 
@@ -21,7 +22,7 @@ internal class Program
         o = b;
         linklistobj.AddFirstNode(o);
 
-        
+
 
         int c = 500;
         o = c;
