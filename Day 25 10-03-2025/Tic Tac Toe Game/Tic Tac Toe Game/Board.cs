@@ -9,7 +9,7 @@ namespace Tic_Tac_Toe_Game
 {
     internal class Board
     {
-        Cell[,] newcell = new Cell[3,3];
+        public Cell[,] newcell = new Cell[3,3];
 
         public Board ()
         {
@@ -61,11 +61,11 @@ namespace Tic_Tac_Toe_Game
             {
                 for (int j = 0; j < 3; j++)  //column
                 {
-                    Console.Write(newcell[i, j].GetMarkType() == MarkType.EMPTY ? "-" : newcell[i, j].GetMarkType().ToString());
+                    Console.Write(newcell[i, j].GetMarkType() == MarkType.EMPTY ? $"{i} {j}" : newcell[i, j].GetMarkType().ToString());
                     if (j < 2) Console.Write(" | ");
                 }
                 Console.WriteLine();
-                if (i < 2) Console.WriteLine("---------");
+                if (i < 2) Console.WriteLine("----------------------");
             }
         }
 

@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{7EA8F015-19A1-412A-B0D3-1B17B2335465}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\services\\moviemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7EA8F015-19A1-412A-B0D3-1B17B2335465}|MovieApp\\MovieApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 18 27-02-2025\\movieapp\\movieapp\\services\\dataserialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EA8F015-19A1-412A-B0D3-1B17B2335465}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\services\\dataserialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7EA8F015-19A1-412A-B0D3-1B17B2335465}|MovieApp\\MovieApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 18 27-02-2025\\movieapp\\movieapp\\services\\moviestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EA8F015-19A1-412A-B0D3-1B17B2335465}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\services\\moviestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EA8F015-19A1-412A-B0D3-1B17B2335465}|MovieApp\\MovieApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 18 27-02-2025\\movieapp\\movieapp\\exceptions\\listemptyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EA8F015-19A1-412A-B0D3-1B17B2335465}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\exceptions\\listemptyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7EA8F015-19A1-412A-B0D3-1B17B2335465}|MovieApp\\MovieApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 18 27-02-2025\\movieapp\\movieapp\\model\\detailsofmovies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EA8F015-19A1-412A-B0D3-1B17B2335465}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\model\\detailsofmovies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EA8F015-19A1-412A-B0D3-1B17B2335465}|MovieApp\\MovieApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 18 27-02-2025\\movieapp\\movieapp\\services\\dataserialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EA8F015-19A1-412A-B0D3-1B17B2335465}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\services\\dataserialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7EA8F015-19A1-412A-B0D3-1B17B2335465}|MovieApp\\MovieApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 18 27-02-2025\\movieapp\\movieapp\\exceptions\\listemptyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EA8F015-19A1-412A-B0D3-1B17B2335465}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\exceptions\\listemptyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EA8F015-19A1-412A-B0D3-1B17B2335465}|MovieApp\\MovieApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 18 27-02-2025\\movieapp\\movieapp\\genrelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7EA8F015-19A1-412A-B0D3-1B17B2335465}|MovieApp\\MovieApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 18 27-02-2025\\movieapp\\movieapp\\exceptions\\invalidchoiceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EA8F015-19A1-412A-B0D3-1B17B2335465}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\exceptions\\invalidchoiceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EA8F015-19A1-412A-B0D3-1B17B2335465}|MovieApp\\MovieApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 18 27-02-2025\\movieapp\\movieapp\\model\\detailsofmovies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EA8F015-19A1-412A-B0D3-1B17B2335465}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\model\\detailsofmovies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EA8F015-19A1-412A-B0D3-1B17B2335465}|MovieApp\\MovieApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 18 27-02-2025\\movieapp\\movieapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "InvalidChoiceException.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 18 27-02-2025\\MovieApp\\MovieApp\\Exceptions\\InvalidChoiceException.cs",
               "RelativeDocumentMoniker": "MovieApp\\Exceptions\\InvalidChoiceException.cs",
@@ -58,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GenreList.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 18 27-02-2025\\MovieApp\\MovieApp\\GenreList.cs",
               "RelativeDocumentMoniker": "MovieApp\\GenreList.cs",
@@ -70,19 +70,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "DataSerialization.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 18 27-02-2025\\MovieApp\\MovieApp\\Services\\DataSerialization.cs",
               "RelativeDocumentMoniker": "MovieApp\\Services\\DataSerialization.cs",
               "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 18 27-02-2025\\MovieApp\\MovieApp\\Services\\DataSerialization.cs",
               "RelativeToolTip": "MovieApp\\Services\\DataSerialization.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAuwBcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T12:53:40.275Z"
+              "WhenOpened": "2025-02-28T12:53:40.275Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ListEmptyException.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 18 27-02-2025\\MovieApp\\MovieApp\\Exceptions\\ListEmptyException.cs",
               "RelativeDocumentMoniker": "MovieApp\\Exceptions\\ListEmptyException.cs",
@@ -94,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MovieStore.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 18 27-02-2025\\MovieApp\\MovieApp\\Services\\MovieStore.cs",
               "RelativeDocumentMoniker": "MovieApp\\Services\\MovieStore.cs",
@@ -113,22 +114,23 @@
               "RelativeDocumentMoniker": "MovieApp\\Services\\MovieManager.cs",
               "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 18 27-02-2025\\MovieApp\\MovieApp\\Services\\MovieManager.cs",
               "RelativeToolTip": "MovieApp\\Services\\MovieManager.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAAAFQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwEgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T17:13:40.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "DetailsOfMovies.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 18 27-02-2025\\MovieApp\\MovieApp\\Model\\DetailsOfMovies.cs",
               "RelativeDocumentMoniker": "MovieApp\\Model\\DetailsOfMovies.cs",
               "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 18 27-02-2025\\MovieApp\\MovieApp\\Model\\DetailsOfMovies.cs",
               "RelativeToolTip": "MovieApp\\Model\\DetailsOfMovies.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBAAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T05:08:50.916Z"
+              "WhenOpened": "2025-02-27T05:08:50.916Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

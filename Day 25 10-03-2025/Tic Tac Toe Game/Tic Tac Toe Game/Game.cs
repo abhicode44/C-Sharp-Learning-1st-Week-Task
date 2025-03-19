@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -64,27 +65,41 @@ namespace Tic_Tac_Toe_Game
             }
         }
 
-        private bool IsWinner(MarkType player)
+        private bool IsWinner(MarkType player  )
+        {
+ 
+            return CheckRow(player) || CheckColoumn(player) || CheckDiagonal(player) ;
+        }
+
+        private bool CheckRow(MarkType player)
         {
             for (int i = 0; i < 3; i++)
             {
-                if ((board.GetMarkAt(i, 0) == player && board.GetMarkAt(i, 1) == player && board.GetMarkAt(i, 2) == player) ||
-                    (board.GetMarkAt(0, i) == player && board.GetMarkAt(1, i) == player && board.GetMarkAt(2, i) == player))
-                {
-                    return true;
-                }
-            }
-
-            if ((board.GetMarkAt(0, 0) == player && board.GetMarkAt(1, 1) == player && board.GetMarkAt(2, 2) == player) ||
-                (board.GetMarkAt(0, 2) == player && board.GetMarkAt(1, 1) == player && board.GetMarkAt(2, 0) == player))
-            {
+                if ((board.GetMarkAt(i, 0) == player && board.GetMarkAt(i, 1) == player && board.GetMarkAt(i, 2) == player)) 
                 return true;
             }
-
             return false;
         }
 
+        private  bool CheckColoumn(MarkType player)
+        {
+            for (int i = 0; i < 3; i++)
+            {
+                if ((board.GetMarkAt(0, i) == player && board.GetMarkAt(1, i) == player && board.GetMarkAt(2, i) == player)) 
+                return true;
+            }
+            return false;
+        }
 
+        private bool CheckDiagonal(MarkType player)
+        {
+            if ((board.GetMarkAt(0, 0) == player && board.GetMarkAt(1, 1) == player && board.GetMarkAt(2, 2) == player) ||
+               (board.GetMarkAt(0, 2) == player && board.GetMarkAt(1, 1) == player && board.GetMarkAt(2, 0) == player))
+            {
+                return true;
+            }
+            return false;
+        }
 
 
     }

@@ -166,3 +166,44 @@ SELECT E.EMP_NAME, D.DEPT_NAME, D.LOCATION
 FROM EMPOLYEE E
 JOIN DEPARTMENT D ON E.DEPT_ID = D.DEPT_ID;
 
+-- Q.24  Display all deptnames and corresponding employees
+SELECT D.DEPT_ID, E.EMP_NAME
+FROM DEPARTMENT D
+LEFT JOIN EMPOLYEE E ON D.DEPT_ID = E.DEPT_ID;
+
+--Q.25. Dispay all deptnames where there are no employees SELECT D.DEPT_NAME
+FROM DEPARTMENT D
+LEFT JOIN EMPOLYEE E ON D.DEPT_ID = E.DEPT_ID
+WHERE E.EMP_NAME IS NULL;
+
+-- Q.26 Display deptname wise employee count greater than 3, display in descending order ofdeptname
+SELECT D.DEPT_NAME, COUNT(E.EMP_ID) AS EMPLOYEE_COUNT
+FROM DEPARTMENT D
+LEFT JOIN EMPOLYEE E ON D.DEPT_ID = E.DEPT_ID
+GROUP BY D.DEPT_NAME
+HAVING COUNT(E.EMP_ID) > 3
+ORDER BY D.DEPT_NAME DESC;
+
+-- Q.27  Display all the empname and their manager names 
+SELECT E.EMP_NAME AS Employee, M.EMP_NAME AS Manager
+FROM EMPOLYEE  E
+LEFT JOIN EMPOLYEE M ON E.MANAGER_ID = M.EMP_ID;
+
+-- Q.28 . Display empname,deptname and manager name as bossname , order by bossname
+SELECT 
+    E.EMP_NAME AS Employee, 
+    D.DEPT_NAME AS Department, 
+    M.EMP_NAME AS BossName
+FROM EMPOLYEE E
+LEFT JOIN DEPARTMENT D ON E.DEPT_ID = D.DEPT_ID
+LEFT JOIN EMPOLYEE M ON E.MANAGER_ID = M.EMP_ID
+ORDER BY BossName;  
+
+-- Q.29 Display Dname, employee name and names of their managers
+SELECT 
+    D.DEPT_NAME AS Department, 
+    E.EMP_NAME AS Employee, 
+    M.EMP_NAME AS Manager
+FROM EMPOLYEE E
+LEFT JOIN DEPARTMENT D ON E.DEPT_ID = D.DEPT_ID
+LEFT JOIN EMPOLYEE M ON E.MANAGER_ID = M.EMP_ID;

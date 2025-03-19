@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\StudentAppUsingDB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4031B7-E041-44D6-97B6-2AD7CF01D535}|StudentAppUsingDB\\StudentAppUsingDB.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\studentappusingdb\\studentappusingdb\\model\\studentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4031B7-E041-44D6-97B6-2AD7CF01D535}|StudentAppUsingDB\\StudentAppUsingDB.csproj|solutionrelative:studentappusingdb\\model\\studentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4031B7-E041-44D6-97B6-2AD7CF01D535}|StudentAppUsingDB\\StudentAppUsingDB.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\studentappusingdb\\studentappusingdb\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1A4031B7-E041-44D6-97B6-2AD7CF01D535}|StudentAppUsingDB\\StudentAppUsingDB.csproj|solutionrelative:studentappusingdb\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4031B7-E041-44D6-97B6-2AD7CF01D535}|StudentAppUsingDB\\StudentAppUsingDB.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\studentappusingdb\\studentappusingdb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4031B7-E041-44D6-97B6-2AD7CF01D535}|StudentAppUsingDB\\StudentAppUsingDB.csproj|solutionrelative:studentappusingdb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentManager.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\StudentAppUsingDB\\StudentAppUsingDB\\Model\\StudentManager.cs",
+              "RelativeDocumentMoniker": "StudentAppUsingDB\\Model\\StudentManager.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\StudentAppUsingDB\\StudentAppUsingDB\\Model\\StudentManager.cs",
+              "RelativeToolTip": "StudentAppUsingDB\\Model\\StudentManager.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAYwIoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T10:49:00.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\StudentAppUsingDB\\StudentAppUsingDB\\App.config",
+              "RelativeDocumentMoniker": "StudentAppUsingDB\\App.config",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\StudentAppUsingDB\\StudentAppUsingDB\\App.config",
+              "RelativeToolTip": "StudentAppUsingDB\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-12T10:24:26.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\StudentAppUsingDB\\StudentAppUsingDB\\Program.cs",
+              "RelativeDocumentMoniker": "StudentAppUsingDB\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\StudentAppUsingDB\\StudentAppUsingDB\\Program.cs",
+              "RelativeToolTip": "StudentAppUsingDB\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T09:07:29.702Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
