@@ -10,7 +10,7 @@ using Microsoft.Data.SqlClient;
 
 namespace Inventory_Management_System.Services
 {
-    internal class InventoryOperation : Service
+    internal class InventoryOperation : IService
     {
         
 

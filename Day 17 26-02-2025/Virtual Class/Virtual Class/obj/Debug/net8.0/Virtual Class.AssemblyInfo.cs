@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Virtual Class")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d660fa61fadb28fcd7cc74054feeab5802ef09c0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92116ba518efa5b22e15a390d1fe298444fa2855")]
 [assembly: System.Reflection.AssemblyProductAttribute("Virtual Class")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Virtual Class")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

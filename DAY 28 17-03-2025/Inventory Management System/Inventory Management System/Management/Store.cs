@@ -14,10 +14,10 @@ namespace Inventory_Management_System.Management
 {
     internal class Store
     {
-        Service productStore = new ProductOperation();
-        Service supplierStore = new SupplierOperation();
-        TransactionServices transactionStore = new TransactionOperation();
-        Service inventoryStore = new InventoryOperation();
+        IService productStore = new ProductOperation();
+        IService supplierStore = new SupplierOperation();
+        ITransactionServices transactionStore = new TransactionOperation();
+        IService inventoryStore = new InventoryOperation();
         Report_Management report_Management = new Report_Management();
 
         public void MainMenu()
@@ -90,7 +90,7 @@ namespace Inventory_Management_System.Management
                     }
                     catch (Exception ex)
                     {
-                        Console.WriteLine($"An error occurred: {ex.Message}");
+                        Console.WriteLine(ex.ToString());
                     }
                 }
             }

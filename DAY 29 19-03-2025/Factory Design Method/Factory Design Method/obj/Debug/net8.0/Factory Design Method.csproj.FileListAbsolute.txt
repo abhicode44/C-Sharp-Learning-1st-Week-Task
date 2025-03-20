@@ -1,0 +1,15 @@
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Factory Design Method\Factory Design Method\bin\Debug\net8.0\Factory Design Method.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Factory Design Method\Factory Design Method\bin\Debug\net8.0\Factory Design Method.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Factory Design Method\Factory Design Method\bin\Debug\net8.0\Factory Design Method.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Factory Design Method\Factory Design Method\bin\Debug\net8.0\Factory Design Method.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Factory Design Method\Factory Design Method\bin\Debug\net8.0\Factory Design Method.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Factory Design Method\Factory Design Method\obj\Debug\net8.0\Factory Design Method.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Factory Design Method\Factory Design Method\obj\Debug\net8.0\Factory Design Method.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Factory Design Method\Factory Design Method\obj\Debug\net8.0\Factory Design Method.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Factory Design Method\Factory Design Method\obj\Debug\net8.0\Factory Design Method.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Factory Design Method\Factory Design Method\obj\Debug\net8.0\Factory Design Method.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Factory Design Method\Factory Design Method\obj\Debug\net8.0\Factory Design Method.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Factory Design Method\Factory Design Method\obj\Debug\net8.0\refint\Factory Design Method.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Factory Design Method\Factory Design Method\obj\Debug\net8.0\Factory Design Method.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Factory Design Method\Factory Design Method\obj\Debug\net8.0\Factory Design Method.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Factory Design Method\Factory Design Method\obj\Debug\net8.0\ref\Factory Design Method.dll

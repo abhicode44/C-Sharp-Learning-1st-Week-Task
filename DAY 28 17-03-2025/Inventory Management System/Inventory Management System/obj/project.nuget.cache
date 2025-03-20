@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VQ7Fh6RMx0w=",
+  "dgSpecHash": "d99jApDZ294=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Inventory Management System\\Inventory Management System\\Inventory Management System.csproj",
+  "projectFilePath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DAY 28 17-03-2025\\Inventory Management System\\Inventory Management System\\Inventory Management System.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Abhishek Chudasama\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Abhishek Chudasama\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

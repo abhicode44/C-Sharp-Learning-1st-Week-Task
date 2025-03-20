@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Composite Method Design Pattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C27CB0F2-056C-451E-91E5-ADF22953DC50}|Composite Method Design Pattern\\Composite Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\composite method design pattern\\composite method design pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C27CB0F2-056C-451E-91E5-ADF22953DC50}|Composite Method Design Pattern\\Composite Method Design Pattern.csproj|solutionrelative:composite method design pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27CB0F2-056C-451E-91E5-ADF22953DC50}|Composite Method Design Pattern\\Composite Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\composite method design pattern\\composite method design pattern\\ifamily.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C27CB0F2-056C-451E-91E5-ADF22953DC50}|Composite Method Design Pattern\\Composite Method Design Pattern.csproj|solutionrelative:composite method design pattern\\ifamily.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27CB0F2-056C-451E-91E5-ADF22953DC50}|Composite Method Design Pattern\\Composite Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\composite method design pattern\\composite method design pattern\\parents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C27CB0F2-056C-451E-91E5-ADF22953DC50}|Composite Method Design Pattern\\Composite Method Design Pattern.csproj|solutionrelative:composite method design pattern\\parents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27CB0F2-056C-451E-91E5-ADF22953DC50}|Composite Method Design Pattern\\Composite Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\composite method design pattern\\composite method design pattern\\child.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C27CB0F2-056C-451E-91E5-ADF22953DC50}|Composite Method Design Pattern\\Composite Method Design Pattern.csproj|solutionrelative:composite method design pattern\\child.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Child.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Composite Method Design Pattern\\Composite Method Design Pattern\\Child.cs",
+              "RelativeDocumentMoniker": "Composite Method Design Pattern\\Child.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Composite Method Design Pattern\\Composite Method Design Pattern\\Child.cs",
+              "RelativeToolTip": "Composite Method Design Pattern\\Child.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T10:46:34.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Parents.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Composite Method Design Pattern\\Composite Method Design Pattern\\Parents.cs",
+              "RelativeDocumentMoniker": "Composite Method Design Pattern\\Parents.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Composite Method Design Pattern\\Composite Method Design Pattern\\Parents.cs",
+              "RelativeToolTip": "Composite Method Design Pattern\\Parents.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T10:45:55.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IFamily.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Composite Method Design Pattern\\Composite Method Design Pattern\\IFamily.cs",
+              "RelativeDocumentMoniker": "Composite Method Design Pattern\\IFamily.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Composite Method Design Pattern\\Composite Method Design Pattern\\IFamily.cs",
+              "RelativeToolTip": "Composite Method Design Pattern\\IFamily.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T10:44:51.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Composite Method Design Pattern\\Composite Method Design Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Composite Method Design Pattern\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Composite Method Design Pattern\\Composite Method Design Pattern\\Program.cs",
+              "RelativeToolTip": "Composite Method Design Pattern\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T10:42:30.966Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

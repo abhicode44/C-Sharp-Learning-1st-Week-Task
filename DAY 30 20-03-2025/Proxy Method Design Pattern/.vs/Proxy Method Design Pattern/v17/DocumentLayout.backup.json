@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Proxy Method Design Pattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3DA4A6B6-EF47-4330-8322-AF76C53EA064}|Proxy Method Design Pattern\\Proxy Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\proxy method design pattern\\proxy method design pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DA4A6B6-EF47-4330-8322-AF76C53EA064}|Proxy Method Design Pattern\\Proxy Method Design Pattern.csproj|solutionrelative:proxy method design pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DA4A6B6-EF47-4330-8322-AF76C53EA064}|Proxy Method Design Pattern\\Proxy Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\proxy method design pattern\\proxy method design pattern\\securebankaccountproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DA4A6B6-EF47-4330-8322-AF76C53EA064}|Proxy Method Design Pattern\\Proxy Method Design Pattern.csproj|solutionrelative:proxy method design pattern\\securebankaccountproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DA4A6B6-EF47-4330-8322-AF76C53EA064}|Proxy Method Design Pattern\\Proxy Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\proxy method design pattern\\proxy method design pattern\\realbankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DA4A6B6-EF47-4330-8322-AF76C53EA064}|Proxy Method Design Pattern\\Proxy Method Design Pattern.csproj|solutionrelative:proxy method design pattern\\realbankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DA4A6B6-EF47-4330-8322-AF76C53EA064}|Proxy Method Design Pattern\\Proxy Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\proxy method design pattern\\proxy method design pattern\\ibankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DA4A6B6-EF47-4330-8322-AF76C53EA064}|Proxy Method Design Pattern\\Proxy Method Design Pattern.csproj|solutionrelative:proxy method design pattern\\ibankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SecureBankAccountProxy.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Proxy Method Design Pattern\\Proxy Method Design Pattern\\SecureBankAccountProxy.cs",
+              "RelativeDocumentMoniker": "Proxy Method Design Pattern\\SecureBankAccountProxy.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Proxy Method Design Pattern\\Proxy Method Design Pattern\\SecureBankAccountProxy.cs",
+              "RelativeToolTip": "Proxy Method Design Pattern\\SecureBankAccountProxy.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAA7wDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:55:18.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RealBankAccount.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Proxy Method Design Pattern\\Proxy Method Design Pattern\\RealBankAccount.cs",
+              "RelativeDocumentMoniker": "Proxy Method Design Pattern\\RealBankAccount.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Proxy Method Design Pattern\\Proxy Method Design Pattern\\RealBankAccount.cs",
+              "RelativeToolTip": "Proxy Method Design Pattern\\RealBankAccount.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wCIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:50:42.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBankAccount.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Proxy Method Design Pattern\\Proxy Method Design Pattern\\IBankAccount.cs",
+              "RelativeDocumentMoniker": "Proxy Method Design Pattern\\IBankAccount.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Proxy Method Design Pattern\\Proxy Method Design Pattern\\IBankAccount.cs",
+              "RelativeToolTip": "Proxy Method Design Pattern\\IBankAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:49:19.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Proxy Method Design Pattern\\Proxy Method Design Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Proxy Method Design Pattern\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Proxy Method Design Pattern\\Proxy Method Design Pattern\\Program.cs*",
+              "RelativeToolTip": "Proxy Method Design Pattern\\Program.cs*",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:48:06.659Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

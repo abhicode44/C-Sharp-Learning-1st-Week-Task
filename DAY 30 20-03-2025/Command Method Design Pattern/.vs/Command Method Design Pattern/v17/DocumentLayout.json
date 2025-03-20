@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Command Method Design Pattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4E20D75-82B6-469A-B6B2-B470B39F88D1}|Command Method Design Pattern\\Command Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\command method design pattern\\command method design pattern\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4E20D75-82B6-469A-B6B2-B470B39F88D1}|Command Method Design Pattern\\Command Method Design Pattern.csproj|solutionrelative:command method design pattern\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4E20D75-82B6-469A-B6B2-B470B39F88D1}|Command Method Design Pattern\\Command Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\command method design pattern\\command method design pattern\\lightoffcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4E20D75-82B6-469A-B6B2-B470B39F88D1}|Command Method Design Pattern\\Command Method Design Pattern.csproj|solutionrelative:command method design pattern\\lightoffcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4E20D75-82B6-469A-B6B2-B470B39F88D1}|Command Method Design Pattern\\Command Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\command method design pattern\\command method design pattern\\simpleremotecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4E20D75-82B6-469A-B6B2-B470B39F88D1}|Command Method Design Pattern\\Command Method Design Pattern.csproj|solutionrelative:command method design pattern\\simpleremotecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4E20D75-82B6-469A-B6B2-B470B39F88D1}|Command Method Design Pattern\\Command Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\command method design pattern\\command method design pattern\\lightoncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4E20D75-82B6-469A-B6B2-B470B39F88D1}|Command Method Design Pattern\\Command Method Design Pattern.csproj|solutionrelative:command method design pattern\\lightoncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4E20D75-82B6-469A-B6B2-B470B39F88D1}|Command Method Design Pattern\\Command Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\command method design pattern\\command method design pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4E20D75-82B6-469A-B6B2-B470B39F88D1}|Command Method Design Pattern\\Command Method Design Pattern.csproj|solutionrelative:command method design pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4E20D75-82B6-469A-B6B2-B470B39F88D1}|Command Method Design Pattern\\Command Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\command method design pattern\\command method design pattern\\light.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4E20D75-82B6-469A-B6B2-B470B39F88D1}|Command Method Design Pattern\\Command Method Design Pattern.csproj|solutionrelative:command method design pattern\\light.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4E20D75-82B6-469A-B6B2-B470B39F88D1}|Command Method Design Pattern\\Command Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\command method design pattern\\command method design pattern\\fanoffcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4E20D75-82B6-469A-B6B2-B470B39F88D1}|Command Method Design Pattern\\Command Method Design Pattern.csproj|solutionrelative:command method design pattern\\fanoffcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4E20D75-82B6-469A-B6B2-B470B39F88D1}|Command Method Design Pattern\\Command Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\command method design pattern\\command method design pattern\\fanoncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4E20D75-82B6-469A-B6B2-B470B39F88D1}|Command Method Design Pattern\\Command Method Design Pattern.csproj|solutionrelative:command method design pattern\\fanoncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4E20D75-82B6-469A-B6B2-B470B39F88D1}|Command Method Design Pattern\\Command Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\command method design pattern\\command method design pattern\\fan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4E20D75-82B6-469A-B6B2-B470B39F88D1}|Command Method Design Pattern\\Command Method Design Pattern.csproj|solutionrelative:command method design pattern\\fan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4E20D75-82B6-469A-B6B2-B470B39F88D1}|Command Method Design Pattern\\Command Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\command method design pattern\\command method design pattern\\command method design pattern.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A4E20D75-82B6-469A-B6B2-B470B39F88D1}|Command Method Design Pattern\\Command Method Design Pattern.csproj|solutionrelative:command method design pattern\\command method design pattern.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FanOffCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Command Method Design Pattern\\Command Method Design Pattern\\FanOffCommand.cs",
+              "RelativeDocumentMoniker": "Command Method Design Pattern\\FanOffCommand.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Command Method Design Pattern\\Command Method Design Pattern\\FanOffCommand.cs",
+              "RelativeToolTip": "Command Method Design Pattern\\FanOffCommand.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:38:55.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FanOnCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Command Method Design Pattern\\Command Method Design Pattern\\FanOnCommand.cs",
+              "RelativeDocumentMoniker": "Command Method Design Pattern\\FanOnCommand.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Command Method Design Pattern\\Command Method Design Pattern\\FanOnCommand.cs",
+              "RelativeToolTip": "Command Method Design Pattern\\FanOnCommand.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:37:23.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SimpleRemoteControl.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Command Method Design Pattern\\Command Method Design Pattern\\SimpleRemoteControl.cs",
+              "RelativeDocumentMoniker": "Command Method Design Pattern\\SimpleRemoteControl.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Command Method Design Pattern\\Command Method Design Pattern\\SimpleRemoteControl.cs",
+              "RelativeToolTip": "Command Method Design Pattern\\SimpleRemoteControl.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA3wBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:23:57.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LightOnCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Command Method Design Pattern\\Command Method Design Pattern\\LightOnCommand.cs",
+              "RelativeDocumentMoniker": "Command Method Design Pattern\\LightOnCommand.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Command Method Design Pattern\\Command Method Design Pattern\\LightOnCommand.cs",
+              "RelativeToolTip": "Command Method Design Pattern\\LightOnCommand.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:18:21.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Light.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Command Method Design Pattern\\Command Method Design Pattern\\Light.cs",
+              "RelativeDocumentMoniker": "Command Method Design Pattern\\Light.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Command Method Design Pattern\\Command Method Design Pattern\\Light.cs",
+              "RelativeToolTip": "Command Method Design Pattern\\Light.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:16:28.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Command Method Design Pattern\\Command Method Design Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Command Method Design Pattern\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Command Method Design Pattern\\Command Method Design Pattern\\Program.cs",
+              "RelativeToolTip": "Command Method Design Pattern\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:10:30.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Command Method Design Pattern\\Command Method Design Pattern\\ICommand.cs",
+              "RelativeDocumentMoniker": "Command Method Design Pattern\\ICommand.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Command Method Design Pattern\\Command Method Design Pattern\\ICommand.cs",
+              "RelativeToolTip": "Command Method Design Pattern\\ICommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:15:53.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LightOffCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Command Method Design Pattern\\Command Method Design Pattern\\LightOffCommand.cs",
+              "RelativeDocumentMoniker": "Command Method Design Pattern\\LightOffCommand.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Command Method Design Pattern\\Command Method Design Pattern\\LightOffCommand.cs",
+              "RelativeToolTip": "Command Method Design Pattern\\LightOffCommand.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:20:53.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Fan.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Command Method Design Pattern\\Command Method Design Pattern\\Fan.cs",
+              "RelativeDocumentMoniker": "Command Method Design Pattern\\Fan.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Command Method Design Pattern\\Command Method Design Pattern\\Fan.cs",
+              "RelativeToolTip": "Command Method Design Pattern\\Fan.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:36:41.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Command Method Design Pattern",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Command Method Design Pattern\\Command Method Design Pattern\\Command Method Design Pattern.csproj",
+              "RelativeDocumentMoniker": "Command Method Design Pattern\\Command Method Design Pattern.csproj",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Command Method Design Pattern\\Command Method Design Pattern\\Command Method Design Pattern.csproj",
+              "RelativeToolTip": "Command Method Design Pattern\\Command Method Design Pattern.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-20T12:16:11.278Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

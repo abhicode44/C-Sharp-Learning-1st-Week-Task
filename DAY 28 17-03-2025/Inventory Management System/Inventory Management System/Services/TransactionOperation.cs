@@ -10,7 +10,7 @@ using Microsoft.Data.SqlClient;
 
 namespace Inventory_Management_System.Services
 {
-    internal class TransactionOperation : TransactionServices
+    internal class TransactionOperation : ITransactionServices
     {
         public void ChooseMenu(SqlConnection connection)
         {

@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Factory Method Design Pattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4395C5-226B-4BFD-B083-0445598863DD}|Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\abstract factory method design pattern\\abstract factory method design pattern\\carfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4395C5-226B-4BFD-B083-0445598863DD}|Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern.csproj|solutionrelative:abstract factory method design pattern\\carfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4395C5-226B-4BFD-B083-0445598863DD}|Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\abstract factory method design pattern\\abstract factory method design pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4395C5-226B-4BFD-B083-0445598863DD}|Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern.csproj|solutionrelative:abstract factory method design pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4395C5-226B-4BFD-B083-0445598863DD}|Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\abstract factory method design pattern\\abstract factory method design pattern\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4395C5-226B-4BFD-B083-0445598863DD}|Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern.csproj|solutionrelative:abstract factory method design pattern\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4395C5-226B-4BFD-B083-0445598863DD}|Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\abstract factory method design pattern\\abstract factory method design pattern\\minicar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4395C5-226B-4BFD-B083-0445598863DD}|Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern.csproj|solutionrelative:abstract factory method design pattern\\minicar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4395C5-226B-4BFD-B083-0445598863DD}|Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\abstract factory method design pattern\\abstract factory method design pattern\\indiacarfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4395C5-226B-4BFD-B083-0445598863DD}|Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern.csproj|solutionrelative:abstract factory method design pattern\\indiacarfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4395C5-226B-4BFD-B083-0445598863DD}|Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\abstract factory method design pattern\\abstract factory method design pattern\\ukcarfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4395C5-226B-4BFD-B083-0445598863DD}|Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern.csproj|solutionrelative:abstract factory method design pattern\\ukcarfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4395C5-226B-4BFD-B083-0445598863DD}|Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\abstract factory method design pattern\\abstract factory method design pattern\\microcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4395C5-226B-4BFD-B083-0445598863DD}|Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern.csproj|solutionrelative:abstract factory method design pattern\\microcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4395C5-226B-4BFD-B083-0445598863DD}|Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\abstract factory method design pattern\\abstract factory method design pattern\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4395C5-226B-4BFD-B083-0445598863DD}|Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern.csproj|solutionrelative:abstract factory method design pattern\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4395C5-226B-4BFD-B083-0445598863DD}|Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\abstract factory method design pattern\\abstract factory method design pattern\\usacarfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4395C5-226B-4BFD-B083-0445598863DD}|Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern.csproj|solutionrelative:abstract factory method design pattern\\usacarfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4395C5-226B-4BFD-B083-0445598863DD}|Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\abstract factory method design pattern\\abstract factory method design pattern\\luxurycar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4395C5-226B-4BFD-B083-0445598863DD}|Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern.csproj|solutionrelative:abstract factory method design pattern\\luxurycar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4395C5-226B-4BFD-B083-0445598863DD}|Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\abstract factory method design pattern\\abstract factory method design pattern\\cartype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4395C5-226B-4BFD-B083-0445598863DD}|Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern.csproj|solutionrelative:abstract factory method design pattern\\cartype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern\\CarFactory.cs",
+              "RelativeDocumentMoniker": "Abstract Factory Method Design Pattern\\CarFactory.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern\\CarFactory.cs",
+              "RelativeToolTip": "Abstract Factory Method Design Pattern\\CarFactory.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T12:34:00.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "USACarFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern\\USACarFactory.cs",
+              "RelativeDocumentMoniker": "Abstract Factory Method Design Pattern\\USACarFactory.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern\\USACarFactory.cs",
+              "RelativeToolTip": "Abstract Factory Method Design Pattern\\USACarFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T12:30:58.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UKCarFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern\\UKCarFactory.cs",
+              "RelativeDocumentMoniker": "Abstract Factory Method Design Pattern\\UKCarFactory.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern\\UKCarFactory.cs",
+              "RelativeToolTip": "Abstract Factory Method Design Pattern\\UKCarFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T12:29:37.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "INDIACarFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern\\INDIACarFactory.cs",
+              "RelativeDocumentMoniker": "Abstract Factory Method Design Pattern\\INDIACarFactory.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern\\INDIACarFactory.cs",
+              "RelativeToolTip": "Abstract Factory Method Design Pattern\\INDIACarFactory.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T12:27:33.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MiniCar.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern\\MiniCar.cs",
+              "RelativeDocumentMoniker": "Abstract Factory Method Design Pattern\\MiniCar.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern\\MiniCar.cs",
+              "RelativeToolTip": "Abstract Factory Method Design Pattern\\MiniCar.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T12:23:17.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern\\Location.cs",
+              "RelativeDocumentMoniker": "Abstract Factory Method Design Pattern\\Location.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern\\Location.cs",
+              "RelativeToolTip": "Abstract Factory Method Design Pattern\\Location.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T12:03:14.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MicroCar.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern\\MicroCar.cs",
+              "RelativeDocumentMoniker": "Abstract Factory Method Design Pattern\\MicroCar.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern\\MicroCar.cs",
+              "RelativeToolTip": "Abstract Factory Method Design Pattern\\MicroCar.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T12:21:09.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LuxuryCar.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern\\LuxuryCar.cs",
+              "RelativeDocumentMoniker": "Abstract Factory Method Design Pattern\\LuxuryCar.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern\\LuxuryCar.cs",
+              "RelativeToolTip": "Abstract Factory Method Design Pattern\\LuxuryCar.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T12:17:57.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern\\Car.cs",
+              "RelativeDocumentMoniker": "Abstract Factory Method Design Pattern\\Car.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern\\Car.cs",
+              "RelativeToolTip": "Abstract Factory Method Design Pattern\\Car.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T12:05:24.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Abstract Factory Method Design Pattern\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern\\Program.cs",
+              "RelativeToolTip": "Abstract Factory Method Design Pattern\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T12:00:43.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CarType.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern\\CarType.cs",
+              "RelativeDocumentMoniker": "Abstract Factory Method Design Pattern\\CarType.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Abstract Factory Method Design Pattern\\Abstract Factory Method Design Pattern\\CarType.cs",
+              "RelativeToolTip": "Abstract Factory Method Design Pattern\\CarType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T12:01:22.137Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

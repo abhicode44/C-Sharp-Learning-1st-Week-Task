@@ -1,0 +1,15 @@
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Facade Method Design pattern\Facade Method Design pattern\bin\Debug\net8.0\Facade Method Design pattern.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Facade Method Design pattern\Facade Method Design pattern\bin\Debug\net8.0\Facade Method Design pattern.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Facade Method Design pattern\Facade Method Design pattern\bin\Debug\net8.0\Facade Method Design pattern.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Facade Method Design pattern\Facade Method Design pattern\bin\Debug\net8.0\Facade Method Design pattern.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Facade Method Design pattern\Facade Method Design pattern\bin\Debug\net8.0\Facade Method Design pattern.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Facade Method Design pattern\Facade Method Design pattern\obj\Debug\net8.0\Facade Method Design pattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Facade Method Design pattern\Facade Method Design pattern\obj\Debug\net8.0\Facade Method Design pattern.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Facade Method Design pattern\Facade Method Design pattern\obj\Debug\net8.0\Facade Method Design pattern.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Facade Method Design pattern\Facade Method Design pattern\obj\Debug\net8.0\Facade Method Design pattern.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Facade Method Design pattern\Facade Method Design pattern\obj\Debug\net8.0\Facade Method Design pattern.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Facade Method Design pattern\Facade Method Design pattern\obj\Debug\net8.0\Facade Method Design pattern.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Facade Method Design pattern\Facade Method Design pattern\obj\Debug\net8.0\refint\Facade Method Design pattern.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Facade Method Design pattern\Facade Method Design pattern\obj\Debug\net8.0\Facade Method Design pattern.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Facade Method Design pattern\Facade Method Design pattern\obj\Debug\net8.0\Facade Method Design pattern.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Facade Method Design pattern\Facade Method Design pattern\obj\Debug\net8.0\ref\Facade Method Design pattern.dll

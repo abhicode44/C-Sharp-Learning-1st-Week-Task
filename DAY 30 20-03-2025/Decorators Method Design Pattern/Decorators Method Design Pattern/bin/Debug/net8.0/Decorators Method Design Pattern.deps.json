@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Decorators Method Design Pattern/1.0.0": {
+        "runtime": {
+          "Decorators Method Design Pattern.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Decorators Method Design Pattern/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

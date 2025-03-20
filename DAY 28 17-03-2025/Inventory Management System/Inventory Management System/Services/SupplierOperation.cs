@@ -9,7 +9,7 @@ using Microsoft.Data.SqlClient;
 
 namespace Inventory_Management_System.Services
 {
-    internal class SupplierOperation : Service
+    internal class SupplierOperation : IService
     {
 
         public void ChooseMenu(SqlConnection connection)

@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Decorators Method Design Pattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05123A23-535D-4818-98AA-5F68BEF5B53C}|Decorators Method Design Pattern\\Decorators Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\decorators method design pattern\\decorators method design pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05123A23-535D-4818-98AA-5F68BEF5B53C}|Decorators Method Design Pattern\\Decorators Method Design Pattern.csproj|solutionrelative:decorators method design pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05123A23-535D-4818-98AA-5F68BEF5B53C}|Decorators Method Design Pattern\\Decorators Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\decorators method design pattern\\decorators method design pattern\\hall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05123A23-535D-4818-98AA-5F68BEF5B53C}|Decorators Method Design Pattern\\Decorators Method Design Pattern.csproj|solutionrelative:decorators method design pattern\\hall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05123A23-535D-4818-98AA-5F68BEF5B53C}|Decorators Method Design Pattern\\Decorators Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\decorators method design pattern\\decorators method design pattern\\house_decorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05123A23-535D-4818-98AA-5F68BEF5B53C}|Decorators Method Design Pattern\\Decorators Method Design Pattern.csproj|solutionrelative:decorators method design pattern\\house_decorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05123A23-535D-4818-98AA-5F68BEF5B53C}|Decorators Method Design Pattern\\Decorators Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\decorators method design pattern\\decorators method design pattern\\civilwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05123A23-535D-4818-98AA-5F68BEF5B53C}|Decorators Method Design Pattern\\Decorators Method Design Pattern.csproj|solutionrelative:decorators method design pattern\\civilwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05123A23-535D-4818-98AA-5F68BEF5B53C}|Decorators Method Design Pattern\\Decorators Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\decorators method design pattern\\decorators method design pattern\\icontractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05123A23-535D-4818-98AA-5F68BEF5B53C}|Decorators Method Design Pattern\\Decorators Method Design Pattern.csproj|solutionrelative:decorators method design pattern\\icontractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05123A23-535D-4818-98AA-5F68BEF5B53C}|Decorators Method Design Pattern\\Decorators Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\decorators method design pattern\\decorators method design pattern\\kitchen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05123A23-535D-4818-98AA-5F68BEF5B53C}|Decorators Method Design Pattern\\Decorators Method Design Pattern.csproj|solutionrelative:decorators method design pattern\\kitchen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05123A23-535D-4818-98AA-5F68BEF5B53C}|Decorators Method Design Pattern\\Decorators Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\decorators method design pattern\\decorators method design pattern\\bedroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05123A23-535D-4818-98AA-5F68BEF5B53C}|Decorators Method Design Pattern\\Decorators Method Design Pattern.csproj|solutionrelative:decorators method design pattern\\bedroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05123A23-535D-4818-98AA-5F68BEF5B53C}|Decorators Method Design Pattern\\Decorators Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\decorators method design pattern\\decorators method design pattern\\decorators method design pattern.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{05123A23-535D-4818-98AA-5F68BEF5B53C}|Decorators Method Design Pattern\\Decorators Method Design Pattern.csproj|solutionrelative:decorators method design pattern\\decorators method design pattern.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Hall.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Decorators Method Design Pattern\\Decorators Method Design Pattern\\Hall.cs",
+              "RelativeDocumentMoniker": "Decorators Method Design Pattern\\Hall.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Decorators Method Design Pattern\\Decorators Method Design Pattern\\Hall.cs",
+              "RelativeToolTip": "Decorators Method Design Pattern\\Hall.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T10:21:47.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Kitchen.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Decorators Method Design Pattern\\Decorators Method Design Pattern\\Kitchen.cs",
+              "RelativeDocumentMoniker": "Decorators Method Design Pattern\\Kitchen.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Decorators Method Design Pattern\\Decorators Method Design Pattern\\Kitchen.cs",
+              "RelativeToolTip": "Decorators Method Design Pattern\\Kitchen.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T10:20:30.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BedRoom.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Decorators Method Design Pattern\\Decorators Method Design Pattern\\BedRoom.cs",
+              "RelativeDocumentMoniker": "Decorators Method Design Pattern\\BedRoom.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Decorators Method Design Pattern\\Decorators Method Design Pattern\\BedRoom.cs",
+              "RelativeToolTip": "Decorators Method Design Pattern\\BedRoom.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T10:18:20.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "House_Decorator.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Decorators Method Design Pattern\\Decorators Method Design Pattern\\House_Decorator.cs",
+              "RelativeDocumentMoniker": "Decorators Method Design Pattern\\House_Decorator.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Decorators Method Design Pattern\\Decorators Method Design Pattern\\House_Decorator.cs",
+              "RelativeToolTip": "Decorators Method Design Pattern\\House_Decorator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T10:15:54.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Decorators Method Design Pattern",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Decorators Method Design Pattern\\Decorators Method Design Pattern\\Decorators Method Design Pattern.csproj",
+              "RelativeDocumentMoniker": "Decorators Method Design Pattern\\Decorators Method Design Pattern.csproj",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Decorators Method Design Pattern\\Decorators Method Design Pattern\\Decorators Method Design Pattern.csproj",
+              "RelativeToolTip": "Decorators Method Design Pattern\\Decorators Method Design Pattern.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-20T10:06:47.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CivilWork.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Decorators Method Design Pattern\\Decorators Method Design Pattern\\CivilWork.cs",
+              "RelativeDocumentMoniker": "Decorators Method Design Pattern\\CivilWork.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Decorators Method Design Pattern\\Decorators Method Design Pattern\\CivilWork.cs",
+              "RelativeToolTip": "Decorators Method Design Pattern\\CivilWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T10:07:02.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IContractor.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Decorators Method Design Pattern\\Decorators Method Design Pattern\\IContractor.cs",
+              "RelativeDocumentMoniker": "Decorators Method Design Pattern\\IContractor.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Decorators Method Design Pattern\\Decorators Method Design Pattern\\IContractor.cs",
+              "RelativeToolTip": "Decorators Method Design Pattern\\IContractor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T09:59:07.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Decorators Method Design Pattern\\Decorators Method Design Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Decorators Method Design Pattern\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Decorators Method Design Pattern\\Decorators Method Design Pattern\\Program.cs",
+              "RelativeToolTip": "Decorators Method Design Pattern\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T09:56:23.211Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
