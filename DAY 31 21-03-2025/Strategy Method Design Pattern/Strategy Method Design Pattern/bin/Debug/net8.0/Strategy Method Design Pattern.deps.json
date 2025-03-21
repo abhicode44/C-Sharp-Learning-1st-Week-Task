@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Strategy Method Design Pattern/1.0.0": {
+        "runtime": {
+          "Strategy Method Design Pattern.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Strategy Method Design Pattern/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

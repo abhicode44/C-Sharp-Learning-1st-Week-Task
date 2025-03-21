@@ -1,0 +1,15 @@
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Strategy Method Design Pattern\Strategy Method Design Pattern\bin\Debug\net8.0\Strategy Method Design Pattern.exe
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Strategy Method Design Pattern\Strategy Method Design Pattern\bin\Debug\net8.0\Strategy Method Design Pattern.deps.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Strategy Method Design Pattern\Strategy Method Design Pattern\bin\Debug\net8.0\Strategy Method Design Pattern.runtimeconfig.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Strategy Method Design Pattern\Strategy Method Design Pattern\bin\Debug\net8.0\Strategy Method Design Pattern.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Strategy Method Design Pattern\Strategy Method Design Pattern\bin\Debug\net8.0\Strategy Method Design Pattern.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Strategy Method Design Pattern\Strategy Method Design Pattern\obj\Debug\net8.0\Strategy Method Design Pattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Strategy Method Design Pattern\Strategy Method Design Pattern\obj\Debug\net8.0\Strategy Method Design Pattern.AssemblyInfoInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Strategy Method Design Pattern\Strategy Method Design Pattern\obj\Debug\net8.0\Strategy Method Design Pattern.AssemblyInfo.cs
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Strategy Method Design Pattern\Strategy Method Design Pattern\obj\Debug\net8.0\Strategy Method Design Pattern.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Strategy Method Design Pattern\Strategy Method Design Pattern\obj\Debug\net8.0\Strategy Method Design Pattern.sourcelink.json
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Strategy Method Design Pattern\Strategy Method Design Pattern\obj\Debug\net8.0\Strategy Method Design Pattern.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Strategy Method Design Pattern\Strategy Method Design Pattern\obj\Debug\net8.0\refint\Strategy Method Design Pattern.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Strategy Method Design Pattern\Strategy Method Design Pattern\obj\Debug\net8.0\Strategy Method Design Pattern.pdb
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Strategy Method Design Pattern\Strategy Method Design Pattern\obj\Debug\net8.0\Strategy Method Design Pattern.genruntimeconfig.cache
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Strategy Method Design Pattern\Strategy Method Design Pattern\obj\Debug\net8.0\ref\Strategy Method Design Pattern.dll

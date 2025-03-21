@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\State Method Design Pattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11B9CEBE-E4B1-4D47-B2D0-CEE22B56CA36}|State Method Design Pattern\\State Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\state method design pattern\\state method design pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B9CEBE-E4B1-4D47-B2D0-CEE22B56CA36}|State Method Design Pattern\\State Method Design Pattern.csproj|solutionrelative:state method design pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B9CEBE-E4B1-4D47-B2D0-CEE22B56CA36}|State Method Design Pattern\\State Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\state method design pattern\\state method design pattern\\paper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B9CEBE-E4B1-4D47-B2D0-CEE22B56CA36}|State Method Design Pattern\\State Method Design Pattern.csproj|solutionrelative:state method design pattern\\paper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B9CEBE-E4B1-4D47-B2D0-CEE22B56CA36}|State Method Design Pattern\\State Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\state method design pattern\\state method design pattern\\reviewstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B9CEBE-E4B1-4D47-B2D0-CEE22B56CA36}|State Method Design Pattern\\State Method Design Pattern.csproj|solutionrelative:state method design pattern\\reviewstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B9CEBE-E4B1-4D47-B2D0-CEE22B56CA36}|State Method Design Pattern\\State Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\state method design pattern\\state method design pattern\\publishedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B9CEBE-E4B1-4D47-B2D0-CEE22B56CA36}|State Method Design Pattern\\State Method Design Pattern.csproj|solutionrelative:state method design pattern\\publishedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B9CEBE-E4B1-4D47-B2D0-CEE22B56CA36}|State Method Design Pattern\\State Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\state method design pattern\\state method design pattern\\draftstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B9CEBE-E4B1-4D47-B2D0-CEE22B56CA36}|State Method Design Pattern\\State Method Design Pattern.csproj|solutionrelative:state method design pattern\\draftstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B9CEBE-E4B1-4D47-B2D0-CEE22B56CA36}|State Method Design Pattern\\State Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\state method design pattern\\state method design pattern\\istate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B9CEBE-E4B1-4D47-B2D0-CEE22B56CA36}|State Method Design Pattern\\State Method Design Pattern.csproj|solutionrelative:state method design pattern\\istate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Paper.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\State Method Design Pattern\\State Method Design Pattern\\Paper.cs",
+              "RelativeDocumentMoniker": "State Method Design Pattern\\Paper.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\State Method Design Pattern\\State Method Design Pattern\\Paper.cs*",
+              "RelativeToolTip": "State Method Design Pattern\\Paper.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T07:02:17.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PublishedState.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\State Method Design Pattern\\State Method Design Pattern\\PublishedState.cs",
+              "RelativeDocumentMoniker": "State Method Design Pattern\\PublishedState.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\State Method Design Pattern\\State Method Design Pattern\\PublishedState.cs*",
+              "RelativeToolTip": "State Method Design Pattern\\PublishedState.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T07:00:43.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReviewState.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\State Method Design Pattern\\State Method Design Pattern\\ReviewState.cs",
+              "RelativeDocumentMoniker": "State Method Design Pattern\\ReviewState.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\State Method Design Pattern\\State Method Design Pattern\\ReviewState.cs*",
+              "RelativeToolTip": "State Method Design Pattern\\ReviewState.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T06:59:54.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DraftState.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\State Method Design Pattern\\State Method Design Pattern\\DraftState.cs",
+              "RelativeDocumentMoniker": "State Method Design Pattern\\DraftState.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\State Method Design Pattern\\State Method Design Pattern\\DraftState.cs*",
+              "RelativeToolTip": "State Method Design Pattern\\DraftState.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T06:59:14.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IState.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\State Method Design Pattern\\State Method Design Pattern\\IState.cs",
+              "RelativeDocumentMoniker": "State Method Design Pattern\\IState.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\State Method Design Pattern\\State Method Design Pattern\\IState.cs*",
+              "RelativeToolTip": "State Method Design Pattern\\IState.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T06:58:25.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\State Method Design Pattern\\State Method Design Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "State Method Design Pattern\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\State Method Design Pattern\\State Method Design Pattern\\Program.cs*",
+              "RelativeToolTip": "State Method Design Pattern\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T06:50:50.295Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

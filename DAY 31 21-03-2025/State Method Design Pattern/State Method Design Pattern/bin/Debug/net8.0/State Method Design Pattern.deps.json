@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "State Method Design Pattern/1.0.0": {
+        "runtime": {
+          "State Method Design Pattern.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "State Method Design Pattern/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
