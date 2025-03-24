@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Visitor Method Desing Pattern/1.0.0": {
+        "runtime": {
+          "Visitor Method Desing Pattern.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Visitor Method Desing Pattern/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

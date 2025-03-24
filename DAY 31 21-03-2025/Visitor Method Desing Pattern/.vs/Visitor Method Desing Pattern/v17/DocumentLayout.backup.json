@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Visitor Method Desing Pattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0572AD9E-4152-4B8C-8780-CF3AFF7CB4AA}|Visitor Method Desing Pattern\\Visitor Method Desing Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\visitor method desing pattern\\visitor method desing pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0572AD9E-4152-4B8C-8780-CF3AFF7CB4AA}|Visitor Method Desing Pattern\\Visitor Method Desing Pattern.csproj|solutionrelative:visitor method desing pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0572AD9E-4152-4B8C-8780-CF3AFF7CB4AA}|Visitor Method Desing Pattern\\Visitor Method Desing Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\visitor method desing pattern\\visitor method desing pattern\\school.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0572AD9E-4152-4B8C-8780-CF3AFF7CB4AA}|Visitor Method Desing Pattern\\Visitor Method Desing Pattern.csproj|solutionrelative:visitor method desing pattern\\school.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0572AD9E-4152-4B8C-8780-CF3AFF7CB4AA}|Visitor Method Desing Pattern\\Visitor Method Desing Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\visitor method desing pattern\\visitor method desing pattern\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0572AD9E-4152-4B8C-8780-CF3AFF7CB4AA}|Visitor Method Desing Pattern\\Visitor Method Desing Pattern.csproj|solutionrelative:visitor method desing pattern\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0572AD9E-4152-4B8C-8780-CF3AFF7CB4AA}|Visitor Method Desing Pattern\\Visitor Method Desing Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\visitor method desing pattern\\visitor method desing pattern\\kid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0572AD9E-4152-4B8C-8780-CF3AFF7CB4AA}|Visitor Method Desing Pattern\\Visitor Method Desing Pattern.csproj|solutionrelative:visitor method desing pattern\\kid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0572AD9E-4152-4B8C-8780-CF3AFF7CB4AA}|Visitor Method Desing Pattern\\Visitor Method Desing Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\visitor method desing pattern\\visitor method desing pattern\\ivisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0572AD9E-4152-4B8C-8780-CF3AFF7CB4AA}|Visitor Method Desing Pattern\\Visitor Method Desing Pattern.csproj|solutionrelative:visitor method desing pattern\\ivisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0572AD9E-4152-4B8C-8780-CF3AFF7CB4AA}|Visitor Method Desing Pattern\\Visitor Method Desing Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\visitor method desing pattern\\visitor method desing pattern\\ielement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0572AD9E-4152-4B8C-8780-CF3AFF7CB4AA}|Visitor Method Desing Pattern\\Visitor Method Desing Pattern.csproj|solutionrelative:visitor method desing pattern\\ielement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "School.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Visitor Method Desing Pattern\\Visitor Method Desing Pattern\\School.cs",
+              "RelativeDocumentMoniker": "Visitor Method Desing Pattern\\School.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Visitor Method Desing Pattern\\Visitor Method Desing Pattern\\School.cs",
+              "RelativeToolTip": "Visitor Method Desing Pattern\\School.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:05:48.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Visitor Method Desing Pattern\\Visitor Method Desing Pattern\\Doctor.cs",
+              "RelativeDocumentMoniker": "Visitor Method Desing Pattern\\Doctor.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Visitor Method Desing Pattern\\Visitor Method Desing Pattern\\Doctor.cs",
+              "RelativeToolTip": "Visitor Method Desing Pattern\\Doctor.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:00:27.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Kid.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Visitor Method Desing Pattern\\Visitor Method Desing Pattern\\Kid.cs",
+              "RelativeDocumentMoniker": "Visitor Method Desing Pattern\\Kid.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Visitor Method Desing Pattern\\Visitor Method Desing Pattern\\Kid.cs",
+              "RelativeToolTip": "Visitor Method Desing Pattern\\Kid.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T10:56:59.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IVisitor.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Visitor Method Desing Pattern\\Visitor Method Desing Pattern\\IVisitor.cs",
+              "RelativeDocumentMoniker": "Visitor Method Desing Pattern\\IVisitor.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Visitor Method Desing Pattern\\Visitor Method Desing Pattern\\IVisitor.cs",
+              "RelativeToolTip": "Visitor Method Desing Pattern\\IVisitor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T10:55:06.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IElement.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Visitor Method Desing Pattern\\Visitor Method Desing Pattern\\IElement.cs",
+              "RelativeDocumentMoniker": "Visitor Method Desing Pattern\\IElement.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Visitor Method Desing Pattern\\Visitor Method Desing Pattern\\IElement.cs",
+              "RelativeToolTip": "Visitor Method Desing Pattern\\IElement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T10:53:30.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Visitor Method Desing Pattern\\Visitor Method Desing Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Visitor Method Desing Pattern\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Visitor Method Desing Pattern\\Visitor Method Desing Pattern\\Program.cs*",
+              "RelativeToolTip": "Visitor Method Desing Pattern\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T10:48:28.16Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

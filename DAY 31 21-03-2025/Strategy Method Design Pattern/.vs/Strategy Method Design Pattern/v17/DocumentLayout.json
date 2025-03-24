@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Strategy Method Design Pattern\\",
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DAY 31 21-03-2025\\Strategy Method Design Pattern\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5900E6F5-4AE5-4D07-9241-5EBFD5C16494}|Strategy Method Design Pattern\\Strategy Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\strategy method design pattern\\strategy method design pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5900E6F5-4AE5-4D07-9241-5EBFD5C16494}|Strategy Method Design Pattern\\Strategy Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 31 21-03-2025\\strategy method design pattern\\strategy method design pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5900E6F5-4AE5-4D07-9241-5EBFD5C16494}|Strategy Method Design Pattern\\Strategy Method Design Pattern.csproj|solutionrelative:strategy method design pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5900E6F5-4AE5-4D07-9241-5EBFD5C16494}|Strategy Method Design Pattern\\Strategy Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\strategy method design pattern\\strategy method design pattern\\paymentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5900E6F5-4AE5-4D07-9241-5EBFD5C16494}|Strategy Method Design Pattern\\Strategy Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 31 21-03-2025\\strategy method design pattern\\strategy method design pattern\\paymentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5900E6F5-4AE5-4D07-9241-5EBFD5C16494}|Strategy Method Design Pattern\\Strategy Method Design Pattern.csproj|solutionrelative:strategy method design pattern\\paymentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5900E6F5-4AE5-4D07-9241-5EBFD5C16494}|Strategy Method Design Pattern\\Strategy Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\strategy method design pattern\\strategy method design pattern\\bitcoinpaymnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5900E6F5-4AE5-4D07-9241-5EBFD5C16494}|Strategy Method Design Pattern\\Strategy Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 31 21-03-2025\\strategy method design pattern\\strategy method design pattern\\bitcoinpaymnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5900E6F5-4AE5-4D07-9241-5EBFD5C16494}|Strategy Method Design Pattern\\Strategy Method Design Pattern.csproj|solutionrelative:strategy method design pattern\\bitcoinpaymnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5900E6F5-4AE5-4D07-9241-5EBFD5C16494}|Strategy Method Design Pattern\\Strategy Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\strategy method design pattern\\strategy method design pattern\\creditcardpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5900E6F5-4AE5-4D07-9241-5EBFD5C16494}|Strategy Method Design Pattern\\Strategy Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 31 21-03-2025\\strategy method design pattern\\strategy method design pattern\\creditcardpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5900E6F5-4AE5-4D07-9241-5EBFD5C16494}|Strategy Method Design Pattern\\Strategy Method Design Pattern.csproj|solutionrelative:strategy method design pattern\\creditcardpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5900E6F5-4AE5-4D07-9241-5EBFD5C16494}|Strategy Method Design Pattern\\Strategy Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\strategy method design pattern\\strategy method design pattern\\paypalpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5900E6F5-4AE5-4D07-9241-5EBFD5C16494}|Strategy Method Design Pattern\\Strategy Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 31 21-03-2025\\strategy method design pattern\\strategy method design pattern\\paypalpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5900E6F5-4AE5-4D07-9241-5EBFD5C16494}|Strategy Method Design Pattern\\Strategy Method Design Pattern.csproj|solutionrelative:strategy method design pattern\\paypalpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5900E6F5-4AE5-4D07-9241-5EBFD5C16494}|Strategy Method Design Pattern\\Strategy Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\strategy method design pattern\\strategy method design pattern\\ipaymentstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5900E6F5-4AE5-4D07-9241-5EBFD5C16494}|Strategy Method Design Pattern\\Strategy Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 31 21-03-2025\\strategy method design pattern\\strategy method design pattern\\ipaymentstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5900E6F5-4AE5-4D07-9241-5EBFD5C16494}|Strategy Method Design Pattern\\Strategy Method Design Pattern.csproj|solutionrelative:strategy method design pattern\\ipaymentstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -40,74 +40,69 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "PaymentContext.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\PaymentContext.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DAY 31 21-03-2025\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\PaymentContext.cs",
               "RelativeDocumentMoniker": "Strategy Method Design Pattern\\PaymentContext.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\PaymentContext.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DAY 31 21-03-2025\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\PaymentContext.cs",
               "RelativeToolTip": "Strategy Method Design Pattern\\PaymentContext.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T07:31:50.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T07:31:50.612Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "BitcoinPaymnet.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\BitcoinPaymnet.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DAY 31 21-03-2025\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\BitcoinPaymnet.cs",
               "RelativeDocumentMoniker": "Strategy Method Design Pattern\\BitcoinPaymnet.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\BitcoinPaymnet.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DAY 31 21-03-2025\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\BitcoinPaymnet.cs",
               "RelativeToolTip": "Strategy Method Design Pattern\\BitcoinPaymnet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T07:30:53.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T07:30:53.579Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "CreditcardPayment.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\CreditcardPayment.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DAY 31 21-03-2025\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\CreditcardPayment.cs",
               "RelativeDocumentMoniker": "Strategy Method Design Pattern\\CreditcardPayment.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\CreditcardPayment.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DAY 31 21-03-2025\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\CreditcardPayment.cs",
               "RelativeToolTip": "Strategy Method Design Pattern\\CreditcardPayment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T07:30:00.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T07:30:00.329Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "PaypalPayment.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\PaypalPayment.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DAY 31 21-03-2025\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\PaypalPayment.cs",
               "RelativeDocumentMoniker": "Strategy Method Design Pattern\\PaypalPayment.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\PaypalPayment.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DAY 31 21-03-2025\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\PaypalPayment.cs",
               "RelativeToolTip": "Strategy Method Design Pattern\\PaypalPayment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T07:29:12.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T07:29:12.594Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "IPaymentStrategy.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\IPaymentStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DAY 31 21-03-2025\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\IPaymentStrategy.cs",
               "RelativeDocumentMoniker": "Strategy Method Design Pattern\\IPaymentStrategy.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\IPaymentStrategy.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DAY 31 21-03-2025\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\IPaymentStrategy.cs",
               "RelativeToolTip": "Strategy Method Design Pattern\\IPaymentStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T07:28:31.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T07:28:31.637Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DAY 31 21-03-2025\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\Program.cs",
               "RelativeDocumentMoniker": "Strategy Method Design Pattern\\Program.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DAY 31 21-03-2025\\Strategy Method Design Pattern\\Strategy Method Design Pattern\\Program.cs",
               "RelativeToolTip": "Strategy Method Design Pattern\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

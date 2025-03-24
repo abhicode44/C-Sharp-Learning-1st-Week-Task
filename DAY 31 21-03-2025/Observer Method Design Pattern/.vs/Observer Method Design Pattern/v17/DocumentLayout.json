@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Observer Method Design Pattern\\",
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DAY 31 21-03-2025\\Observer Method Design Pattern\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0464070-383C-49CD-A6C4-B24F9FBCA4D5}|Observer Method Design Pattern\\Observer Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\observer method design pattern\\observer method design pattern\\displaydevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0464070-383C-49CD-A6C4-B24F9FBCA4D5}|Observer Method Design Pattern\\Observer Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 31 21-03-2025\\observer method design pattern\\observer method design pattern\\displaydevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0464070-383C-49CD-A6C4-B24F9FBCA4D5}|Observer Method Design Pattern\\Observer Method Design Pattern.csproj|solutionrelative:observer method design pattern\\displaydevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0464070-383C-49CD-A6C4-B24F9FBCA4D5}|Observer Method Design Pattern\\Observer Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\observer method design pattern\\observer method design pattern\\iobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0464070-383C-49CD-A6C4-B24F9FBCA4D5}|Observer Method Design Pattern\\Observer Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 31 21-03-2025\\observer method design pattern\\observer method design pattern\\iobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0464070-383C-49CD-A6C4-B24F9FBCA4D5}|Observer Method Design Pattern\\Observer Method Design Pattern.csproj|solutionrelative:observer method design pattern\\iobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0464070-383C-49CD-A6C4-B24F9FBCA4D5}|Observer Method Design Pattern\\Observer Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\observer method design pattern\\observer method design pattern\\weatherstation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0464070-383C-49CD-A6C4-B24F9FBCA4D5}|Observer Method Design Pattern\\Observer Method Design Pattern.csproj|solutionrelative:observer method design pattern\\weatherstation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0464070-383C-49CD-A6C4-B24F9FBCA4D5}|Observer Method Design Pattern\\Observer Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 31 21-03-2025\\observer method design pattern\\observer method design pattern\\mobilestation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0464070-383C-49CD-A6C4-B24F9FBCA4D5}|Observer Method Design Pattern\\Observer Method Design Pattern.csproj|solutionrelative:observer method design pattern\\mobilestation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0464070-383C-49CD-A6C4-B24F9FBCA4D5}|Observer Method Design Pattern\\Observer Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\observer method design pattern\\observer method design pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0464070-383C-49CD-A6C4-B24F9FBCA4D5}|Observer Method Design Pattern\\Observer Method Design Pattern.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 31 21-03-2025\\observer method design pattern\\observer method design pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0464070-383C-49CD-A6C4-B24F9FBCA4D5}|Observer Method Design Pattern\\Observer Method Design Pattern.csproj|solutionrelative:observer method design pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,11 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "DisplayDevice.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Observer Method Design Pattern\\Observer Method Design Pattern\\DisplayDevice.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DAY 31 21-03-2025\\Observer Method Design Pattern\\Observer Method Design Pattern\\DisplayDevice.cs",
               "RelativeDocumentMoniker": "Observer Method Design Pattern\\DisplayDevice.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Observer Method Design Pattern\\Observer Method Design Pattern\\DisplayDevice.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DAY 31 21-03-2025\\Observer Method Design Pattern\\Observer Method Design Pattern\\DisplayDevice.cs",
               "RelativeToolTip": "Observer Method Design Pattern\\DisplayDevice.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T06:08:09.153Z",
               "EditorCaption": ""
@@ -45,9 +45,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "IObserver.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Observer Method Design Pattern\\Observer Method Design Pattern\\IObserver.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DAY 31 21-03-2025\\Observer Method Design Pattern\\Observer Method Design Pattern\\IObserver.cs",
               "RelativeDocumentMoniker": "Observer Method Design Pattern\\IObserver.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Observer Method Design Pattern\\Observer Method Design Pattern\\IObserver.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DAY 31 21-03-2025\\Observer Method Design Pattern\\Observer Method Design Pattern\\IObserver.cs",
               "RelativeToolTip": "Observer Method Design Pattern\\IObserver.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -57,12 +57,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "WeatherStation.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Observer Method Design Pattern\\Observer Method Design Pattern\\WeatherStation.cs",
-              "RelativeDocumentMoniker": "Observer Method Design Pattern\\WeatherStation.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Observer Method Design Pattern\\Observer Method Design Pattern\\WeatherStation.cs",
-              "RelativeToolTip": "Observer Method Design Pattern\\WeatherStation.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwAwAAAAkAAAAAAAAAA==",
+              "Title": "MobileStation.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DAY 31 21-03-2025\\Observer Method Design Pattern\\Observer Method Design Pattern\\MobileStation.cs",
+              "RelativeDocumentMoniker": "Observer Method Design Pattern\\MobileStation.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DAY 31 21-03-2025\\Observer Method Design Pattern\\Observer Method Design Pattern\\MobileStation.cs",
+              "RelativeToolTip": "Observer Method Design Pattern\\MobileStation.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T06:06:37.566Z",
               "EditorCaption": ""
@@ -71,11 +71,11 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Observer Method Design Pattern\\Observer Method Design Pattern\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DAY 31 21-03-2025\\Observer Method Design Pattern\\Observer Method Design Pattern\\Program.cs",
               "RelativeDocumentMoniker": "Observer Method Design Pattern\\Program.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Observer Method Design Pattern\\Observer Method Design Pattern\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DAY 31 21-03-2025\\Observer Method Design Pattern\\Observer Method Design Pattern\\Program.cs",
               "RelativeToolTip": "Observer Method Design Pattern\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T06:06:04.153Z",
               "EditorCaption": ""

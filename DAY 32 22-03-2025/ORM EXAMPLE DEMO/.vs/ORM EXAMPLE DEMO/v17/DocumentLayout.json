@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\ORM EXAMPLE DEMO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92F6ABD2-1A04-467D-8F19-1FE766C4096B}|ORM EXAMPLE DEMO\\ORM EXAMPLE DEMO.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\orm example demo\\orm example demo\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F6ABD2-1A04-467D-8F19-1FE766C4096B}|ORM EXAMPLE DEMO\\ORM EXAMPLE DEMO.csproj|solutionrelative:orm example demo\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F6ABD2-1A04-467D-8F19-1FE766C4096B}|ORM EXAMPLE DEMO\\ORM EXAMPLE DEMO.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\orm example demo\\orm example demo\\migrations\\20250321125756_abhishekmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F6ABD2-1A04-467D-8F19-1FE766C4096B}|ORM EXAMPLE DEMO\\ORM EXAMPLE DEMO.csproj|solutionrelative:orm example demo\\migrations\\20250321125756_abhishekmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F6ABD2-1A04-467D-8F19-1FE766C4096B}|ORM EXAMPLE DEMO\\ORM EXAMPLE DEMO.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\orm example demo\\orm example demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F6ABD2-1A04-467D-8F19-1FE766C4096B}|ORM EXAMPLE DEMO\\ORM EXAMPLE DEMO.csproj|solutionrelative:orm example demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F6ABD2-1A04-467D-8F19-1FE766C4096B}|ORM EXAMPLE DEMO\\ORM EXAMPLE DEMO.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\orm example demo\\orm example demo\\migrations\\mycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F6ABD2-1A04-467D-8F19-1FE766C4096B}|ORM EXAMPLE DEMO\\ORM EXAMPLE DEMO.csproj|solutionrelative:orm example demo\\migrations\\mycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F6ABD2-1A04-467D-8F19-1FE766C4096B}|ORM EXAMPLE DEMO\\ORM EXAMPLE DEMO.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\orm example demo\\orm example demo\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F6ABD2-1A04-467D-8F19-1FE766C4096B}|ORM EXAMPLE DEMO\\ORM EXAMPLE DEMO.csproj|solutionrelative:orm example demo\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\ORM EXAMPLE DEMO\\ORM EXAMPLE DEMO\\Migrations\\MyContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ORM EXAMPLE DEMO\\Migrations\\MyContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\ORM EXAMPLE DEMO\\ORM EXAMPLE DEMO\\Migrations\\MyContextModelSnapshot.cs",
+              "RelativeToolTip": "ORM EXAMPLE DEMO\\Migrations\\MyContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T12:59:53.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250321125756_abhishekMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\ORM EXAMPLE DEMO\\ORM EXAMPLE DEMO\\Migrations\\20250321125756_abhishekMigration.cs",
+              "RelativeDocumentMoniker": "ORM EXAMPLE DEMO\\Migrations\\20250321125756_abhishekMigration.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\ORM EXAMPLE DEMO\\ORM EXAMPLE DEMO\\Migrations\\20250321125756_abhishekMigration.cs",
+              "RelativeToolTip": "ORM EXAMPLE DEMO\\Migrations\\20250321125756_abhishekMigration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T12:57:56.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyContext.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\ORM EXAMPLE DEMO\\ORM EXAMPLE DEMO\\MyContext.cs",
+              "RelativeDocumentMoniker": "ORM EXAMPLE DEMO\\MyContext.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\ORM EXAMPLE DEMO\\ORM EXAMPLE DEMO\\MyContext.cs",
+              "RelativeToolTip": "ORM EXAMPLE DEMO\\MyContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T12:41:59.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\ORM EXAMPLE DEMO\\ORM EXAMPLE DEMO\\Employee.cs",
+              "RelativeDocumentMoniker": "ORM EXAMPLE DEMO\\Employee.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\ORM EXAMPLE DEMO\\ORM EXAMPLE DEMO\\Employee.cs",
+              "RelativeToolTip": "ORM EXAMPLE DEMO\\Employee.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T12:39:57.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\ORM EXAMPLE DEMO\\ORM EXAMPLE DEMO\\Program.cs",
+              "RelativeDocumentMoniker": "ORM EXAMPLE DEMO\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\ORM EXAMPLE DEMO\\ORM EXAMPLE DEMO\\Program.cs",
+              "RelativeToolTip": "ORM EXAMPLE DEMO\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T12:39:13.565Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
