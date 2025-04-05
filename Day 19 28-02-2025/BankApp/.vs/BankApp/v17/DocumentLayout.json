@@ -83,8 +83,7 @@
               "RelativeToolTip": "BankApp\\Exceptions\\AccountNotFoundException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T06:42:00.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T06:42:00.276Z"
             },
             {
               "$type": "Document",
@@ -96,8 +95,7 @@
               "RelativeToolTip": "BankApp\\Exceptions\\InvalidAadharCardNumber.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T10:11:30.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T10:11:30.604Z"
             },
             {
               "$type": "Document",
@@ -119,7 +117,7 @@
               "RelativeDocumentMoniker": "BankApp\\Services\\AccountManager.cs",
               "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 19 28-02-2025\\BankApp\\BankApp\\Services\\AccountManager.cs",
               "RelativeToolTip": "BankApp\\Services\\AccountManager.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACYBAAAAAAAAAAAYwCwBAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T11:37:10.37Z",
               "EditorCaption": ""
@@ -158,8 +156,7 @@
               "RelativeToolTip": "BankApp\\Exceptions\\InvalidMiddleName.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T06:47:56.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T06:47:56.481Z"
             },
             {
               "$type": "Document",

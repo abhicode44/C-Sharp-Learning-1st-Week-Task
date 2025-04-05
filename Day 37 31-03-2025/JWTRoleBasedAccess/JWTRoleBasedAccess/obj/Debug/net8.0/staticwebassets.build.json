@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "x4fyjmeirOutTYo3ilgEkAr7DYcyjzLWNuiZ2MBEtVQ=",
+  "Source": "JWTRoleBasedAccess",
+  "BasePath": "_content/JWTRoleBasedAccess",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Many To Many Relation BookAuthorApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8CC005-F242-4781-BB80-12AE6D97504F}|Many To Many Relation BookAuthorApp\\Many To Many Relation BookAuthorApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\many to many relation bookauthorapp\\many to many relation bookauthorapp\\migrations\\20250325102838_addedtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8CC005-F242-4781-BB80-12AE6D97504F}|Many To Many Relation BookAuthorApp\\Many To Many Relation BookAuthorApp.csproj|solutionrelative:many to many relation bookauthorapp\\migrations\\20250325102838_addedtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8CC005-F242-4781-BB80-12AE6D97504F}|Many To Many Relation BookAuthorApp\\Many To Many Relation BookAuthorApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\many to many relation bookauthorapp\\many to many relation bookauthorapp\\models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8CC005-F242-4781-BB80-12AE6D97504F}|Many To Many Relation BookAuthorApp\\Many To Many Relation BookAuthorApp.csproj|solutionrelative:many to many relation bookauthorapp\\models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8CC005-F242-4781-BB80-12AE6D97504F}|Many To Many Relation BookAuthorApp\\Many To Many Relation BookAuthorApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\many to many relation bookauthorapp\\many to many relation bookauthorapp\\database\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8CC005-F242-4781-BB80-12AE6D97504F}|Many To Many Relation BookAuthorApp\\Many To Many Relation BookAuthorApp.csproj|solutionrelative:many to many relation bookauthorapp\\database\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8CC005-F242-4781-BB80-12AE6D97504F}|Many To Many Relation BookAuthorApp\\Many To Many Relation BookAuthorApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\many to many relation bookauthorapp\\many to many relation bookauthorapp\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8CC005-F242-4781-BB80-12AE6D97504F}|Many To Many Relation BookAuthorApp\\Many To Many Relation BookAuthorApp.csproj|solutionrelative:many to many relation bookauthorapp\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8CC005-F242-4781-BB80-12AE6D97504F}|Many To Many Relation BookAuthorApp\\Many To Many Relation BookAuthorApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\many to many relation bookauthorapp\\many to many relation bookauthorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC8CC005-F242-4781-BB80-12AE6D97504F}|Many To Many Relation BookAuthorApp\\Many To Many Relation BookAuthorApp.csproj|solutionrelative:many to many relation bookauthorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250325102838_ADDEDTABLE.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Many To Many Relation BookAuthorApp\\Many To Many Relation BookAuthorApp\\Migrations\\20250325102838_ADDEDTABLE.cs",
+              "RelativeDocumentMoniker": "Many To Many Relation BookAuthorApp\\Migrations\\20250325102838_ADDEDTABLE.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Many To Many Relation BookAuthorApp\\Many To Many Relation BookAuthorApp\\Migrations\\20250325102838_ADDEDTABLE.cs",
+              "RelativeToolTip": "Many To Many Relation BookAuthorApp\\Migrations\\20250325102838_ADDEDTABLE.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:28:40.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyContext.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Many To Many Relation BookAuthorApp\\Many To Many Relation BookAuthorApp\\DataBase\\MyContext.cs",
+              "RelativeDocumentMoniker": "Many To Many Relation BookAuthorApp\\DataBase\\MyContext.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Many To Many Relation BookAuthorApp\\Many To Many Relation BookAuthorApp\\DataBase\\MyContext.cs",
+              "RelativeToolTip": "Many To Many Relation BookAuthorApp\\DataBase\\MyContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA3wB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:13:35.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Books.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Many To Many Relation BookAuthorApp\\Many To Many Relation BookAuthorApp\\Models\\Books.cs",
+              "RelativeDocumentMoniker": "Many To Many Relation BookAuthorApp\\Models\\Books.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Many To Many Relation BookAuthorApp\\Many To Many Relation BookAuthorApp\\Models\\Books.cs",
+              "RelativeToolTip": "Many To Many Relation BookAuthorApp\\Models\\Books.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:10:55.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Many To Many Relation BookAuthorApp\\Many To Many Relation BookAuthorApp\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "Many To Many Relation BookAuthorApp\\Models\\Author.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Many To Many Relation BookAuthorApp\\Many To Many Relation BookAuthorApp\\Models\\Author.cs",
+              "RelativeToolTip": "Many To Many Relation BookAuthorApp\\Models\\Author.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:07:32.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Many To Many Relation BookAuthorApp\\Many To Many Relation BookAuthorApp\\Program.cs",
+              "RelativeDocumentMoniker": "Many To Many Relation BookAuthorApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Many To Many Relation BookAuthorApp\\Many To Many Relation BookAuthorApp\\Program.cs",
+              "RelativeToolTip": "Many To Many Relation BookAuthorApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:07:06.424Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

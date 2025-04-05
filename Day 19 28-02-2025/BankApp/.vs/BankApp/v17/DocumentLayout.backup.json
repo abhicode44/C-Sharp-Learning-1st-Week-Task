@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 19 28-02-2025\\BankApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B9F5659-F417-483B-9ED3-BE3941F72505}|BankApp\\BankApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 19 28-02-2025\\bankapp\\bankapp\\exceptions\\invalidmiddlename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B9F5659-F417-483B-9ED3-BE3941F72505}|BankApp\\BankApp.csproj|solutionrelative:bankapp\\exceptions\\invalidmiddlename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B9F5659-F417-483B-9ED3-BE3941F72505}|BankApp\\BankApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 19 28-02-2025\\bankapp\\bankapp\\services\\accountstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B9F5659-F417-483B-9ED3-BE3941F72505}|BankApp\\BankApp.csproj|solutionrelative:bankapp\\services\\accountstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B9F5659-F417-483B-9ED3-BE3941F72505}|BankApp\\BankApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 19 28-02-2025\\bankapp\\bankapp\\services\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B9F5659-F417-483B-9ED3-BE3941F72505}|BankApp\\BankApp.csproj|solutionrelative:bankapp\\services\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B9F5659-F417-483B-9ED3-BE3941F72505}|BankApp\\BankApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 19 28-02-2025\\bankapp\\bankapp\\exceptions\\invalidaadharcardnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B9F5659-F417-483B-9ED3-BE3941F72505}|BankApp\\BankApp.csproj|solutionrelative:bankapp\\exceptions\\invalidaadharcardnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9F5659-F417-483B-9ED3-BE3941F72505}|BankApp\\BankApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 19 28-02-2025\\bankapp\\bankapp\\exceptions\\accountnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9F5659-F417-483B-9ED3-BE3941F72505}|BankApp\\BankApp.csproj|solutionrelative:bankapp\\exceptions\\accountnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9F5659-F417-483B-9ED3-BE3941F72505}|BankApp\\BankApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 19 28-02-2025\\bankapp\\bankapp\\exceptions\\invalidmiddlename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9F5659-F417-483B-9ED3-BE3941F72505}|BankApp\\BankApp.csproj|solutionrelative:bankapp\\exceptions\\invalidmiddlename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9F5659-F417-483B-9ED3-BE3941F72505}|BankApp\\BankApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 19 28-02-2025\\bankapp\\bankapp\\services\\accountstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9F5659-F417-483B-9ED3-BE3941F72505}|BankApp\\BankApp.csproj|solutionrelative:bankapp\\services\\accountstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B9F5659-F417-483B-9ED3-BE3941F72505}|BankApp\\BankApp.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 19 28-02-2025\\bankapp\\bankapp\\accounttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 19 28-02-2025\\BankApp\\BankApp\\Program.cs",
               "RelativeDocumentMoniker": "BankApp\\Program.cs",
@@ -71,7 +75,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "AccountNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 19 28-02-2025\\BankApp\\BankApp\\Exceptions\\AccountNotFoundException.cs",
+              "RelativeDocumentMoniker": "BankApp\\Exceptions\\AccountNotFoundException.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 19 28-02-2025\\BankApp\\BankApp\\Exceptions\\AccountNotFoundException.cs",
+              "RelativeToolTip": "BankApp\\Exceptions\\AccountNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T06:42:00.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "InvalidAadharCardNumber.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 19 28-02-2025\\BankApp\\BankApp\\Exceptions\\InvalidAadharCardNumber.cs",
               "RelativeDocumentMoniker": "BankApp\\Exceptions\\InvalidAadharCardNumber.cs",
@@ -79,11 +96,12 @@
               "RelativeToolTip": "BankApp\\Exceptions\\InvalidAadharCardNumber.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T10:11:30.604Z"
+              "WhenOpened": "2025-03-04T10:11:30.604Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ListFullExpection.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 19 28-02-2025\\BankApp\\BankApp\\Exceptions\\ListFullExpection.cs",
               "RelativeDocumentMoniker": "BankApp\\Exceptions\\ListFullExpection.cs",
@@ -95,19 +113,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AccountManager.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 19 28-02-2025\\BankApp\\BankApp\\Services\\AccountManager.cs",
               "RelativeDocumentMoniker": "BankApp\\Services\\AccountManager.cs",
               "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 19 28-02-2025\\BankApp\\BankApp\\Services\\AccountManager.cs",
               "RelativeToolTip": "BankApp\\Services\\AccountManager.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCAAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T11:37:10.37Z"
+              "WhenOpened": "2025-03-03T11:37:10.37Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DetailsOfAccounts.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 19 28-02-2025\\BankApp\\BankApp\\Model\\DetailsOfAccounts.cs",
               "RelativeDocumentMoniker": "BankApp\\Model\\DetailsOfAccounts.cs",
@@ -119,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AccountStore.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 19 28-02-2025\\BankApp\\BankApp\\Services\\AccountStore.cs",
               "RelativeDocumentMoniker": "BankApp\\Services\\AccountStore.cs",
@@ -127,25 +146,24 @@
               "RelativeToolTip": "BankApp\\Services\\AccountStore.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAAYwE4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T11:34:57.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T11:34:57.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "InvalidMiddleName.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 19 28-02-2025\\BankApp\\BankApp\\Exceptions\\InvalidMiddleName.cs",
               "RelativeDocumentMoniker": "BankApp\\Exceptions\\InvalidMiddleName.cs",
               "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 19 28-02-2025\\BankApp\\BankApp\\Exceptions\\InvalidMiddleName.cs",
               "RelativeToolTip": "BankApp\\Exceptions\\InvalidMiddleName.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T06:47:56.481Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AccountType.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 19 28-02-2025\\BankApp\\BankApp\\AccountType.cs",
               "RelativeDocumentMoniker": "BankApp\\AccountType.cs",
@@ -157,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "DataSerialization.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 19 28-02-2025\\BankApp\\BankApp\\Services\\DataSerialization.cs",
               "RelativeDocumentMoniker": "BankApp\\Services\\DataSerialization.cs",
@@ -169,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "InvalidLastName.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 19 28-02-2025\\BankApp\\BankApp\\Exceptions\\InvalidLastName.cs",
               "RelativeDocumentMoniker": "BankApp\\Exceptions\\InvalidLastName.cs",
@@ -181,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "InvalidFirstName.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 19 28-02-2025\\BankApp\\BankApp\\Exceptions\\InvalidFirstName.cs",
               "RelativeDocumentMoniker": "BankApp\\Exceptions\\InvalidFirstName.cs",

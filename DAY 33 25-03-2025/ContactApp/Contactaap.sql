@@ -1,0 +1,5 @@
+SELECT TOP (1000) [Contact_Id]
+      ,[F_Name]
+      ,[L_Name]
+      ,[IsActive]
+  FROM [ContactApp].[dbo].[Contact]
