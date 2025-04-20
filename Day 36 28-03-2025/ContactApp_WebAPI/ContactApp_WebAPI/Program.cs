@@ -1,5 +1,6 @@
 using ContactApp_WebAPI.Data;
 using ContactApp_WebAPI.GlobalException;
+using ContactApp_WebAPI.Interface;
 using ContactApp_WebAPI.Interface.IRepository;
 using ContactApp_WebAPI.Interface.IServices;
 using ContactApp_WebAPI.Mapper;
@@ -14,6 +15,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddControllers();
+
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
 builder.Services.AddScoped<IUserServices , UserServices>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();

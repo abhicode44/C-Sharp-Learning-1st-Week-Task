@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using ContactApp_WebAPI.Interface;
 using ContactApp_WebAPI.Interface.IServices;
 using ContactApp_WebAPI.Mapper;
 using ContactApp_WebAPI.Model.Entity;

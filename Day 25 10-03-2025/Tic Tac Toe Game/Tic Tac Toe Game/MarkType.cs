@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tic_Tac_Toe_Game
 {
-    internal enum MarkType
+    public enum MarkType
     {
         X , O , EMPTY 
     }

@@ -5,7 +5,7 @@ namespace ContactApp_WebAPI.Interface.IServices
 {
     public interface IUserServices
     {
-        public List<User> GetAllUsers();
+        public IEnumerable<User> GetAllUsers();
         public User LoginUser(int userId, string password);
         public User AddStaff(User user);
         public User UpdateStaffName(int userId, UpdateUserNameDto updateUserNameDto);

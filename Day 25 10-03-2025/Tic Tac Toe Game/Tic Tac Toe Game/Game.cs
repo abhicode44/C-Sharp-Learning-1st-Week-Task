@@ -10,7 +10,7 @@ namespace Tic_Tac_Toe_Game
     public class Game
     {
         private Board board;
-        private MarkType currentPlayer;
+        public MarkType currentPlayer;
 
         public Game()
         {
@@ -65,7 +65,7 @@ namespace Tic_Tac_Toe_Game
             }
         }
 
-        private bool IsWinner(MarkType player  )
+        public  bool IsWinner(MarkType player  )
         {
  
             return CheckRow(player) || CheckColoumn(player) || CheckDiagonal(player) ;

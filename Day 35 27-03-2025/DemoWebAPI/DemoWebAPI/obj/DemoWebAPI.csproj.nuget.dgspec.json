@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DemoWebAPI\\DemoWebAPI\\DemoWebAPI.csproj": {}
+    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 35 27-03-2025\\DemoWebAPI\\DemoWebAPI\\DemoWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DemoWebAPI\\DemoWebAPI\\DemoWebAPI.csproj": {
+    "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 35 27-03-2025\\DemoWebAPI\\DemoWebAPI\\DemoWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DemoWebAPI\\DemoWebAPI\\DemoWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 35 27-03-2025\\DemoWebAPI\\DemoWebAPI\\DemoWebAPI.csproj",
         "projectName": "DemoWebAPI",
-        "projectPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DemoWebAPI\\DemoWebAPI\\DemoWebAPI.csproj",
+        "projectPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 35 27-03-2025\\DemoWebAPI\\DemoWebAPI\\DemoWebAPI.csproj",
         "packagesPath": "C:\\Users\\Abhishek Chudasama\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DemoWebAPI\\DemoWebAPI\\obj\\",
+        "outputPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 35 27-03-2025\\DemoWebAPI\\DemoWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

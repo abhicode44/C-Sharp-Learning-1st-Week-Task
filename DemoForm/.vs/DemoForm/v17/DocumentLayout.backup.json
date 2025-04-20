@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DemoForm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C541BA4D-4079-410E-BABC-74C6D772074E}|DemoForm\\DemoForm.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\demoform\\demoform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C541BA4D-4079-410E-BABC-74C6D772074E}|DemoForm\\DemoForm.csproj|solutionrelative:demoform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C541BA4D-4079-410E-BABC-74C6D772074E}|DemoForm\\DemoForm.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\demoform\\demoform\\controllers\\formscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C541BA4D-4079-410E-BABC-74C6D772074E}|DemoForm\\DemoForm.csproj|solutionrelative:demoform\\controllers\\formscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C541BA4D-4079-410E-BABC-74C6D772074E}|DemoForm\\DemoForm.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\demoform\\demoform\\data\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C541BA4D-4079-410E-BABC-74C6D772074E}|DemoForm\\DemoForm.csproj|solutionrelative:demoform\\data\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C541BA4D-4079-410E-BABC-74C6D772074E}|DemoForm\\DemoForm.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\demoform\\demoform\\model\\form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C541BA4D-4079-410E-BABC-74C6D772074E}|DemoForm\\DemoForm.csproj|solutionrelative:demoform\\model\\form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C541BA4D-4079-410E-BABC-74C6D772074E}|DemoForm\\DemoForm.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\demoform\\demoform\\migrations\\20250417180434_primarykeyadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C541BA4D-4079-410E-BABC-74C6D772074E}|DemoForm\\DemoForm.csproj|solutionrelative:demoform\\migrations\\20250417180434_primarykeyadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C541BA4D-4079-410E-BABC-74C6D772074E}|DemoForm\\DemoForm.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\demoform\\demoform\\migrations\\20250417172606_formtableadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C541BA4D-4079-410E-BABC-74C6D772074E}|DemoForm\\DemoForm.csproj|solutionrelative:demoform\\migrations\\20250417172606_formtableadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C541BA4D-4079-410E-BABC-74C6D772074E}|DemoForm\\DemoForm.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\demoform\\demoform\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C541BA4D-4079-410E-BABC-74C6D772074E}|DemoForm\\DemoForm.csproj|solutionrelative:demoform\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DemoForm\\DemoForm\\Model\\Form.cs",
+              "RelativeDocumentMoniker": "DemoForm\\Model\\Form.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DemoForm\\DemoForm\\Model\\Form.cs",
+              "RelativeToolTip": "DemoForm\\Model\\Form.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T17:22:38.079Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250417180434_primarykeyadded.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DemoForm\\DemoForm\\Migrations\\20250417180434_primarykeyadded.cs",
+              "RelativeDocumentMoniker": "DemoForm\\Migrations\\20250417180434_primarykeyadded.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DemoForm\\DemoForm\\Migrations\\20250417180434_primarykeyadded.cs",
+              "RelativeToolTip": "DemoForm\\Migrations\\20250417180434_primarykeyadded.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T18:04:35.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormsController.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DemoForm\\DemoForm\\Controllers\\FormsController.cs",
+              "RelativeDocumentMoniker": "DemoForm\\Controllers\\FormsController.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DemoForm\\DemoForm\\Controllers\\FormsController.cs",
+              "RelativeToolTip": "DemoForm\\Controllers\\FormsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T17:37:05.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyContext.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DemoForm\\DemoForm\\Data\\MyContext.cs",
+              "RelativeDocumentMoniker": "DemoForm\\Data\\MyContext.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DemoForm\\DemoForm\\Data\\MyContext.cs",
+              "RelativeToolTip": "DemoForm\\Data\\MyContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T11:53:03.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DemoForm\\DemoForm\\Program.cs",
+              "RelativeDocumentMoniker": "DemoForm\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DemoForm\\DemoForm\\Program.cs",
+              "RelativeToolTip": "DemoForm\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAMwBYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T11:36:23.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250417172606_formTableAdded.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DemoForm\\DemoForm\\Migrations\\20250417172606_formTableAdded.cs",
+              "RelativeDocumentMoniker": "DemoForm\\Migrations\\20250417172606_formTableAdded.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DemoForm\\DemoForm\\Migrations\\20250417172606_formTableAdded.cs",
+              "RelativeToolTip": "DemoForm\\Migrations\\20250417172606_formTableAdded.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T17:26:06.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DemoForm\\DemoForm\\appsettings.json",
+              "RelativeDocumentMoniker": "DemoForm\\appsettings.json",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\DemoForm\\DemoForm\\appsettings.json",
+              "RelativeToolTip": "DemoForm\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-17T11:38:01.786Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
