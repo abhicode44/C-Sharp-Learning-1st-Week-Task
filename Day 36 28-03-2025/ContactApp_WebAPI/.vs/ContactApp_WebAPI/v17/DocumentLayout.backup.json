@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{721130BF-45BD-4EBB-816C-64F4D41CFDE2}|ContactApp_WebAPI\\ContactApp_WebAPI.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 36 28-03-2025\\contactapp_webapi\\contactapp_webapi\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{721130BF-45BD-4EBB-816C-64F4D41CFDE2}|ContactApp_WebAPI\\ContactApp_WebAPI.csproj|solutionrelative:contactapp_webapi\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{721130BF-45BD-4EBB-816C-64F4D41CFDE2}|ContactApp_WebAPI\\ContactApp_WebAPI.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 36 28-03-2025\\contactapp_webapi\\contactapp_webapi\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{721130BF-45BD-4EBB-816C-64F4D41CFDE2}|ContactApp_WebAPI\\ContactApp_WebAPI.csproj|solutionrelative:contactapp_webapi\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{721130BF-45BD-4EBB-816C-64F4D41CFDE2}|ContactApp_WebAPI\\ContactApp_WebAPI.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 36 28-03-2025\\contactapp_webapi\\contactapp_webapi\\interface\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{721130BF-45BD-4EBB-816C-64F4D41CFDE2}|ContactApp_WebAPI\\ContactApp_WebAPI.csproj|solutionrelative:contactapp_webapi\\interface\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{721130BF-45BD-4EBB-816C-64F4D41CFDE2}|ContactApp_WebAPI\\ContactApp_WebAPI.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 36 28-03-2025\\contactapp_webapi\\contactapp_webapi\\data\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{721130BF-45BD-4EBB-816C-64F4D41CFDE2}|ContactApp_WebAPI\\ContactApp_WebAPI.csproj|solutionrelative:contactapp_webapi\\data\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{721130BF-45BD-4EBB-816C-64F4D41CFDE2}|ContactApp_WebAPI\\ContactApp_WebAPI.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 36 28-03-2025\\contactapp_webapi\\contactapp_webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{721130BF-45BD-4EBB-816C-64F4D41CFDE2}|ContactApp_WebAPI\\ContactApp_WebAPI.csproj|solutionrelative:contactapp_webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{721130BF-45BD-4EBB-816C-64F4D41CFDE2}|ContactApp_WebAPI\\ContactApp_WebAPI.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 36 28-03-2025\\contactapp_webapi\\contactapp_webapi\\interface\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{721130BF-45BD-4EBB-816C-64F4D41CFDE2}|ContactApp_WebAPI\\ContactApp_WebAPI.csproj|solutionrelative:contactapp_webapi\\interface\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{721130BF-45BD-4EBB-816C-64F4D41CFDE2}|ContactApp_WebAPI\\ContactApp_WebAPI.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 36 28-03-2025\\contactapp_webapi\\contactapp_webapi\\services\\contactservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{721130BF-45BD-4EBB-816C-64F4D41CFDE2}|ContactApp_WebAPI\\ContactApp_WebAPI.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 36 28-03-2025\\contactapp_webapi\\contactapp_webapi\\interface\\irepository\\icontactdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{721130BF-45BD-4EBB-816C-64F4D41CFDE2}|ContactApp_WebAPI\\ContactApp_WebAPI.csproj|solutionrelative:contactapp_webapi\\interface\\irepository\\icontactdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{721130BF-45BD-4EBB-816C-64F4D41CFDE2}|ContactApp_WebAPI\\ContactApp_WebAPI.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 36 28-03-2025\\contactapp_webapi\\contactapp_webapi\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{721130BF-45BD-4EBB-816C-64F4D41CFDE2}|ContactApp_WebAPI\\ContactApp_WebAPI.csproj|solutionrelative:contactapp_webapi\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{721130BF-45BD-4EBB-816C-64F4D41CFDE2}|ContactApp_WebAPI\\ContactApp_WebAPI.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 36 28-03-2025\\contactapp_webapi\\contactapp_webapi\\model\\entity\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{721130BF-45BD-4EBB-816C-64F4D41CFDE2}|ContactApp_WebAPI\\ContactApp_WebAPI.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 36 28-03-2025\\contactapp_webapi\\contactapp_webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{721130BF-45BD-4EBB-816C-64F4D41CFDE2}|ContactApp_WebAPI\\ContactApp_WebAPI.csproj|solutionrelative:contactapp_webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{721130BF-45BD-4EBB-816C-64F4D41CFDE2}|ContactApp_WebAPI\\ContactApp_WebAPI.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 36 28-03-2025\\contactapp_webapi\\contactapp_webapi\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{721130BF-45BD-4EBB-816C-64F4D41CFDE2}|ContactApp_WebAPI\\ContactApp_WebAPI.csproj|solutionrelative:contactapp_webapi\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{721130BF-45BD-4EBB-816C-64F4D41CFDE2}|ContactApp_WebAPI\\ContactApp_WebAPI.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 36 28-03-2025\\contactapp_webapi\\contactapp_webapi\\interface\\iservices\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -200,23 +200,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Mapper\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "ContactApp_WebAPI\\Mapper\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Mapper\\MappingProfile.cs",
-              "RelativeToolTip": "ContactApp_WebAPI\\Mapper\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T17:09:00.13Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "IContactService.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Interface\\IServices\\IContactService.cs",
               "RelativeDocumentMoniker": "ContactApp_WebAPI\\Interface\\IServices\\IContactService.cs",
@@ -228,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ContactServices.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Services\\ContactServices.cs",
               "RelativeDocumentMoniker": "ContactApp_WebAPI\\Services\\ContactServices.cs",
@@ -246,14 +234,14 @@
               "RelativeDocumentMoniker": "ContactApp_WebAPI\\Interface\\IGenericRepository.cs",
               "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Interface\\IGenericRepository.cs",
               "RelativeToolTip": "ContactApp_WebAPI\\Interface\\IGenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T06:13:09.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "ContactApp_WebAPI\\Program.cs",
@@ -261,25 +249,62 @@
               "RelativeToolTip": "ContactApp_WebAPI\\Program.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAvwCoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T17:19:02.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T17:19:02.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MyContext.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Data\\MyContext.cs",
               "RelativeDocumentMoniker": "ContactApp_WebAPI\\Data\\MyContext.cs",
               "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Data\\MyContext.cs",
               "RelativeToolTip": "ContactApp_WebAPI\\Data\\MyContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T17:10:42.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "ContactApp_WebAPI\\Repository\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "ContactApp_WebAPI\\Repository\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T06:22:14.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ContactApp_WebAPI\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "ContactApp_WebAPI\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAewF8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T07:08:19.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Mapper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "ContactApp_WebAPI\\Mapper\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Mapper\\MappingProfile.cs",
+              "RelativeToolTip": "ContactApp_WebAPI\\Mapper\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T17:09:00.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ContactDetailsRepository.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Repository\\ContactDetailsRepository.cs",
               "RelativeDocumentMoniker": "ContactApp_WebAPI\\Repository\\ContactDetailsRepository.cs",
@@ -291,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "IContactDetailsServices.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Interface\\IServices\\IContactDetailsServices.cs",
               "RelativeDocumentMoniker": "ContactApp_WebAPI\\Interface\\IServices\\IContactDetailsServices.cs",
@@ -303,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "IContactDetailsRepository.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Interface\\IRepository\\IContactDetailsRepository.cs",
               "RelativeDocumentMoniker": "ContactApp_WebAPI\\Interface\\IRepository\\IContactDetailsRepository.cs",
@@ -315,19 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Repository\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "ContactApp_WebAPI\\Repository\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Repository\\GenericRepository.cs",
-              "RelativeToolTip": "ContactApp_WebAPI\\Repository\\GenericRepository.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAkwA0AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T06:22:14.667Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Model\\Entity\\Contact.cs",
               "RelativeDocumentMoniker": "ContactApp_WebAPI\\Model\\Entity\\Contact.cs",
@@ -339,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ErrorResponse.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Model\\Entity\\ErrorResponse.cs",
               "RelativeDocumentMoniker": "ContactApp_WebAPI\\Model\\Entity\\ErrorResponse.cs",
@@ -351,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ContactDetails.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Model\\Entity\\ContactDetails.cs",
               "RelativeDocumentMoniker": "ContactApp_WebAPI\\Model\\Entity\\ContactDetails.cs",
@@ -363,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Model\\Entity\\User.cs",
               "RelativeDocumentMoniker": "ContactApp_WebAPI\\Model\\Entity\\User.cs",
@@ -375,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "ContactApp_WebAPI\\appsettings.json",
@@ -387,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "UserServices.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Services\\UserServices.cs",
               "RelativeDocumentMoniker": "ContactApp_WebAPI\\Services\\UserServices.cs",
@@ -399,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ContactDetailServices.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Services\\ContactDetailServices.cs",
               "RelativeDocumentMoniker": "ContactApp_WebAPI\\Services\\ContactDetailServices.cs",
@@ -411,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ContactRepository.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Repository\\ContactRepository.cs",
               "RelativeDocumentMoniker": "ContactApp_WebAPI\\Repository\\ContactRepository.cs",
@@ -423,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ContactApp_WebAPI\\Controllers\\UserController.cs",
@@ -444,18 +457,6 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T16:23:30.119Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "ContactApp_WebAPI\\Repository\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 36 28-03-2025\\ContactApp_WebAPI\\ContactApp_WebAPI\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "ContactApp_WebAPI\\Repository\\UserRepository.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAewGEAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T07:08:19.943Z"
             },
             {
               "$type": "Document",
