@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JWTRoleBasedAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+163c21635357d68d5275dc2d2e102a66cde986b8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc77b3a65a6dcda3de2110c6e46ec71034047297")]
 [assembly: System.Reflection.AssemblyProductAttribute("JWTRoleBasedAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JWTRoleBasedAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

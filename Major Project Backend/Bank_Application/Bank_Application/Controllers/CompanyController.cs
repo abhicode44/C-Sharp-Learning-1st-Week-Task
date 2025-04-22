@@ -19,7 +19,7 @@ namespace Bank_Application.Controllers
 
 
         [HttpPost("AddCompany")]
-        public IActionResult AddBank(AddCompanyDto addCompanyDto)
+        public IActionResult AddBank([FromForm]AddCompanyDto addCompanyDto)
         {
             var companyEntity = companyService.AddCompany(addCompanyDto);
             return Ok(companyEntity);

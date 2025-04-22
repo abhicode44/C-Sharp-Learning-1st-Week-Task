@@ -29,5 +29,9 @@ namespace Bank_Application.Services
             return bankEntity;
         }
 
+        public List<Bank> GetAllBank()
+        {
+            return repository.GetAll();
+        }
     }
 }

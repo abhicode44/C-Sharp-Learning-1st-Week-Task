@@ -20,13 +20,13 @@ namespace Bank_Application.Model.CompanyDto
 
         public string CompanyAadharCardFile { get; set; }
 
+        public string CompanyOfficalDocumnet { get; set; }
+
+        public string CompanyProfilePhoto { get; set; }
+
         public int CompanyBalance { get; set; }
-        public bool IsCompanyLoginActive { get; set; }
+        
 
-        public bool IsDocumentVerified { get; set; }
-
-        public bool IsOTPVerified { get; set; }
-
-        public DateTime CreatedAt { get; set; }
+        
     }
 }

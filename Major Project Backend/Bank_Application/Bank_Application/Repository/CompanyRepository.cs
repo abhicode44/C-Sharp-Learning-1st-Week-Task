@@ -5,6 +5,7 @@ using Bank_Application.Model.BankDto;
 using Bank_Application.Model.CompanyDto;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace Bank_Application.Repository
 {
     public class CompanyRepository : ICompanyRepository
@@ -29,6 +30,8 @@ namespace Bank_Application.Repository
                 CompanyBalance = addCompanyDto.CompanyBalance,
                 CompanyAadharCardFile = addCompanyDto.CompanyAadharCardFile,
                 CompanyPanCardFile = addCompanyDto.CompanyPanCardFile,
+                CompanyOfficalDocumnet = addCompanyDto.CompanyOfficalDocumnet,
+                CompanyProfilePhoto = addCompanyDto.CompanyProfilePhoto,    
                 RoleId = 3,
                 IsOTPVerified = false ,
                 IsDocumentVerified = false ,
@@ -41,5 +44,30 @@ namespace Bank_Application.Repository
             context.SaveChanges();
             return companyEntity;
         }
+
+        public List<Company> GetAllApprovedCompanies()
+        {
+            return dbset.Where(c => c.IsDocumentVerified == true).ToList();
+        }
+
+        public List<Company> GetAllPendingCompanies()
+        {
+            return dbset.Where(c => c.IsDocumentVerified == false).ToList();
+        }
+
+        public Company UpdateDocumentVerify(string CompanyEmail , DocumentVerifyDto documentVerifyDto)
+        {
+            var companyEntity = dbset.Find(CompanyEmail);
+            if (companyEntity == null) 
+            { 
+                throw new Exception($" This Company Email Id  {CompanyEmail} not found.");
+            }
+            companyEntity.IsDocumentVerified = documentVerifyDto.IsDocumentVerified;
+            context.Update(companyEntity);
+            context.SaveChanges();
+            return companyEntity;
+        }
     }
 }
+
+

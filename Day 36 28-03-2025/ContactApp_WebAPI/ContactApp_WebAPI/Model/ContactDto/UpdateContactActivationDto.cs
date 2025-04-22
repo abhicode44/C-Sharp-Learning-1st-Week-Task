@@ -6,5 +6,6 @@ namespace ContactApp_WebAPI.Model.ContactDto
     {
         [NotNull]
         public bool IsActive { get; }
+
     }
 }

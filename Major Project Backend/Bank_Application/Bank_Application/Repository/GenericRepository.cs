@@ -24,6 +24,7 @@ namespace Bank_Application.Repository
             return _dbset.Find(id);
         }
 
+        
         public async Task Add(T t)
         {
             await _dbset.AddAsync(t);
@@ -43,7 +44,10 @@ namespace Bank_Application.Repository
             _context.SaveChanges();
         }
 
-
+        public T GetByEmail(string email)
+        {
+            return _dbset.Find(email);
+        }
     }
 
 

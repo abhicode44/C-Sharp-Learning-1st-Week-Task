@@ -35,5 +35,10 @@ namespace Bank_Application.Repository
             context.SaveChanges();
             return bankEntity;
         }
+
+        public List<Bank> GetAllBank()
+        {
+            return dbset.ToList();
+        }
     }
 }

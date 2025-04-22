@@ -5,7 +5,10 @@ namespace Bank_Application.Interface.lRepository
 {
     public interface IAdminRepository
     {
-        public Admin AddAdmin (AddAdminDto addAdminDto);
+        public List<Admin> GetAllAdmin();
+        public Admin AddAdmin ( AddAdminDto addAdminDto);
+
+        public Admin updateAdminActivation(int AdminId , AdminActivationDto activationDto);
 
     }
 }

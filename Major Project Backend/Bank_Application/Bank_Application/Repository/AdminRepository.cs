@@ -24,14 +24,35 @@ namespace Bank_Application.Repository
         {
             var adminEntity = new Admin
             {
-                AdminUserName = addAdminDto.AdminUserName,
+                AdminFirstName = addAdminDto.AdminFirstName,
+                AdminLastName = addAdminDto.AdminLastName,
+                AdminEmail = addAdminDto.AdminEmail,
                 AdminPassword = addAdminDto.AdminPassword,
+                IsAdminActive = true,
                 RoleId = 1 ,
             };
 
             dbset.Add(adminEntity);
             context.SaveChanges();
             return adminEntity;
+        }
+
+        
+
+        public Admin updateAdminActivation(int AdminId , AdminActivationDto activationDto)
+        {
+            var adminEntity = dbset.Find(AdminId);
+            if (adminEntity == null) {
+                throw new KeyNotFoundException($"Admin with ID {AdminId} not found.");
+            }
+            adminEntity.IsAdminActive = activationDto.IsAdminActive;
+            context.SaveChanges();
+            return adminEntity; 
+        }
+
+        public List<Admin> GetAllAdmin()
+        {
+            return dbset.ToList();
         }
 
     }

@@ -4896,11 +4896,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\JWTRoleBasedAccess\\JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 37 31-03-2025\\JWTRoleBasedAccess\\JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj",
       "projectName": "JWTRoleBasedAccess",
-      "projectPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\JWTRoleBasedAccess\\JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj",
+      "projectPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 37 31-03-2025\\JWTRoleBasedAccess\\JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj",
       "packagesPath": "C:\\Users\\Abhishek Chudasama\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\JWTRoleBasedAccess\\JWTRoleBasedAccess\\obj\\",
+      "outputPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 37 31-03-2025\\JWTRoleBasedAccess\\JWTRoleBasedAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

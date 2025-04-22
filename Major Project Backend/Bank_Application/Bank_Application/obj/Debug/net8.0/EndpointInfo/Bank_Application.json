@@ -12,23 +12,159 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/AddAdminDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/AddAdminDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/AddAdminDto"
+                "type": "object",
+                "properties": {
+                  "AdminFirstName": {
+                    "type": "string"
+                  },
+                  "AdminLastName": {
+                    "type": "string"
+                  },
+                  "AdminEmail": {
+                    "type": "string"
+                  },
+                  "AdminPassword": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "AdminFirstName": {
+                  "style": "form"
+                },
+                "AdminLastName": {
+                  "style": "form"
+                },
+                "AdminEmail": {
+                  "style": "form"
+                },
+                "AdminPassword": {
+                  "style": "form"
+                }
               }
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Admin/AdminActivation/{AdminId}": {
+      "put": {
+        "tags": [
+          "Admin"
+        ],
+        "parameters": [
+          {
+            "name": "AdminId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "IsAdminActive": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "encoding": {
+                "IsAdminActive": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Admin/GetAllAdmin": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Admin/VerifyCompanyDocument": {
+      "put": {
+        "tags": [
+          "Admin"
+        ],
+        "parameters": [
+          {
+            "name": "CompanyEmail",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DocumentVerifyDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DocumentVerifyDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DocumentVerifyDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Admin/GetAllApprovedCompaines": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Admin/GetAllPendingCompaines": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -67,6 +203,18 @@
         }
       }
     },
+    "/api/Bank/GetAllBank": {
+      "get": {
+        "tags": [
+          "Bank"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Company/AddCompany": {
       "post": {
         "tags": [
@@ -74,19 +222,74 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/AddCompanyDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/AddCompanyDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/AddCompanyDto"
+                "type": "object",
+                "properties": {
+                  "CompanyName": {
+                    "type": "string"
+                  },
+                  "CompanyEmail": {
+                    "type": "string"
+                  },
+                  "CompanyAddress": {
+                    "type": "string"
+                  },
+                  "CompanyAccountNumber": {
+                    "type": "string"
+                  },
+                  "CompanyAccount_IFSCCode": {
+                    "type": "string"
+                  },
+                  "CompanyPanCardFile": {
+                    "type": "string"
+                  },
+                  "CompanyAadharCardFile": {
+                    "type": "string"
+                  },
+                  "CompanyOfficalDocumnet": {
+                    "type": "string"
+                  },
+                  "CompanyProfilePhoto": {
+                    "type": "string"
+                  },
+                  "CompanyBalance": {
+                    "type": "integer",
+                    "format": "int32"
+                  }
+                }
+              },
+              "encoding": {
+                "CompanyName": {
+                  "style": "form"
+                },
+                "CompanyEmail": {
+                  "style": "form"
+                },
+                "CompanyAddress": {
+                  "style": "form"
+                },
+                "CompanyAccountNumber": {
+                  "style": "form"
+                },
+                "CompanyAccount_IFSCCode": {
+                  "style": "form"
+                },
+                "CompanyPanCardFile": {
+                  "style": "form"
+                },
+                "CompanyAadharCardFile": {
+                  "style": "form"
+                },
+                "CompanyOfficalDocumnet": {
+                  "style": "form"
+                },
+                "CompanyProfilePhoto": {
+                  "style": "form"
+                },
+                "CompanyBalance": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -97,67 +300,10 @@
           }
         }
       }
-    },
-    "/WeatherForecast": {
-      "get": {
-        "tags": [
-          "WeatherForecast"
-        ],
-        "operationId": "GetWeatherForecast",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
     }
   },
   "components": {
     "schemas": {
-      "AddAdminDto": {
-        "type": "object",
-        "properties": {
-          "adminId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "adminUserName": {
-            "type": "string",
-            "nullable": true
-          },
-          "adminPassword": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "AddBankDto": {
         "type": "object",
         "properties": {
@@ -184,74 +330,13 @@
         },
         "additionalProperties": false
       },
-      "AddCompanyDto": {
+      "DocumentVerifyDto": {
         "type": "object",
         "properties": {
-          "companyName": {
-            "type": "string",
-            "nullable": true
-          },
-          "companyEmail": {
-            "type": "string",
-            "nullable": true
-          },
-          "companyAddress": {
-            "type": "string",
-            "nullable": true
-          },
-          "companyAccountNumber": {
-            "type": "string",
-            "nullable": true
-          },
-          "companyAccount_IFSCCode": {
-            "type": "string",
-            "nullable": true
-          },
-          "companyPanCardFile": {
-            "type": "string",
-            "nullable": true
-          },
-          "companyAadharCardFile": {
-            "type": "string",
-            "nullable": true
-          },
-          "companyBalance": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "isCompanyLoginActive": {
-            "type": "boolean"
-          },
           "isDocumentVerified": {
             "type": "boolean"
           },
-          "isOTPVerified": {
-            "type": "boolean"
-          },
-          "createdAt": {
-            "type": "string",
-            "format": "date-time"
-          }
-        },
-        "additionalProperties": false
-      },
-      "WeatherForecast": {
-        "type": "object",
-        "properties": {
-          "date": {
-            "type": "string",
-            "format": "date"
-          },
-          "temperatureC": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "temperatureF": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
-          },
-          "summary": {
+          "documentStatusDesciption": {
             "type": "string",
             "nullable": true
           }

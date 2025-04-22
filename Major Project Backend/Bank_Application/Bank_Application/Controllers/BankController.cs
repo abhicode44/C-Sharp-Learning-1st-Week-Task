@@ -24,6 +24,14 @@ namespace Bank_Application.Controllers
             return Ok (bankEntity);
         }
 
+        [HttpGet("GetAllBank")]
+
+        public IActionResult GetAllBank()
+        {
+            var result = bankService.GetAllBank();
+            return Ok (result);
+        }
+
     }
 
     

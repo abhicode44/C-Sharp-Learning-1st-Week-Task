@@ -8,8 +8,95 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "addAdminDto",
-        "Type": "Bank_Application.Model.AdminDto.AddAdminDto",
+        "Name": "AdminFirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AdminLastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AdminEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AdminPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bank_Application.Controllers.AdminController",
+    "Method": "updateAdminActivation",
+    "RelativePath": "api/Admin/AdminActivation/{AdminId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AdminId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "IsAdminActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bank_Application.Controllers.AdminController",
+    "Method": "GetAllAdmin",
+    "RelativePath": "api/Admin/GetAllAdmin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bank_Application.Controllers.AdminController",
+    "Method": "GetAllApprovedCompanies",
+    "RelativePath": "api/Admin/GetAllApprovedCompaines",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bank_Application.Controllers.AdminController",
+    "Method": "GetAllPendingCompanies",
+    "RelativePath": "api/Admin/GetAllPendingCompaines",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bank_Application.Controllers.AdminController",
+    "Method": "UpdateDocumentVerify",
+    "RelativePath": "api/Admin/VerifyCompanyDocument",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CompanyEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "documentVerifyDto",
+        "Type": "Bank_Application.Model.CompanyDto.DocumentVerifyDto",
         "IsRequired": true
       }
     ],
@@ -32,6 +119,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Bank_Application.Controllers.BankController",
+    "Method": "GetAllBank",
+    "RelativePath": "api/Bank/GetAllBank",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Bank_Application.Controllers.CompanyController",
     "Method": "AddBank",
     "RelativePath": "api/Company/AddCompany",
@@ -40,32 +137,56 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "addCompanyDto",
-        "Type": "Bank_Application.Model.CompanyDto.AddCompanyDto",
-        "IsRequired": true
+        "Name": "CompanyName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyAddress",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyAccountNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyAccount_IFSCCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyPanCardFile",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyAadharCardFile",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyOfficalDocumnet",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyProfilePhoto",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyBalance",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Bank_Application.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Bank_Application.WeatherForecast, Bank_Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]

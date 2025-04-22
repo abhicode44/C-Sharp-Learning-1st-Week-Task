@@ -6,6 +6,8 @@ namespace Bank_Application.Interface.lRepository
     public interface IBankRepository
     {
         public Bank AddBank (AddBankDto addbankDto);
+        public List<Bank> GetAllBank();
+
 
     }
 }

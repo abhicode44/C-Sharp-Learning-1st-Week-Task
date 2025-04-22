@@ -8,8 +8,6 @@ namespace Bank_Application.Interface.IServices
         
 
         public Company AddCompany(AddCompanyDto addCompanyDto);
-
-
-
+    
     }
 }

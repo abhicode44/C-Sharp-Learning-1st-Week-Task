@@ -6,6 +6,8 @@
 
         public T GetById(int id);
 
+        public T GetByEmail(string email);
+
         public Task Add(T entity);
 
         public void Update(T entity);

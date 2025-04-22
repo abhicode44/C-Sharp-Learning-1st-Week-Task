@@ -26,15 +26,21 @@ namespace Bank_Application.Services
                 CompanyBalance = addCompanyDto.CompanyBalance,
                 CompanyAadharCardFile = addCompanyDto.CompanyAadharCardFile,
                 CompanyPanCardFile = addCompanyDto.CompanyPanCardFile,
+                CompanyOfficalDocumnet = addCompanyDto.CompanyOfficalDocumnet,
+                CompanyProfilePhoto = addCompanyDto.CompanyProfilePhoto,
                 RoleId = 3,
                 IsOTPVerified = false,
                 IsDocumentVerified = false,
                 IsCompanyLoginActive = true,
+                DocumentStatusDesciption = "",
                 CreatedAt = DateTime.Now,
             };
             repository.Add(companyEntity);
             return companyEntity;
 
         }
+
+       
+
     }
 }
