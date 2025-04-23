@@ -29,6 +29,8 @@ builder.Services.AddScoped<IGenericRepository<Bank>, GenericRepository<Bank>>();
 builder.Services.AddScoped<ICompanyService , CompanyService>();
 builder.Services.AddScoped<IGenericRepository<Company>, GenericRepository<Company>>();
 
+builder.Services.AddScoped<IGenericRepository<Benificiary>, GenericRepository<Benificiary>>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

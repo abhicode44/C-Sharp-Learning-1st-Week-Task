@@ -1,5 +1,6 @@
 ﻿using Bank_Application.Model;
 using Bank_Application.Model.AdminDto;
+using Bank_Application.Model.BenificiaryDto;
 using Bank_Application.Model.CompanyDto;
 
 namespace Bank_Application.Interface.IServices
@@ -15,5 +16,9 @@ namespace Bank_Application.Interface.IServices
         public List<Company> GetAllApprovedCompanies();
 
         public List<Company> GetAllPendingCompanies();
+
+        public List<Benificiary> GetAllPendingOutBenificiaryBoundCompany();
+
+        public Benificiary VerifyOutBoundCompany(int BenificiaryId, VerifyOutBoundCompanyDto verifyOutBoundCompanyDto);
     }
 }

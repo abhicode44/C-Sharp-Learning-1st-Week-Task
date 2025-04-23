@@ -97,7 +97,7 @@ namespace Bank_Application.Migrations
                     b.ToTable("Banks");
                 });
 
-            modelBuilder.Entity("Bank_Application.Model.Benificary", b =>
+            modelBuilder.Entity("Bank_Application.Model.Benificiary", b =>
                 {
                     b.Property<int>("BenificaryID")
                         .ValueGeneratedOnAdd()
@@ -117,19 +117,27 @@ namespace Bank_Application.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("BenificiaryEmail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("BenificiaryType")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CompanyEmail")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsBenificiaryApproved")
+                        .HasColumnType("bit");
 
                     b.HasKey("BenificaryID");
 
-                    b.HasIndex("CompanyEmail");
-
-                    b.ToTable("Benificaries");
+                    b.ToTable("Benificiaries");
                 });
 
             modelBuilder.Entity("Bank_Application.Model.Company", b =>
@@ -238,6 +246,9 @@ namespace Bank_Application.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("EmployeeSalary")
+                        .HasColumnType("int");
+
                     b.HasKey("EmpId");
 
                     b.HasIndex("CompanyEmail");
@@ -262,6 +273,37 @@ namespace Bank_Application.Migrations
                     b.ToTable("Roles");
                 });
 
+            modelBuilder.Entity("Bank_Application.Model.Transaction", b =>
+                {
+                    b.Property<int>("TransactionId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TransactionId"));
+
+                    b.Property<bool>("IsTransactionApproved")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("PaymentDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("TransactionDescription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TransferFromCompanyEmail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TransferToBenificaryCompanyEmail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("TransactionId");
+
+                    b.ToTable("Transactions");
+                });
+
             modelBuilder.Entity("Bank_Application.Model.Admin", b =>
                 {
                     b.HasOne("Bank_Application.Model.Role", "Role")
@@ -282,17 +324,6 @@ namespace Bank_Application.Migrations
                         .IsRequired();
 
                     b.Navigation("Role");
-                });
-
-            modelBuilder.Entity("Bank_Application.Model.Benificary", b =>
-                {
-                    b.HasOne("Bank_Application.Model.Company", "Company")
-                        .WithMany()
-                        .HasForeignKey("CompanyEmail")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Company");
                 });
 
             modelBuilder.Entity("Bank_Application.Model.Company", b =>

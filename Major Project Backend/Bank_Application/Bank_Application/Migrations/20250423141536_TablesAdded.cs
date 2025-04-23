@@ -6,11 +6,31 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Bank_Application.Migrations
 {
     /// <inheritdoc />
-    public partial class AdminTableAdded : Migration
+    public partial class TablesAdded : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "Benificiaries",
+                columns: table => new
+                {
+                    BenificaryID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    BenificiaryType = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    BenificiaryCompanyName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    BenificiaryEmail = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    BenificiaryCompanyAccountNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    BenificiaryCompanyIFSCcode = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    IsBenificiaryApproved = table.Column<bool>(type: "bit", nullable: false),
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    CompanyEmail = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Benificiaries", x => x.BenificaryID);
+                });
+
             migrationBuilder.CreateTable(
                 name: "Roles",
                 columns: table => new
@@ -25,13 +45,33 @@ namespace Bank_Application.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Transactions",
+                columns: table => new
+                {
+                    TransactionId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    TransactionDescription = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    IsTransactionApproved = table.Column<bool>(type: "bit", nullable: false),
+                    TransferFromCompanyEmail = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    TransferToBenificaryCompanyEmail = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PaymentDate = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Transactions", x => x.TransactionId);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Admin",
                 columns: table => new
                 {
                     AdminId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    AdminUserName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    AdminFirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    AdminLastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    AdminEmail = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     AdminPassword = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    IsAdminActive = table.Column<bool>(type: "bit", nullable: false),
                     RoleId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -80,10 +120,13 @@ namespace Bank_Application.Migrations
                     CompanyAccount_IFSCCode = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CompanyPanCardFile = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CompanyAadharCardFile = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CompanyOfficalDocumnet = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CompanyProfilePhoto = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CompanyBalance = table.Column<int>(type: "int", nullable: false),
                     IsCompanyLoginActive = table.Column<bool>(type: "bit", nullable: false),
                     IsDocumentVerified = table.Column<bool>(type: "bit", nullable: false),
                     IsOTPVerified = table.Column<bool>(type: "bit", nullable: false),
+                    DocumentStatusDesciption = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     RoleId = table.Column<int>(type: "int", nullable: false)
                 },
@@ -95,29 +138,6 @@ namespace Bank_Application.Migrations
                         column: x => x.RoleId,
                         principalTable: "Roles",
                         principalColumn: "RoleId",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Benificaries",
-                columns: table => new
-                {
-                    BenificaryID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    BenificiaryType = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    BenificiaryCompanyName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    BenificiaryCompanyAccountNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    BenificiaryCompanyIFSCcode = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CompanyEmail = table.Column<string>(type: "nvarchar(450)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Benificaries", x => x.BenificaryID);
-                    table.ForeignKey(
-                        name: "FK_Benificaries_Companies_CompanyEmail",
-                        column: x => x.CompanyEmail,
-                        principalTable: "Companies",
-                        principalColumn: "CompanyEmail",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -134,6 +154,7 @@ namespace Bank_Application.Migrations
                     EmpAddress = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     EmpAccountNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     EmpIFSCCode = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    EmployeeSalary = table.Column<int>(type: "int", nullable: false),
                     CompanyEmail = table.Column<string>(type: "nvarchar(450)", nullable: false)
                 },
                 constraints: table =>
@@ -158,11 +179,6 @@ namespace Bank_Application.Migrations
                 column: "RoleId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Benificaries_CompanyEmail",
-                table: "Benificaries",
-                column: "CompanyEmail");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Companies_RoleId",
                 table: "Companies",
                 column: "RoleId");
@@ -183,10 +199,13 @@ namespace Bank_Application.Migrations
                 name: "Banks");
 
             migrationBuilder.DropTable(
-                name: "Benificaries");
+                name: "Benificiaries");
 
             migrationBuilder.DropTable(
                 name: "Employees");
+
+            migrationBuilder.DropTable(
+                name: "Transactions");
 
             migrationBuilder.DropTable(
                 name: "Companies");

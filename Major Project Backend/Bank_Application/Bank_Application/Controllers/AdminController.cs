@@ -2,6 +2,7 @@
 using Bank_Application.Interface.IServices;
 using Bank_Application.Model;
 using Bank_Application.Model.AdminDto;
+using Bank_Application.Model.BenificiaryDto;
 using Bank_Application.Model.CompanyDto;
 using Bank_Application.Services;
 using Microsoft.AspNetCore.Http;
@@ -57,10 +58,11 @@ namespace Bank_Application.Controllers
 
 
         [HttpGet("GetAllApprovedCompaines")]
-        public IActionResult GetAllApprovedCompanies()
+        public   IActionResult GetAllApprovedCompanies()
         {
-            var result = adminService.GetAllApprovedCompanies();
+            var result =  adminService.GetAllApprovedCompanies();
             return Ok(result);
+
         }
 
 
@@ -71,6 +73,27 @@ namespace Bank_Application.Controllers
             var result = adminService.GetAllPendingCompanies();
             return Ok(result);
         }
+
+        [HttpGet("GetAllPendingOutBoundCompany")]
+        public IActionResult GetAllPendingOutBenificiaryBoundCompany()
+        {
+            var result = adminService.GetAllPendingOutBenificiaryBoundCompany();
+            return Ok(result);
+        }
+
+        [HttpPut("VerifyOutBoundCompany/{BenificiaryId:int}")]
+        public IActionResult VerifyOutBoundCompany(int BenificiaryId, [FromForm]  VerifyOutBoundCompanyDto verifyOutBoundCompanyDto)
+        {
+            var result = adminService.VerifyOutBoundCompany(BenificiaryId , verifyOutBoundCompanyDto);
+            return Ok(result);
+        }
+
+         
+
+
+
+
+
 
 
 

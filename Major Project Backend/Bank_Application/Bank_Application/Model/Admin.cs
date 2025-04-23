@@ -24,7 +24,7 @@ namespace Bank_Application.Model
         [ForeignKey("Role")]
         public int  RoleId  { get; set; }
 
-        // Navigation Property
+        
         public Role Role { get; set; }
 
 

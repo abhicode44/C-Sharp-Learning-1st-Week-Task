@@ -6,6 +6,7 @@ using Bank_Application.Model.CompanyDto;
 using Microsoft.EntityFrameworkCore;
 
 
+
 namespace Bank_Application.Repository
 {
     public class CompanyRepository : ICompanyRepository

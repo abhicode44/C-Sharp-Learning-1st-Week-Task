@@ -14,9 +14,11 @@ namespace Bank_Application.Data
 
         public DbSet<Bank> Banks { get ; set ; }
 
-        public DbSet<Benificary> Benificaries { get ; set ; }
+        public DbSet<Benificiary> Benificiaries { get ; set ; }
 
         public DbSet<Employee> Employees { get ; set ; }
+
+        public DbSet<Transaction> Transactions { get ; set ; }
 
     }
 }

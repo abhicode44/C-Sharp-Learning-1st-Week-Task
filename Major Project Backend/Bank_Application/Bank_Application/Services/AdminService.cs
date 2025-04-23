@@ -2,6 +2,7 @@
 using Bank_Application.Interface.IServices;
 using Bank_Application.Model;
 using Bank_Application.Model.AdminDto;
+using Bank_Application.Model.BenificiaryDto;
 using Bank_Application.Model.CompanyDto;
 
 namespace Bank_Application.Services
@@ -10,12 +11,15 @@ namespace Bank_Application.Services
     {   
         IGenericRepository<Admin> repository;
         IGenericRepository<Company> companyRepository;
+        IGenericRepository<Benificiary> benificaryRepository;
 
-        public AdminService(IGenericRepository <Admin> adminRepository , IGenericRepository <Company> companyRepository)
+        public AdminService(IGenericRepository <Admin> adminRepository , IGenericRepository <Company> companyRepository , IGenericRepository<Benificiary> benificiaryRepository)
         {
             this.repository = adminRepository;
             this.companyRepository = companyRepository;
+            this.benificaryRepository = benificiaryRepository;
         }
+
         public Admin AddAdmin(AddAdminDto addAdminDto)
         {
             var adminEntity = new Admin
@@ -75,5 +79,23 @@ namespace Bank_Application.Services
             return companyRepository.GetAll().Where(c => c.IsDocumentVerified == false).ToList();
         }
 
+        public List<Benificiary> GetAllPendingOutBenificiaryBoundCompany()
+        {
+            return benificaryRepository.GetAll().Where(c => c.IsBenificiaryApproved == false).ToList();
+        }
+
+       
+
+        public Benificiary VerifyOutBoundCompany(int BenificiaryId, VerifyOutBoundCompanyDto verifyOutBoundCompanyDto)
+        {
+           var benificiaryEntity = benificaryRepository.GetById(BenificiaryId);
+            if (benificiaryEntity == null) 
+            {
+                throw new Exception($" This Benificiary Id  {BenificiaryId} not found.");
+            }
+            benificiaryEntity.IsBenificiaryApproved = verifyOutBoundCompanyDto.IsBenificiaryApproved;
+            benificaryRepository.Update(benificiaryEntity);
+            return benificiaryEntity;
+        }
     }
 }

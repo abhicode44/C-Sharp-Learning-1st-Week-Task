@@ -83,6 +83,16 @@
   },
   {
     "ContainingType": "Bank_Application.Controllers.AdminController",
+    "Method": "GetAllPendingOutBenificiaryBoundCompany",
+    "RelativePath": "api/Admin/GetAllPendingOutBoundCompany",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bank_Application.Controllers.AdminController",
     "Method": "UpdateDocumentVerify",
     "RelativePath": "api/Admin/VerifyCompanyDocument",
     "HttpMethod": "PUT",
@@ -98,6 +108,27 @@
         "Name": "documentVerifyDto",
         "Type": "Bank_Application.Model.CompanyDto.DocumentVerifyDto",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bank_Application.Controllers.AdminController",
+    "Method": "VerifyOutBoundCompany",
+    "RelativePath": "api/Admin/VerifyOutBoundCompany/{BenificiaryId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BenificiaryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "IsBenificiaryApproved",
+        "Type": "System.Boolean",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -130,7 +161,7 @@
   },
   {
     "ContainingType": "Bank_Application.Controllers.CompanyController",
-    "Method": "AddBank",
+    "Method": "AddCompany",
     "RelativePath": "api/Company/AddCompany",
     "HttpMethod": "POST",
     "IsController": true,
@@ -184,6 +215,78 @@
       {
         "Name": "CompanyBalance",
         "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bank_Application.Controllers.CompanyController",
+    "Method": "AddInBoundBenificiary",
+    "RelativePath": "api/Company/AddInboundCompany",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BenificiaryCompanyName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BenificiaryEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BenificiaryCompanyAccountNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BenificiaryCompanyIFSCcode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bank_Application.Controllers.CompanyController",
+    "Method": "AddOutBoundBenificiary",
+    "RelativePath": "api/Company/AddOutBoundCompany",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BenificiaryCompanyName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BenificiaryEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BenificiaryCompanyAccountNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BenificiaryCompanyIFSCcode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CompanyEmail",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],

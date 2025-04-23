@@ -172,6 +172,60 @@
         }
       }
     },
+    "/api/Admin/GetAllPendingOutBoundCompany": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Admin/VerifyOutBoundCompany/{BenificiaryId}": {
+      "put": {
+        "tags": [
+          "Admin"
+        ],
+        "parameters": [
+          {
+            "name": "BenificiaryId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "IsBenificiaryApproved": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "encoding": {
+                "IsBenificiaryApproved": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Bank/AddBank": {
       "post": {
         "tags": [
@@ -288,6 +342,116 @@
                   "style": "form"
                 },
                 "CompanyBalance": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Company/AddInboundCompany": {
+      "post": {
+        "tags": [
+          "Company"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "BenificiaryCompanyName": {
+                    "type": "string"
+                  },
+                  "BenificiaryEmail": {
+                    "type": "string"
+                  },
+                  "BenificiaryCompanyAccountNumber": {
+                    "type": "string"
+                  },
+                  "BenificiaryCompanyIFSCcode": {
+                    "type": "string"
+                  },
+                  "CompanyEmail": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "BenificiaryCompanyName": {
+                  "style": "form"
+                },
+                "BenificiaryEmail": {
+                  "style": "form"
+                },
+                "BenificiaryCompanyAccountNumber": {
+                  "style": "form"
+                },
+                "BenificiaryCompanyIFSCcode": {
+                  "style": "form"
+                },
+                "CompanyEmail": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Company/AddOutBoundCompany": {
+      "post": {
+        "tags": [
+          "Company"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "BenificiaryCompanyName": {
+                    "type": "string"
+                  },
+                  "BenificiaryEmail": {
+                    "type": "string"
+                  },
+                  "BenificiaryCompanyAccountNumber": {
+                    "type": "string"
+                  },
+                  "BenificiaryCompanyIFSCcode": {
+                    "type": "string"
+                  },
+                  "CompanyEmail": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "BenificiaryCompanyName": {
+                  "style": "form"
+                },
+                "BenificiaryEmail": {
+                  "style": "form"
+                },
+                "BenificiaryCompanyAccountNumber": {
+                  "style": "form"
+                },
+                "BenificiaryCompanyIFSCcode": {
+                  "style": "form"
+                },
+                "CompanyEmail": {
                   "style": "form"
                 }
               }

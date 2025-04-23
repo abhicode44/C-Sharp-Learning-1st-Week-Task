@@ -21,6 +21,8 @@ namespace Bank_Application.Model
         public string EmpIFSCCode { get; set; }
 
 
+        public int EmployeeSalary { get; set; }
+
         public string CompanyEmail { get; set; }
 
         [ForeignKey("CompanyEmail")]
