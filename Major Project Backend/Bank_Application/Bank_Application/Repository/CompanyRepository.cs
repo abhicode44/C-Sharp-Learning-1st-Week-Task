@@ -28,7 +28,6 @@ namespace Bank_Application.Repository
                 CompanyAddress = addCompanyDto.CompanyAddress,
                 CompanyAccountNumber = addCompanyDto.CompanyAccountNumber,
                 CompanyAccount_IFSCCode = addCompanyDto.CompanyAccount_IFSCCode,
-                CompanyBalance = addCompanyDto.CompanyBalance,
                 CompanyAadharCardFile = addCompanyDto.CompanyAadharCardFile,
                 CompanyPanCardFile = addCompanyDto.CompanyPanCardFile,
                 CompanyOfficalDocumnet = addCompanyDto.CompanyOfficalDocumnet,

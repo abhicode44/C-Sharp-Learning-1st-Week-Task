@@ -9,6 +9,8 @@ namespace Bank_Application.Model.CompanyDto
         [Key]
         public string CompanyEmail { get; set; }
 
+        public string CompanyPassword { get; set; }
+
         public string CompanyAddress { get; set; }
 
 
@@ -24,7 +26,6 @@ namespace Bank_Application.Model.CompanyDto
 
         public string CompanyProfilePhoto { get; set; }
 
-        public int CompanyBalance { get; set; }
         
 
         

@@ -58,13 +58,16 @@ namespace Bank_Application.Repository
 
         public List<Benificiary> GetAllApprovedOutBenificiaryBoundCompany()
         {
-            throw new NotImplementedException();
+            return dbset.ToList();
         }
 
         public List<Benificiary> GetAllPendingOutBenificiaryBoundCompany ()
         {
             return dbset.ToList();
         }
+
+        
+           
 
         public Benificiary VerifyOutBoundCompany(int BenificiaryId, VerifyOutBoundCompanyDto verifyOutBoundCompanyDto)
         {

@@ -18,7 +18,11 @@ namespace Bank_Application.Data
 
         public DbSet<Employee> Employees { get ; set ; }
 
-        public DbSet<Transaction> Transactions { get ; set ; }
+        public DbSet<Transactionn> Transactions { get ; set ; }
+
+        public DbSet<SalaryDistribution> SalaryDistributions { get; set; }
+
+        public DbSet<Audit> Audits { get; set; }
 
     }
 }

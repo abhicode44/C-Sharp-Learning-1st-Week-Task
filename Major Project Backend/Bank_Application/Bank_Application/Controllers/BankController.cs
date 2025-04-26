@@ -1,4 +1,5 @@
 ﻿using Bank_Application.Interface.IServices;
+using Bank_Application.Model.AdminDto;
 using Bank_Application.Model.BankDto;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -20,6 +21,8 @@ namespace Bank_Application.Controllers
         [HttpPost("AddBank")]
         public IActionResult AddBank (AddBankDto addBankDto)
         {
+            string password = BCrypt.Net.BCrypt.EnhancedHashPassword(addBankDto.BankPassword);
+            addBankDto.BankPassword = password; 
             var bankEntity = bankService.AddBank(addBankDto);   
             return Ok (bankEntity);
         }
@@ -31,6 +34,8 @@ namespace Bank_Application.Controllers
             var result = bankService.GetAllBank();
             return Ok (result);
         }
+
+        
 
     }
 

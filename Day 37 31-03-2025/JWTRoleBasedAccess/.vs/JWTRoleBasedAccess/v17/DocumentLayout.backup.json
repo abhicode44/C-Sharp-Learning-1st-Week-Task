@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 37 31-03-2025\\JWTRoleBasedAccess\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 37 31-03-2025\\jwtrolebasedaccess\\jwtrolebasedaccess\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|solutionrelative:jwtrolebasedaccess\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 37 31-03-2025\\jwtrolebasedaccess\\jwtrolebasedaccess\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|solutionrelative:jwtrolebasedaccess\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 37 31-03-2025\\jwtrolebasedaccess\\jwtrolebasedaccess\\data\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|solutionrelative:jwtrolebasedaccess\\data\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 37 31-03-2025\\jwtrolebasedaccess\\jwtrolebasedaccess\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|solutionrelative:jwtrolebasedaccess\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 37 31-03-2025\\jwtrolebasedaccess\\jwtrolebasedaccess\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|solutionrelative:jwtrolebasedaccess\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 37 31-03-2025\\jwtrolebasedaccess\\jwtrolebasedaccess\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|solutionrelative:jwtrolebasedaccess\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 37 31-03-2025\\jwtrolebasedaccess\\jwtrolebasedaccess\\model\\entity\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|solutionrelative:jwtrolebasedaccess\\model\\entity\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 37 31-03-2025\\jwtrolebasedaccess\\jwtrolebasedaccess\\data\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|solutionrelative:jwtrolebasedaccess\\data\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 37 31-03-2025\\jwtrolebasedaccess\\jwtrolebasedaccess\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|solutionrelative:jwtrolebasedaccess\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 37 31-03-2025\\jwtrolebasedaccess\\jwtrolebasedaccess\\model\\entity\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|solutionrelative:jwtrolebasedaccess\\model\\entity\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 37 31-03-2025\\jwtrolebasedaccess\\jwtrolebasedaccess\\model\\entity\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 37 31-03-2025\\jwtrolebasedaccess\\jwtrolebasedaccess\\jwtrolebasedaccess.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|solutionrelative:jwtrolebasedaccess\\jwtrolebasedaccess.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 37 31-03-2025\\jwtrolebasedaccess\\jwtrolebasedaccess\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|solutionrelative:jwtrolebasedaccess\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CE78982-01A3-44E3-A594-172F8ACB2E66}|JWTRoleBasedAccess\\JWTRoleBasedAccess.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\day 37 31-03-2025\\jwtrolebasedaccess\\jwtrolebasedaccess\\model\\adduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -56,11 +56,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "JWTRoleBasedAccess.http",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 37 31-03-2025\\JWTRoleBasedAccess\\JWTRoleBasedAccess\\JWTRoleBasedAccess.http",
               "RelativeDocumentMoniker": "JWTRoleBasedAccess\\JWTRoleBasedAccess.http",
@@ -72,20 +72,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 37 31-03-2025\\JWTRoleBasedAccess\\JWTRoleBasedAccess\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "JWTRoleBasedAccess\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 37 31-03-2025\\JWTRoleBasedAccess\\JWTRoleBasedAccess\\Controllers\\UserController.cs",
               "RelativeToolTip": "JWTRoleBasedAccess\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAASwB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T16:10:23.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T16:10:23.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MyContext.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 37 31-03-2025\\JWTRoleBasedAccess\\JWTRoleBasedAccess\\Data\\MyContext.cs",
               "RelativeDocumentMoniker": "JWTRoleBasedAccess\\Data\\MyContext.cs",
@@ -97,19 +96,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 37 31-03-2025\\JWTRoleBasedAccess\\JWTRoleBasedAccess\\appsettings.json",
               "RelativeDocumentMoniker": "JWTRoleBasedAccess\\appsettings.json",
               "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 37 31-03-2025\\JWTRoleBasedAccess\\JWTRoleBasedAccess\\appsettings.json",
               "RelativeToolTip": "JWTRoleBasedAccess\\appsettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-31T15:07:28.909Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 37 31-03-2025\\JWTRoleBasedAccess\\JWTRoleBasedAccess\\Model\\Entity\\Users.cs",
               "RelativeDocumentMoniker": "JWTRoleBasedAccess\\Model\\Entity\\Users.cs",
@@ -121,19 +120,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 37 31-03-2025\\JWTRoleBasedAccess\\JWTRoleBasedAccess\\Program.cs",
               "RelativeDocumentMoniker": "JWTRoleBasedAccess\\Program.cs",
               "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 37 31-03-2025\\JWTRoleBasedAccess\\JWTRoleBasedAccess\\Program.cs",
               "RelativeToolTip": "JWTRoleBasedAccess\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T15:24:11.588Z"
+              "WhenOpened": "2025-03-31T15:24:11.588Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 37 31-03-2025\\JWTRoleBasedAccess\\JWTRoleBasedAccess\\Model\\Entity\\Role.cs",
               "RelativeDocumentMoniker": "JWTRoleBasedAccess\\Model\\Entity\\Role.cs",
@@ -145,15 +145,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 37 31-03-2025\\JWTRoleBasedAccess\\JWTRoleBasedAccess\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "JWTRoleBasedAccess\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Day 37 31-03-2025\\JWTRoleBasedAccess\\JWTRoleBasedAccess\\Controllers\\AuthController.cs",
               "RelativeToolTip": "JWTRoleBasedAccess\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAADwvxgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T18:07:45.993Z"
+              "WhenOpened": "2025-03-31T18:07:45.993Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

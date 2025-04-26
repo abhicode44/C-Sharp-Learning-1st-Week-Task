@@ -20,13 +20,15 @@ namespace Bank_Application.Model
 
         public string EmpIFSCCode { get; set; }
 
-
+        public string EmpDepartment { get; set; }
+        public string EmpDesignation  { get; set; }
         public int EmployeeSalary { get; set; }
 
         public string CompanyEmail { get; set; }
 
         [ForeignKey("CompanyEmail")]
         public Company Company { get; set; }
+
 
 
 

@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "Bank_Application",
-    "version": "1.0"
+    "title": "MyAPI",
+    "version": "v1"
   },
   "paths": {
     "/api/Admin/AddAdmin": {
@@ -226,6 +226,190 @@
         }
       }
     },
+    "/api/Admin/GetAllApprovedOutBoundCompany": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Admin/GetAllPendingTransaction": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Admin/VerifyTransaction": {
+      "put": {
+        "tags": [
+          "Admin"
+        ],
+        "parameters": [
+          {
+            "name": "TransactionId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "IsTransactionApproved": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "encoding": {
+                "IsTransactionApproved": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Admin/GetAllApprovedTransaction": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Admin/Get-AllPending-SalaryDistribution-Request": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Admin/Get-AllApproved-SalaryDistribution-Request": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Admin/Verify-Salary-Distribution/{SalaryDistributionId}": {
+      "put": {
+        "tags": [
+          "Admin"
+        ],
+        "parameters": [
+          {
+            "name": "SalaryDistributionId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "IsSalaryCredit": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "encoding": {
+                "IsSalaryCredit": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Auth/Login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "Password",
+                  "UserName"
+                ],
+                "type": "object",
+                "properties": {
+                  "UserName": {
+                    "type": "string"
+                  },
+                  "Password": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "UserName": {
+                  "style": "form"
+                },
+                "Password": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Bank/AddBank": {
       "post": {
         "tags": [
@@ -286,6 +470,9 @@
                   "CompanyEmail": {
                     "type": "string"
                   },
+                  "CompanyPassword": {
+                    "type": "string"
+                  },
                   "CompanyAddress": {
                     "type": "string"
                   },
@@ -306,10 +493,6 @@
                   },
                   "CompanyProfilePhoto": {
                     "type": "string"
-                  },
-                  "CompanyBalance": {
-                    "type": "integer",
-                    "format": "int32"
                   }
                 }
               },
@@ -318,6 +501,9 @@
                   "style": "form"
                 },
                 "CompanyEmail": {
+                  "style": "form"
+                },
+                "CompanyPassword": {
                   "style": "form"
                 },
                 "CompanyAddress": {
@@ -339,9 +525,6 @@
                   "style": "form"
                 },
                 "CompanyProfilePhoto": {
-                  "style": "form"
-                },
-                "CompanyBalance": {
                   "style": "form"
                 }
               }
@@ -464,6 +647,143 @@
           }
         }
       }
+    },
+    "/api/Company/AddTransation": {
+      "post": {
+        "tags": [
+          "Company"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "TransferFromCompanyEmail": {
+                    "type": "string"
+                  },
+                  "TransferToBenificaryCompanyEmail": {
+                    "type": "string"
+                  },
+                  "TransactionAmount": {
+                    "type": "integer",
+                    "format": "int32"
+                  }
+                }
+              },
+              "encoding": {
+                "TransferFromCompanyEmail": {
+                  "style": "form"
+                },
+                "TransferToBenificaryCompanyEmail": {
+                  "style": "form"
+                },
+                "TransactionAmount": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Company/UploadEmpolyees": {
+      "post": {
+        "tags": [
+          "Company"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "csvFile": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "csvFile": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Company/GetAllEmployeesList": {
+      "get": {
+        "tags": [
+          "Company"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Company/AddSalaryDistribution": {
+      "post": {
+        "tags": [
+          "Company"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "CompanyEmail",
+                  "EmployeeEmail",
+                  "EmpSalary"
+                ],
+                "type": "object",
+                "properties": {
+                  "EmployeeEmail": {
+                    "type": "string"
+                  },
+                  "EmpSalary": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "CompanyEmail": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "EmployeeEmail": {
+                  "style": "form"
+                },
+                "EmpSalary": {
+                  "style": "form"
+                },
+                "CompanyEmail": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -507,6 +827,19 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Please enter token",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }

@@ -280,3 +280,6 @@ C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Major Project Backend\Bank_
 C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Major Project Backend\Bank_Application\Bank_Application\obj\Debug\net8.0\Bank_Application.pdb
 C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Major Project Backend\Bank_Application\Bank_Application\obj\Debug\net8.0\Bank_Application.genruntimeconfig.cache
 C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Major Project Backend\Bank_Application\Bank_Application\obj\Debug\net8.0\ref\Bank_Application.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Major Project Backend\Bank_Application\Bank_Application\bin\Debug\net8.0\CsvHelper.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Major Project Backend\Bank_Application\Bank_Application\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Major Project Backend\Bank_Application\Bank_Application\bin\Debug\net8.0\BCrypt.Net-Next.dll

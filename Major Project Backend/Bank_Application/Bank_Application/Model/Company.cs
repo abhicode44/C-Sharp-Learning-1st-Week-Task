@@ -12,6 +12,8 @@ namespace Bank_Application.Model
         [Key]
         public string CompanyEmail { get; set; }
 
+        public string CompanyPassword  { get; set; }
+
         public string CompanyAddress { get; set; }
 
 
@@ -26,8 +28,7 @@ namespace Bank_Application.Model
         public string CompanyOfficalDocumnet { get; set; }
 
         public string CompanyProfilePhoto { get; set; }
-
-        public int CompanyBalance { get; set; }
+        
         public bool IsCompanyLoginActive { get; set; }
 
         public bool IsDocumentVerified { get; set; }
@@ -38,13 +39,9 @@ namespace Bank_Application.Model
 
         public DateTime CreatedAt { get; set; }
 
-
-
-        [ForeignKey("Role")]
+        
         public int RoleId { get; set; }
 
-        // Navigation Property
-        public Role Role { get; set; }
 
 
     }

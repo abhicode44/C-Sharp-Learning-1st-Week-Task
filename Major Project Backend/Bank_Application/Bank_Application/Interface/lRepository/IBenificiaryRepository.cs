@@ -17,8 +17,7 @@ namespace Bank_Application.Interface.lRepository
 
         public Benificiary VerifyOutBoundCompany(int BenificiaryId , VerifyOutBoundCompanyDto verifyOutBoundCompanyDto);
 
-        
-
+       
 
 
     }

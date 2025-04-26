@@ -59,6 +59,34 @@ namespace Bank_Application.Migrations
                     b.ToTable("Admin");
                 });
 
+            modelBuilder.Entity("Bank_Application.Model.Audit", b =>
+                {
+                    b.Property<int>("AuditLogId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AuditLogId"));
+
+                    b.Property<string>("ActivityPerformed")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RoleName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("TimeOfActivity")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UserEmail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("AuditLogId");
+
+                    b.ToTable("Audits");
+                });
+
             modelBuilder.Entity("Bank_Application.Model.Bank", b =>
                 {
                     b.Property<int>("BankId")
@@ -161,9 +189,6 @@ namespace Bank_Application.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("CompanyBalance")
-                        .HasColumnType("int");
-
                     b.Property<string>("CompanyName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -173,6 +198,10 @@ namespace Bank_Application.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CompanyPanCardFile")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CompanyPassword")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -201,8 +230,6 @@ namespace Bank_Application.Migrations
 
                     b.HasKey("CompanyEmail");
 
-                    b.HasIndex("RoleId");
-
                     b.ToTable("Companies");
                 });
 
@@ -223,6 +250,14 @@ namespace Bank_Application.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("EmpAddress")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("EmpDepartment")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("EmpDesignation")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -273,7 +308,41 @@ namespace Bank_Application.Migrations
                     b.ToTable("Roles");
                 });
 
-            modelBuilder.Entity("Bank_Application.Model.Transaction", b =>
+            modelBuilder.Entity("Bank_Application.Model.SalaryDistribution", b =>
+                {
+                    b.Property<int>("SalaryDisbutionId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SalaryDisbutionId"));
+
+                    b.Property<string>("CompanyEmail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("EmpSalary")
+                        .HasColumnType("int");
+
+                    b.Property<string>("EmployeeEmail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsSalaryCredit")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("SalaryDescription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("SalaryTransactionDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("SalaryDisbutionId");
+
+                    b.ToTable("SalaryDistributions");
+                });
+
+            modelBuilder.Entity("Bank_Application.Model.Transactionn", b =>
                 {
                     b.Property<int>("TransactionId")
                         .ValueGeneratedOnAdd()
@@ -286,6 +355,9 @@ namespace Bank_Application.Migrations
 
                     b.Property<DateTime>("PaymentDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<int>("TransactionAmount")
+                        .HasColumnType("int");
 
                     b.Property<string>("TransactionDescription")
                         .IsRequired()
@@ -316,17 +388,6 @@ namespace Bank_Application.Migrations
                 });
 
             modelBuilder.Entity("Bank_Application.Model.Bank", b =>
-                {
-                    b.HasOne("Bank_Application.Model.Role", "Role")
-                        .WithMany()
-                        .HasForeignKey("RoleId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Role");
-                });
-
-            modelBuilder.Entity("Bank_Application.Model.Company", b =>
                 {
                     b.HasOne("Bank_Application.Model.Role", "Role")
                         .WithMany()
