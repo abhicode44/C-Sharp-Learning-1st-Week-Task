@@ -25,20 +25,20 @@ namespace Bank_Application.Controllers
 
 
         [HttpPost("AddCompany")]
-        public IActionResult AddCompany([FromForm] AddCompanyDto addCompanyDto)
+        public async Task<IActionResult> AddCompany([FromForm] AddCompanyDto addCompanyDto)
         {
             string password = BCrypt.Net.BCrypt.EnhancedHashPassword(addCompanyDto.CompanyPassword);
             addCompanyDto.CompanyPassword = password;
-            var companyEntity = companyService.AddCompany(addCompanyDto);
+            var companyEntity = await companyService.AddCompany(addCompanyDto);
             return Ok(companyEntity);
         }
 
 
         [HttpPost("AddInboundCompany")]
         [Authorize(Roles = "Company")]
-        public IActionResult AddInBoundBenificiary([FromForm] AddInBoundBenificiaryDto addInBoundBenificiaryDto)
+        public async Task<IActionResult> AddInBoundBenificiary([FromForm] AddInBoundBenificiaryDto addInBoundBenificiaryDto)
         {
-            var benificiaryEntity = companyService.AddInBoundBenificiary(addInBoundBenificiaryDto);
+            var benificiaryEntity = await companyService.AddInBoundBenificiary(addInBoundBenificiaryDto);
             return Ok(benificiaryEntity);
         }
 
@@ -46,47 +46,48 @@ namespace Bank_Application.Controllers
 
         [HttpPost("AddOutBoundCompany")]
         [Authorize(Roles = "Company")]
-        public IActionResult AddOutBoundBenificiary([FromForm] AddOutBoundBenificiaryDto addOutBoundBenificiary)
+        public async Task<IActionResult> AddOutBoundBenificiary([FromForm] AddOutBoundBenificiaryDto addOutBoundBenificiary)
         {
-            var result = companyService.AddOutBoundBenificiary(addOutBoundBenificiary);
+            var result = await companyService.AddOutBoundBenificiary(addOutBoundBenificiary);
             return Ok(result);
         }
 
         [HttpPost("AddTransation")]
-        public IActionResult AddTransaction([FromForm] AddTransactionDto addTransactionDto)
+        public async Task<IActionResult> AddTransaction([FromForm] AddTransactionDto addTransactionDto)
         {
-            var result = companyService.AddTransaction(addTransactionDto);
+            var result = await companyService.AddTransaction(addTransactionDto);
             return Ok(result);
         }
 
 
         [HttpPost("UploadEmpolyees")]
         [Authorize(Roles = "Company")]
-        public IActionResult AddEmploye(IFormFile csvFile)
+        public async Task<IActionResult> AddEmploye(IFormFile csvFile)
         {
             if (csvFile == null || csvFile.Length == 0)
             {
                 return BadRequest("Please upload a valid CSV file.");
             }
 
-            companyService.AddEmploye(csvFile);
+            await companyService.AddEmploye(csvFile);
             return Ok("Employees added successfully.");
         }
 
+
         [HttpGet("GetAllEmployeesList")]
         [Authorize(Roles = "Company")]
-        public IActionResult GetAllEmployees()
+        public async Task<IActionResult> GetAllEmployees()
         {
-            var result = companyService.GetAllEmployees();
+            var result = await companyService.GetAllEmployees();
             return Ok(result);
         }
 
 
         [HttpPost("AddSalaryDistribution")]
         [Authorize(Roles = "Company")]
-        public IActionResult AddSalaryDistribution([FromForm] AddSalaryDistributionDto addSalaryDistributionDto)
+        public async Task<IActionResult> AddSalaryDistribution([FromForm] AddSalaryDistributionDto addSalaryDistributionDto)
         {
-            var result = companyService.AddSalaryDistribution(addSalaryDistributionDto);
+            var result =  await companyService.AddSalaryDistribution(addSalaryDistributionDto);
             return Ok(result);
         }
 

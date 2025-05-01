@@ -1,13 +1,22 @@
 ﻿using System.Diagnostics;
+using AutoMapper;
 using Bank_Application.Controllers;
+using Bank_Application.Helper;
 using Bank_Application.Interface.GernralRepository;
 using Bank_Application.Interface.IServices;
 using Bank_Application.Model;
 using Bank_Application.Model.AdminDto;
+using Bank_Application.Model.BankDto;
 using Bank_Application.Model.BenificiaryDto;
 using Bank_Application.Model.CompanyDto;
 using Bank_Application.Model.SalaryDistrubutionDto;
 using Bank_Application.Model.TransactionDto;
+using CloudinaryDotNet;
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using Newtonsoft.Json;
 
 namespace Bank_Application.Services
 {
@@ -15,22 +24,48 @@ namespace Bank_Application.Services
     {   
         IGenericRepository<Admin> repository;
         IGenericRepository<Company> companyRepository;
+        IGenericRepository<Bank> bankRepository ;
         IGenericRepository<Benificiary> benificaryRepository;
         IGenericRepository<Transactionn> transactionRepository;
         IGenericRepository<SalaryDistribution> salaryDistributionRepository;
         IAuditService auditService;
         IHttpContextAccessor _httpContextAccessor;
-        
+        Cloudinary _cloudinary;
+        IPhotoService _photoService;
+        IMapper mapper;
 
-        public AdminService(IGenericRepository <Admin> adminRepository , IGenericRepository <Company> companyRepository , IGenericRepository<Benificiary> benificiaryRepository, IGenericRepository<Transactionn> transactionRepository , IGenericRepository<SalaryDistribution> salaryDistributionRepository , IAuditService auditService , IHttpContextAccessor httpContextAccessor )
+        public AdminService( IGenericRepository <Admin> adminRepository ,
+            IGenericRepository <Company> companyRepository , 
+            IGenericRepository<Bank> bankRepository ,
+            IGenericRepository<Benificiary> benificiaryRepository,
+            IGenericRepository<Transactionn> transactionRepository ,
+            IGenericRepository<SalaryDistribution> salaryDistributionRepository , 
+            IAuditService auditService , 
+            IHttpContextAccessor httpContextAccessor,
+            IOptions<CloudinarySettings> cloudinaryOptions,
+            IPhotoService photoService,
+            IMapper mapper
+
+            )
         {
             this.repository = adminRepository;
+            this.bankRepository = bankRepository;
             this.companyRepository = companyRepository;
             this.benificaryRepository = benificiaryRepository;
             this.transactionRepository = transactionRepository;
             this.salaryDistributionRepository = salaryDistributionRepository;
             this.auditService = auditService;
             this._httpContextAccessor = httpContextAccessor;
+            this.mapper = mapper;
+
+
+            var acc = new Account(
+            cloudinaryOptions.Value.CloudName,
+            cloudinaryOptions.Value.ApiKey,
+            cloudinaryOptions.Value.ApiSecret);
+            _photoService = photoService;
+            _cloudinary = new Cloudinary(acc);
+
         }
 
 
@@ -49,38 +84,50 @@ namespace Bank_Application.Services
         }
 
 
-        public Admin AddAdmin(AddAdminDto addAdminDto)
+        public async Task<string> AddAdmin(AddAdminDto addAdminDto)
         {
-            if (repository.GetAll().Any(a => a.AdminEmail == addAdminDto.AdminEmail))
+
+
+            var existingAdmin = await repository.GetByConditionAsync(a => a.AdminEmail == addAdminDto.AdminEmail);
+            if (existingAdmin != null)
             {
                 throw new InvalidOperationException("An admin with this email already exists.");
             }
 
-            var adminEntity = new Admin
-            {
-                AdminFirstName = addAdminDto.AdminFirstName,
-                AdminLastName = addAdminDto.AdminLastName,
-                AdminEmail = addAdminDto.AdminEmail,
-                AdminPassword = addAdminDto.AdminPassword,
-                IsAdminActive = true,
-                RoleId =  1 
-            };
-            repository.Add(adminEntity);
 
+            var uploadAdminProfilePhoto = await _photoService.AddPhotoAsync(addAdminDto.AdminProfilePhoto);
+
+            
+
+            var adminEntity = mapper.Map<Admin>(addAdminDto);
+
+
+            
+            adminEntity.AdminProfilePhoto = uploadAdminProfilePhoto.SecureUrl.AbsoluteUri;
+            adminEntity.IsAdminActive = true;
+            adminEntity.RoleId = 1;
+
+            
+            await repository.Add(adminEntity);
+
+            
             string loggedInUserEmail = GetUserEmailFromJwt();
             string loggedInUserRole = GetUserRoleFromJwt();
 
+           
             string activity = $"Admin {loggedInUserEmail} added new admin: {addAdminDto.AdminEmail}";
+            await auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
 
-            auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
-            return adminEntity;
+            
+            return "Admin Added Successfully" ;
         }
 
-        
 
-        public Admin updateAdminActivation(int AdminId, AdminActivationDto activationDto)
+
+        public  async Task<Admin> updateAdminActivation(int AdminId, AdminActivationDto activationDto)
         {
-            var adminEntity = repository.GetById(AdminId);
+            var adminEntity = await repository.GetById(AdminId);
+
             if (adminEntity == null)
             {
                 throw new KeyNotFoundException($"Admin with ID {AdminId} not found!");
@@ -91,39 +138,54 @@ namespace Bank_Application.Services
 
             string activity = $"{loggedInUserEmail} {(activationDto.IsAdminActive ? "activated" : "deactivated")} admin account: {adminEntity.AdminEmail}";
 
-
             adminEntity.IsAdminActive = activationDto.IsAdminActive;
-            repository.Update(adminEntity);
 
-            auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
+            await  repository.Update(adminEntity);
+
+            await auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
 
             return adminEntity;
+
+        }
+
+        public async Task<Bank> AddBank(AddBankDto addBankDto)
+        {
+            var bankEntity = mapper.Map<Bank>(addBankDto);
+            bankEntity.RoleId = 2;
+            await bankRepository.Add(bankEntity);
+            return bankEntity;
+
         }
 
 
-        public List<Admin> GetAllAdmin()
+        public async Task<List<Bank>> GetAllBank()
         {
+            return bankRepository.GetAll().ToList();
+        }
 
+        public async Task<List<Admin>> GetAllAdmin()
+        {
             string loggedInUserEmail = GetUserEmailFromJwt();
             string loggedInUserRole = GetUserRoleFromJwt();
             string activity = $"{loggedInUserEmail} retrieved the list of all admins";
 
-            auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
-            return repository.GetAll();
-            
+             auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
+            return await repository.GetAll().ToListAsync();
+
         }
 
-        
 
-        public Company UpdateDocumentVerify(string CompanyEmail, DocumentVerifyDto documentVerifyDto) {
-            var companyEntity = companyRepository.GetByEmail(CompanyEmail);
+        public async Task<Company> UpdateDocumentVerify(string CompanyEmail, DocumentVerifyDto documentVerifyDto) {
+            var companyEntity = await  companyRepository.GetByEmail(CompanyEmail);
+
             if (companyEntity == null)
             {
                 throw new Exception($" This Company Email Id  {CompanyEmail} not found.");
             }
+
             companyEntity.IsDocumentVerified = documentVerifyDto.IsDocumentVerified;
             companyEntity.DocumentStatusDesciption = documentVerifyDto.DocumentStatusDesciption;
-            companyRepository.Update(companyEntity);
+            await companyRepository.Update(companyEntity);
 
             string loggedInUserEmail = GetUserEmailFromJwt();
             string loggedInUserRole = GetUserRoleFromJwt();
@@ -132,56 +194,66 @@ namespace Bank_Application.Services
              ? $"Admin '{loggedInUserEmail}' verified documents for company '{CompanyEmail}'."
             : $"Admin '{loggedInUserEmail}' marked document verification failed for company '{CompanyEmail}'.";
 
-            auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
+            await auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
 
             return companyEntity;
         }
 
 
-        public List<Company> GetAllApprovedCompanies()
+        public async Task<List<Company>> GetAllApprovedCompanies()
         {
             string loggedInUserEmail = GetUserEmailFromJwt();
             string loggedInUserRole = GetUserRoleFromJwt();
             string activity = $"{loggedInUserEmail} retrieved the list of all Approved Companies ";
 
-            auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
+           await  auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
 
-            return companyRepository.GetAll().Where(c => c.IsDocumentVerified == true).ToList();
-
+           var approvedCompanies = await companyRepository.GetAll()
+                                                      .Where(c => c.IsDocumentVerified == true)
+                                                      .ToListAsync();
+            
+            return approvedCompanies;
 
         }
 
-        public List<Company> GetAllPendingCompanies()
+        public async Task<List<Company>> GetAllPendingCompanies()
         {
             string loggedInUserEmail = GetUserEmailFromJwt();
             string loggedInUserRole = GetUserRoleFromJwt();
             string activity = $"{loggedInUserEmail} retrieved the list of all Pending Companies ";
 
-            auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
+            await auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
 
-            return companyRepository.GetAll().Where(c => c.IsDocumentVerified == false).ToList();
+            var pendingCompines =  companyRepository.GetAll().Where(c => c.IsDocumentVerified == false).ToList();
+            
+            return pendingCompines;
+
         }
 
-        public List<Benificiary> GetAllPendingOutBenificiaryBoundCompany()
+        public async Task<List<Benificiary>> GetAllPendingOutBenificiaryBoundCompany()
         {
             string loggedInUserEmail = GetUserEmailFromJwt();
             string loggedInUserRole = GetUserRoleFromJwt();
             string activity = $"{loggedInUserEmail} retrieved the list of all Pending OutBound Benificiary Companies ";
 
-            auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
+            await auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
 
-            return benificaryRepository.GetAll().Where(c => c.IsBenificiaryApproved == false).ToList();
+            var pendingOutBoundBenificiary =  benificaryRepository.GetAll().Where(c => c.IsBenificiaryApproved == false).ToList();
+
+            return pendingOutBoundBenificiary;
+
         }
 
        
 
-        public Benificiary VerifyOutBoundCompany(int BenificiaryId, VerifyOutBoundCompanyDto verifyOutBoundCompanyDto)
+        public async Task<Benificiary> VerifyOutBoundCompany(int BenificiaryId, VerifyOutBoundCompanyDto verifyOutBoundCompanyDto)
         {
-           var benificiaryEntity = benificaryRepository.GetById(BenificiaryId);
+           var benificiaryEntity = await benificaryRepository.GetById(BenificiaryId);
             if (benificiaryEntity == null) 
             {
                 throw new Exception($" This Benificiary Id  {BenificiaryId} not found.");
             }
+
             benificiaryEntity.IsBenificiaryApproved = verifyOutBoundCompanyDto.IsBenificiaryApproved;
             benificaryRepository.Update(benificiaryEntity);
             string loggedInUserEmail = GetUserEmailFromJwt();
@@ -192,34 +264,37 @@ namespace Bank_Application.Services
                 ? $"Admin '{loggedInUserEmail}' approved Out Bound Benificiary with ID '{BenificiaryId}'."
                 : $"Admin '{loggedInUserEmail}' rejected Out Bound Benificiary with ID '{BenificiaryId}'.";
 
-            auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
+            await auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
             return benificiaryEntity;
         }
 
-        public List<Benificiary> GetAllApprovedOutBenificiaryBoundCompany()
+        public async Task<List<Benificiary>> GetAllApprovedOutBenificiaryBoundCompany()
         {
             string loggedInUserEmail = GetUserEmailFromJwt();
             string loggedInUserRole = GetUserRoleFromJwt();
             string activity = $"{loggedInUserEmail} retrieved the list of all Pending OutBound Benificiary Companies. ";
 
-            auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
-            return benificaryRepository.GetAll().Where(c => c.IsBenificiaryApproved == true).ToList();
+            await  auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
+
+            var approvedOutBound = benificaryRepository.GetAll().Where(c => c.IsBenificiaryApproved == true).ToList();
+            return approvedOutBound;
+
         }
 
-        public List<Transactionn> GetAllPendingTransactionRequest()
+        public async Task<List<Transactionn>> GetAllPendingTransactionRequest()
         {
             string loggedInUserEmail = GetUserEmailFromJwt();
             string loggedInUserRole = GetUserRoleFromJwt();
             string activity = $"{loggedInUserEmail} retrieved the list of all Pending Transactions Request ";
 
-            auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
+            await auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
 
             return transactionRepository.GetAll().Where(c => c.IsTransactionApproved == false).ToList();
         }
 
-        public Transactionn VerifyTransactionRequest(int TransactionId, VerifyTransactionDto verifyTransactionDto)
+        public async Task<Transactionn> VerifyTransactionRequest(int TransactionId, VerifyTransactionDto verifyTransactionDto)
         {
-            var transactionEntity = transactionRepository.GetById(TransactionId);   
+            var transactionEntity = await transactionRepository.GetById(TransactionId);   
             if (transactionEntity == null)
             {
                 throw new Exception($" This Transaction Id  {TransactionId} not found.");
@@ -235,46 +310,52 @@ namespace Bank_Application.Services
                 ? $"Admin '{loggedInUserEmail}' approved transaction with ID '{TransactionId}'."
                 : $"Admin '{loggedInUserEmail}' rejected transaction with ID '{TransactionId}'.";
 
-            auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
+            await  auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
             return transactionEntity;
 
         }
 
-        public List<Transactionn> GetAllApprovedTransaction()
+        public async Task<List<Transactionn>> GetAllApprovedTransaction()
         {
             string loggedInUserEmail = GetUserEmailFromJwt();
             string loggedInUserRole = GetUserRoleFromJwt();
             string activity = $"{loggedInUserEmail} retrieved the list of all Approved Transactions ";
 
-            auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
+            await auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
 
-            return transactionRepository.GetAll().Where( c => c.IsTransactionApproved == true).ToList();
+            var approvedTransaction = transactionRepository.GetAll().Where( c => c.IsTransactionApproved == true).ToList();
+            return approvedTransaction;
+
+
         }
 
-        public List<SalaryDistribution> GetAllPendingSalaryDistributions()
+
+        public async Task<List<SalaryDistribution>> GetAllPendingSalaryDistributions()
         {
             string loggedInUserEmail = GetUserEmailFromJwt();
             string loggedInUserRole = GetUserRoleFromJwt();
             string activity = $"{loggedInUserEmail} retrieved the list of all Pending Salary Distribution Request ";
 
-            auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
-            return salaryDistributionRepository.GetAll().Where( c => c.IsSalaryCredit == false).ToList();    
+            await auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
+            var pendingSalary = salaryDistributionRepository.GetAll().Where( c => c.IsSalaryCredit == false).ToList();  
+            return pendingSalary;
+
         }
 
-        public List<SalaryDistribution> GetAllApprovedSalaryDistributions()
+        public async Task<List<SalaryDistribution>> GetAllApprovedSalaryDistributions()
         {
             string loggedInUserEmail = GetUserEmailFromJwt();
             string loggedInUserRole = GetUserRoleFromJwt();
             string activity = $"{loggedInUserEmail}  retrieved the list of all Pending Salary Distribution Request. ";
 
-            auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
+           await  auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
             return salaryDistributionRepository.GetAll().Where(c => c.IsSalaryCredit == true).ToList();
         }
 
 
-        public List<SalaryDistribution> VerifySalaryDistribution(int salaryDistributionId, VerifySalaryDistributionDto verifySalaryDistributionDto)
+        public async  Task<List<SalaryDistribution>> VerifySalaryDistribution(int salaryDistributionId, VerifySalaryDistributionDto verifySalaryDistributionDto)
         {
-            var records = GetAllPendingSalaryDistributions();
+            var records = await GetAllPendingSalaryDistributions();
 
             var updatedDistributions = new List<SalaryDistribution>();
 
@@ -307,6 +388,7 @@ namespace Bank_Application.Services
 
             return updatedDistributions;
         }
+
 
     }
 }

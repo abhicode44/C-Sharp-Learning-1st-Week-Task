@@ -14,24 +14,10 @@ namespace Bank_Application.Services
         {
             this.repository = bankRepository;
         }
-        public Bank AddBank(AddBankDto addBankDto)
-        {
-            var bankEntity = new Bank
-            {
-                BankName = addBankDto.BankName,
-                BankBranchCode = addBankDto.BankBranchCode,
-                BankBranchName = addBankDto.BankBranchName,
-                BankUserName = addBankDto.BankUserName,
-                BankPassword = addBankDto.BankPassword, 
-                RoleId = 2
-            };
-            repository.Add(bankEntity);
-            return bankEntity;
-        }
 
-        public List<Bank> GetAllBank()
-        {
-            return repository.GetAll();
-        }
+       
+
+
+        
     }
 }

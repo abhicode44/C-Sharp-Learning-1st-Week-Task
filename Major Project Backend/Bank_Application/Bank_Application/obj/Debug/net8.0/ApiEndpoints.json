@@ -26,6 +26,52 @@
         "Name": "AdminPassword",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "IsAdminActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "AdminProfilePhoto",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bank_Application.Controllers.AdminController",
+    "Method": "AddBank",
+    "RelativePath": "api/Admin/AddBank",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BankName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BankBranchCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BankBranchName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BankUserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BankPassword",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -105,6 +151,16 @@
     "ContainingType": "Bank_Application.Controllers.AdminController",
     "Method": "GetAllApprovedTransaction",
     "RelativePath": "api/Admin/GetAllApprovedTransaction",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bank_Application.Controllers.AdminController",
+    "Method": "GetAllBank",
+    "RelativePath": "api/Admin/GetAllBank",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -234,42 +290,11 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "UserName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Password",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Bank_Application.Controllers.BankController",
-    "Method": "AddBank",
-    "RelativePath": "api/Bank/AddBank",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "addBankDto",
-        "Type": "Bank_Application.Model.BankDto.AddBankDto",
+        "Name": "loginDto",
+        "Type": "Bank_Application.Model.LoginDto.LoginDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Bank_Application.Controllers.BankController",
-    "Method": "GetAllBank",
-    "RelativePath": "api/Bank/GetAllBank",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -312,22 +337,22 @@
       },
       {
         "Name": "CompanyPanCardFile",
-        "Type": "System.String",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
       },
       {
         "Name": "CompanyAadharCardFile",
-        "Type": "System.String",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
       },
       {
         "Name": "CompanyOfficalDocumnet",
-        "Type": "System.String",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
       },
       {
         "Name": "CompanyProfilePhoto",
-        "Type": "System.String",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
       }
     ],

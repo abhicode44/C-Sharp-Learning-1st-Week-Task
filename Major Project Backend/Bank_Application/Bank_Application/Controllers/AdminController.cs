@@ -2,6 +2,7 @@
 using Bank_Application.Interface.IServices;
 using Bank_Application.Model;
 using Bank_Application.Model.AdminDto;
+using Bank_Application.Model.BankDto;
 using Bank_Application.Model.BenificiaryDto;
 using Bank_Application.Model.CompanyDto;
 using Bank_Application.Model.SalaryDistrubutionDto;
@@ -23,54 +24,89 @@ namespace Bank_Application.Controllers
         public AdminController(IAdminService adminService ) 
         {
             this.adminService = adminService;
-            
-            
         }
 
 
-        
 
+        
         [HttpPost("AddAdmin")]
+        
         [Authorize(Roles = "Admin")]
-        public IActionResult AddAdmin( [FromForm] AddAdminDto addAdminDto)
+        
+        public async Task<IActionResult> AddAdmin( [FromForm] AddAdminDto addAdminDto)
         {
             string password = BCrypt.Net.BCrypt.EnhancedHashPassword(addAdminDto.AdminPassword);
             addAdminDto.AdminPassword = password;
-            var result = adminService.AddAdmin(addAdminDto);
+            var result =await  adminService.AddAdmin(addAdminDto);
+
+            return Ok(new { message = "Admin Added Successfully" });
+        }
+
+
+        [HttpPost("AddBank")]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> AddBank([FromForm] AddBankDto addBankDto)
+        {
+            try
+            {
+                
+                string password = BCrypt.Net.BCrypt.EnhancedHashPassword(addBankDto.BankPassword);
+                addBankDto.BankPassword = password;
+
+                
+                var bankEntity = await adminService.AddBank(addBankDto);
+
+               
+                return Ok(new { message = "Bank Added Successfully" });
+            }
+            catch (Exception ex)
+            {
+                
+                return StatusCode(500, "An error occurred while adding the bank. Please try again later.");
+            }
+        }
+
+        [HttpGet("GetAllBank")]
+        [Authorize(Roles = "Admin")]
+        public  async Task<IActionResult> GetAllBank()
+        {
+            var result = await adminService.GetAllBank();
+
             return Ok(result);
         }
 
 
         [HttpPut("AdminActivation/{AdminId:int}")]
         [Authorize(Roles = "Admin")]
-        public IActionResult updateAdminActivation(int AdminId ,[FromForm] AdminActivationDto activationDto)
+        public async Task<IActionResult> updateAdminActivation(int AdminId ,[FromForm] AdminActivationDto activationDto)
         {
-            var adminEntity = adminService.updateAdminActivation(AdminId, activationDto);
+            var adminEntity = await adminService.updateAdminActivation(AdminId, activationDto);
             return Ok(adminEntity);
         }
 
 
         [HttpGet("GetAllAdmin")]
         [Authorize(Roles = "Admin")]
-        public IActionResult GetAllAdmin ()
+        public async  Task<IActionResult> GetAllAdmin()
         {
-            var result = adminService.GetAllAdmin();
+            var result = await adminService.GetAllAdmin();
             return Ok(result);
         }
 
+
         [HttpPut("VerifyCompanyDocument")]
         [Authorize(Roles = "Admin")]
-        public IActionResult UpdateDocumentVerify([FromQuery] string CompanyEmail, [FromBody] DocumentVerifyDto documentVerifyDto)
+        public async Task<IActionResult> UpdateDocumentVerify([FromQuery] string CompanyEmail, [FromBody] DocumentVerifyDto documentVerifyDto)
         {
-            var result = adminService.UpdateDocumentVerify(CompanyEmail, documentVerifyDto);
+            var result = await adminService.UpdateDocumentVerify(CompanyEmail, documentVerifyDto);
             return Ok(result);
         }
 
 
         [HttpGet("GetAllApprovedCompaines")]
-        public   IActionResult GetAllApprovedCompanies()
+        public async Task<IActionResult> GetAllApprovedCompanies()
         {
-            var result =  adminService.GetAllApprovedCompanies();
+            var result = await  adminService.GetAllApprovedCompanies();
             return Ok(result);
 
         }
@@ -78,78 +114,81 @@ namespace Bank_Application.Controllers
 
 
         [HttpGet("GetAllPendingCompaines")]
-        public IActionResult GetAllPendingCompanies()
+        public async Task<IActionResult> GetAllPendingCompanies()
         {
-            var result = adminService.GetAllPendingCompanies();
+            var result = await adminService.GetAllPendingCompanies();
             return Ok(result);
         }
 
         [HttpGet("GetAllPendingOutBoundCompany")]
-        public IActionResult GetAllPendingOutBenificiaryBoundCompany()
+        public async Task<IActionResult> GetAllPendingOutBenificiaryBoundCompany()
         {
-            var result = adminService.GetAllPendingOutBenificiaryBoundCompany();
+            var result = await adminService.GetAllPendingOutBenificiaryBoundCompany();
             return Ok(result);
         }
 
 
         [HttpPut("VerifyOutBoundCompany/{BenificiaryId:int}")]
         [Authorize(Roles = "Admin")]
-        public IActionResult VerifyOutBoundCompany(int BenificiaryId, [FromForm]  VerifyOutBoundCompanyDto verifyOutBoundCompanyDto)
+        public async Task<IActionResult> VerifyOutBoundCompany(int BenificiaryId, [FromForm]  VerifyOutBoundCompanyDto verifyOutBoundCompanyDto)
         {
-            var result = adminService.VerifyOutBoundCompany(BenificiaryId , verifyOutBoundCompanyDto);
+            var result = await  adminService.VerifyOutBoundCompany(BenificiaryId , verifyOutBoundCompanyDto);
             return Ok(result);
         }
 
         [HttpGet("GetAllApprovedOutBoundCompany")]
-        public IActionResult GetAllApprovedOutBenificiaryBoundCompany()
+        public async Task<IActionResult> GetAllApprovedOutBenificiaryBoundCompany()
         {
-            var result = adminService.GetAllApprovedOutBenificiaryBoundCompany();
+            var result = await adminService.GetAllApprovedOutBenificiaryBoundCompany();
             return Ok(result);
         }
 
 
         [HttpGet("GetAllPendingTransaction")]
-        public IActionResult GetAllPendingTransactionRequest()
+        public async Task<IActionResult> GetAllPendingTransactionRequest()
         {
-            var result = adminService.GetAllPendingTransactionRequest();
+            var result = await adminService.GetAllPendingTransactionRequest();
             return Ok(result);
         }
 
         [HttpPut("VerifyTransaction")]
         [Authorize(Roles = "Admin")]
-        public IActionResult VerifyTransactionRequest([FromQuery]  int TransactionId,[FromForm] VerifyTransactionDto verifyTransactionDto)
+        public async Task<IActionResult> VerifyTransactionRequest([FromQuery]  int TransactionId,[FromForm] VerifyTransactionDto verifyTransactionDto)
         {
-            var result = adminService.VerifyTransactionRequest(TransactionId, verifyTransactionDto);
+            var result = await  adminService.VerifyTransactionRequest(TransactionId, verifyTransactionDto);
             return Ok(result);
         }
 
         [HttpGet("GetAllApprovedTransaction")]
-        public IActionResult GetAllApprovedTransaction()
+        public async Task<IActionResult> GetAllApprovedTransaction()
         {
-            var result = adminService.GetAllApprovedTransaction();
+            var result = await  adminService.GetAllApprovedTransaction();
             return Ok(result);
         }
 
         [HttpGet("Get-AllPending-SalaryDistribution-Request")]
 
-        public IActionResult GetAllPendingSalaryDistributions()
-        {
-            var reult = adminService.GetAllPendingSalaryDistributions();
+        public async Task<IActionResult> GetAllPendingSalaryDistributions()
+        { 
+            var reult =  await adminService.GetAllPendingSalaryDistributions();
             return Ok(reult);
         }
 
+
+
         [HttpGet("Get-AllApproved-SalaryDistribution-Request")]
-        public IActionResult GetAllApprovedSalaryDistributions()
+        public async Task<IActionResult> GetAllApprovedSalaryDistributions()
         {
-            var result = adminService.GetAllApprovedSalaryDistributions();
+            var result = await  adminService.GetAllApprovedSalaryDistributions();
             return Ok(result);
         }
 
+
         [HttpPut("Verify-Salary-Distribution/{SalaryDistributionId:int}")]
         [Authorize(Roles = "Admin")]
-        public IActionResult VerifySalaryDistribution( int SalaryDistributionId, [FromForm]  VerifySalaryDistributionDto verifySalaryDistributionDto)
+        public async Task<IActionResult> VerifySalaryDistribution( int SalaryDistributionId, [FromForm]  VerifySalaryDistributionDto verifySalaryDistributionDto)
         {
-            var result = adminService.VerifySalaryDistribution(SalaryDistributionId, verifySalaryDistributionDto);
+            var result = await  adminService.VerifySalaryDistribution(SalaryDistributionId, verifySalaryDistributionDto);
             return Ok(result);
         }
 

@@ -1,17 +1,17 @@
-﻿namespace Bank_Application.Interface.GernralRepository
+﻿using System.Linq.Expressions;
+
+namespace Bank_Application.Interface.GernralRepository
 {
     public interface IGenericRepository<T> where T : class
     {
-        public List<T> GetAll();
 
-        public T GetById(int id);
+        IQueryable<T> GetAll();
+        Task<T> GetById(int id);
+        Task Add(T entity);
+        Task Update(T entity);
 
-        public T GetByEmail(string email);
-
-        public Task Add(T entity);
-
-        public void Update(T entity);
-
-        public void Delete(T entity);
+        Task<T> GetByEmail(string email);
+        Task<T> GetByConditionAsync(Expression<Func<T, bool>> predicate);
+        Task Delete(int id);
     }
 }

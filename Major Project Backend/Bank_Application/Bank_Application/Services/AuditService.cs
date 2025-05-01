@@ -9,15 +9,21 @@ namespace Bank_Application.Services
     {
 
         private readonly IGenericRepository<Audit> auditRepository;
-        
-        public AuditService (IGenericRepository<Audit> auditRepository)
+
+        private readonly IServiceProvider _serviceProvider;
+
+        public AuditService (IGenericRepository<Audit> auditRepository , IServiceProvider serviceProvider)
         {
             this.auditRepository = auditRepository;
+            this._serviceProvider = serviceProvider;
         }
 
 
-        public Audit AddToAuditLog(string emailId, string activityPerformed, string roleName)
+        public async Task<Audit> AddToAuditLog(string emailId, string activityPerformed, string roleName)
         {
+            using var scope = _serviceProvider.CreateScope();
+            var auditRepository = scope.ServiceProvider.GetRequiredService<IGenericRepository<Audit>>();
+            
             var auditEntry = new Audit
             {
                 UserEmail = emailId,
@@ -26,9 +32,20 @@ namespace Bank_Application.Services
                 RoleName = roleName
             };
 
-            auditRepository.Add(auditEntry); 
+            try
+            {
+                await auditRepository.Add(auditEntry);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Failed to insert audit: " + ex.Message);
+                throw;
+            }
+
             return auditEntry;
         }
+
+
 
     }
 }

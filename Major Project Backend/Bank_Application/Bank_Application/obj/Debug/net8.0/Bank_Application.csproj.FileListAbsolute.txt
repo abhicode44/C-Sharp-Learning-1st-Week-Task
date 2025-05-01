@@ -283,3 +283,6 @@ C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Major Project Backend\Bank_
 C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Major Project Backend\Bank_Application\Bank_Application\bin\Debug\net8.0\CsvHelper.dll
 C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Major Project Backend\Bank_Application\Bank_Application\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Major Project Backend\Bank_Application\Bank_Application\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Major Project Backend\Bank_Application\Bank_Application\bin\Debug\net8.0\CloudinaryDotNet.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Major Project Backend\Bank_Application\Bank_Application\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Abhishek Chudasama\Desktop\C Sharp Learning\Major Project Backend\Bank_Application\Bank_Application\bin\Debug\net8.0\AutoMapper.dll

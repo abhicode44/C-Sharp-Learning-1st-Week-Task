@@ -7,11 +7,13 @@ namespace Bank_Application.Model
         [Key]
         public int AuditLogId { get; set; }
 
-        [Required]
+
+
+        [Required ]
 
         public string UserEmail { get; set; }
 
-        [Required]
+        [Required , MaxLength(500)]
         public string ActivityPerformed { get; set;}
 
         [Required]

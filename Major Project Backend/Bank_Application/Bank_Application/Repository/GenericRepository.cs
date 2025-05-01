@@ -1,4 +1,5 @@
-﻿using Bank_Application.Data;
+﻿using System.Linq.Expressions;
+using Bank_Application.Data;
 using Bank_Application.Interface.GernralRepository;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,42 +15,48 @@ namespace Bank_Application.Repository
             _dbset = context.Set<T>();
         }
 
-        public List<T> GetAll()
+        public IQueryable<T> GetAll() 
         {
-            return _dbset.ToList();
+            return _context.Set<T>();
         }
 
-        public T GetById(int id)
+        public async Task<T> GetById(int id)
         {
-            return _dbset.Find(id);
+            return await _context.Set<T>().FindAsync(id);
         }
 
-        
-        public async Task Add(T t)
+        public async Task Add(T entity)
         {
-            await _dbset.AddAsync(t);
-            _context.SaveChanges();
+            await _context.Set<T>().AddAsync(entity);
+            await _context.SaveChangesAsync();
+            
         }
 
-        public void Delete(T entity)
+        public async Task Update(T entity)
         {
-            _dbset.Remove(entity);
-            _context.SaveChanges();
+            _context.Set<T>().Update(entity);
+            await _context.SaveChangesAsync();
         }
 
-        public void Update(T entity)
-        {
-            _dbset.Attach(entity);
 
-            _context.SaveChanges();
+        public async Task<T> GetByConditionAsync(Expression<Func<T, bool>> predicate)
+        {
+            return await _context.Set<T>().FirstOrDefaultAsync(predicate);
         }
 
-        public T GetByEmail(string email)
+        public async Task Delete(int id)
         {
-            return _dbset.Find(email);
+            var entity = await GetById(id);
+            if (entity != null)
+            {
+                _context.Set<T>().Remove(entity);
+                await _context.SaveChangesAsync();
+            }
+        }
+
+        public async Task<T> GetByEmail(string email)
+        {
+            return await _context.Set<T>().FindAsync(email);
         }
     }
-
-
-
 }

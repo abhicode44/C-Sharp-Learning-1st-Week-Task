@@ -10,6 +10,11 @@ using CsvHelper;
 using Bank_Application.Data;
 using Bank_Application.Model.SalaryDistrubutionDto;
 using Bank_Application.Controllers;
+using Bank_Application.Helper;
+using CloudinaryDotNet;
+using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.Options;
+using AutoMapper;
 
 namespace Bank_Application.Services
 {
@@ -22,8 +27,10 @@ namespace Bank_Application.Services
         IGenericRepository<SalaryDistribution> salaryDistributionRepository;
         IAuditService auditService;
         IHttpContextAccessor _httpContextAccessor;
-
-
+        IMapper mapper;
+        Cloudinary _cloudinary;
+         IPhotoService _photoService;
+        
 
 
         public CompanyService(IGenericRepository<Company> companyRepository,
@@ -32,8 +39,13 @@ namespace Bank_Application.Services
             IGenericRepository<Employee> employeeRepository,
             IGenericRepository<SalaryDistribution> salaryDistributionRepository,
             IAuditService auditService,
-            IHttpContextAccessor _httpContextAccessor
+            IHttpContextAccessor _httpContextAccessor,
+            IMapper mapper,
+            IOptions<CloudinarySettings> cloudinaryOptions,
+            IPhotoService photoService
+      
             )
+
         {
             this.repository = companyRepository;
             this.benificaryRepository = benificaryRepository;
@@ -42,7 +54,18 @@ namespace Bank_Application.Services
             this.salaryDistributionRepository = salaryDistributionRepository;
             this._httpContextAccessor = _httpContextAccessor;
             this.auditService = auditService;
+            this.mapper = mapper;
+
+           
+            var acc = new Account(
+           cloudinaryOptions.Value.CloudName,
+           cloudinaryOptions.Value.ApiKey,
+           cloudinaryOptions.Value.ApiSecret);
+            _photoService = photoService;
+            _cloudinary = new Cloudinary(acc);
             
+
+
         }
 
         public string GetUserEmailFromJwt()
@@ -61,44 +84,44 @@ namespace Bank_Application.Services
 
 
 
-        public Company AddCompany(AddCompanyDto addCompanyDto)
+        public async Task<string> AddCompany(AddCompanyDto addCompanyDto)
         {
-            var companyEntity = new Company
+            
+            var uploadAadharFile = await _photoService.AddPhotoAsync(addCompanyDto.CompanyAadharCardFile);
+            var uploadPanFile = await _photoService.AddPhotoAsync(addCompanyDto.CompanyPanCardFile);
+            var uploadOfficialDocument = await _photoService.AddPhotoAsync(addCompanyDto.CompanyOfficalDocumnet);
+            var uploadCompanyProfilePhoto = await _photoService.AddPhotoAsync(addCompanyDto.CompanyProfilePhoto);
+
+            
+            var companyEntity = mapper.Map<Company>(addCompanyDto);
+
             {
-                CompanyName = addCompanyDto.CompanyName,
-                CompanyEmail = addCompanyDto.CompanyEmail,
-                CompanyPassword = addCompanyDto.CompanyPassword,
-                CompanyAddress = addCompanyDto.CompanyAddress,
-                CompanyAccountNumber = addCompanyDto.CompanyAccountNumber,
-                CompanyAccount_IFSCCode = addCompanyDto.CompanyAccount_IFSCCode,
-                CompanyAadharCardFile = addCompanyDto.CompanyAadharCardFile,
-                CompanyPanCardFile = addCompanyDto.CompanyPanCardFile,
-                CompanyOfficalDocumnet = addCompanyDto.CompanyOfficalDocumnet,
-                CompanyProfilePhoto = addCompanyDto.CompanyProfilePhoto,
-                RoleId = 3,
-                IsOTPVerified = false,
-                IsDocumentVerified = false,
-                IsCompanyLoginActive = true,
-                DocumentStatusDesciption = "",
-                CreatedAt = DateTime.Now,
+
+                companyEntity.CompanyAadharCardFile = uploadAadharFile.SecureUrl.AbsoluteUri;
+                companyEntity.CompanyPanCardFile = uploadPanFile.SecureUrl.AbsoluteUri;
+                companyEntity.CompanyOfficalDocumnet = uploadOfficialDocument.SecureUrl.AbsoluteUri;
+                companyEntity.CompanyProfilePhoto = uploadCompanyProfilePhoto.SecureUrl.AbsoluteUri;
+                companyEntity.RoleId = 3;
+                companyEntity.IsOTPVerified = false;
+                companyEntity.IsDocumentVerified = false;
+                companyEntity.IsCompanyLoginActive = true;
+                companyEntity.DocumentStatusDesciption = "";
+                companyEntity.CreatedAt = DateTime.Now;
             };
-            repository.Add(companyEntity);
 
+            
+            await repository.Add(companyEntity);
 
-            string loggedEmail = addCompanyDto.CompanyEmail;
-            string roleName = "Company"; 
+     
+           
 
-            string activity = $"New company '{loggedEmail}' registered successfully.";
-
-            auditService.AddToAuditLog(loggedEmail, activity, roleName);
-
-            return companyEntity;
-
+            return "New Company Added " ;
         }
 
-       
 
-        public Benificiary AddInBoundBenificiary (AddInBoundBenificiaryDto addInBoundBenificiaryDto) 
+
+
+        public async Task<Benificiary> AddInBoundBenificiary (AddInBoundBenificiaryDto addInBoundBenificiaryDto) 
         {
             var benificiaryEntity = new Benificiary
             {
@@ -118,13 +141,13 @@ namespace Bank_Application.Services
 
             string activity = $"Added inbound beneficiary '{addInBoundBenificiaryDto.BenificiaryCompanyName}'.";
 
-            auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
+            await auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
 
             return benificiaryEntity;
 
         }
 
-        public Benificiary AddOutBoundBenificiary(AddOutBoundBenificiaryDto addOutBoundBenificiary)
+        public async  Task<Benificiary> AddOutBoundBenificiary(AddOutBoundBenificiaryDto addOutBoundBenificiary)
         {
             var benificiaryEntity = new Benificiary
             {
@@ -143,11 +166,11 @@ namespace Bank_Application.Services
 
             string activity = $"(Company: {loggedInUserEmail}) made a request to Admin for adding Outbound Beneficiary '{addOutBoundBenificiary.BenificiaryCompanyName}'.";
 
-            auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
+            await auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
             return benificiaryEntity ;
         }
 
-        public Transactionn AddTransaction(AddTransactionDto addTransactionDto)
+        public  async Task<Transactionn> AddTransaction(AddTransactionDto addTransactionDto)
         {
             var transactionEntity = new Transactionn
             {
@@ -172,7 +195,7 @@ namespace Bank_Application.Services
 
 
 
-        public List<Employee> AddEmploye(IFormFile csvFile)
+        public async Task<List<Employee>> AddEmploye(IFormFile csvFile)
         {
             var employeeEntities = new List<Employee>();
 
@@ -227,7 +250,7 @@ namespace Bank_Application.Services
             return employeeEntities;
         }
 
-        public List<Employee> GetAllEmployees()
+        public async  Task<List<Employee>> GetAllEmployees()
         {
             string loggedInUserEmail = GetUserEmailFromJwt();
             string loggedInUserRole = GetUserRoleFromJwt();
@@ -235,10 +258,12 @@ namespace Bank_Application.Services
 
             auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
 
-            return employeeRepository.GetAll();
+            return employeeRepository.GetAll().ToList();
+
         }
 
-        public SalaryDistribution AddSalaryDistribution(AddSalaryDistributionDto addSalaryDistributionDto)
+
+        public async Task<SalaryDistribution> AddSalaryDistribution(AddSalaryDistributionDto addSalaryDistributionDto)
         {
             var salaryDistributionEntity = new SalaryDistribution
             {
@@ -260,5 +285,6 @@ namespace Bank_Application.Services
 
         }
 
+       
     }
 }

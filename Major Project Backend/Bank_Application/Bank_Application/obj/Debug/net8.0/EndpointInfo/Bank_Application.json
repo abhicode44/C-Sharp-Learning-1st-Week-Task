@@ -27,6 +27,13 @@
                   },
                   "AdminPassword": {
                     "type": "string"
+                  },
+                  "IsAdminActive": {
+                    "type": "boolean"
+                  },
+                  "AdminProfilePhoto": {
+                    "type": "string",
+                    "format": "binary"
                   }
                 }
               },
@@ -42,11 +49,84 @@
                 },
                 "AdminPassword": {
                   "style": "form"
+                },
+                "IsAdminActive": {
+                  "style": "form"
+                },
+                "AdminProfilePhoto": {
+                  "style": "form"
                 }
               }
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Admin/AddBank": {
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "BankName": {
+                    "type": "string"
+                  },
+                  "BankBranchCode": {
+                    "type": "string"
+                  },
+                  "BankBranchName": {
+                    "type": "string"
+                  },
+                  "BankUserName": {
+                    "type": "string"
+                  },
+                  "BankPassword": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "BankName": {
+                  "style": "form"
+                },
+                "BankBranchCode": {
+                  "style": "form"
+                },
+                "BankBranchName": {
+                  "style": "form"
+                },
+                "BankUserName": {
+                  "style": "form"
+                },
+                "BankPassword": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Admin/GetAllBank": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -376,76 +456,23 @@
         ],
         "requestBody": {
           "content": {
-            "multipart/form-data": {
-              "schema": {
-                "required": [
-                  "Password",
-                  "UserName"
-                ],
-                "type": "object",
-                "properties": {
-                  "UserName": {
-                    "type": "string"
-                  },
-                  "Password": {
-                    "type": "string"
-                  }
-                }
-              },
-              "encoding": {
-                "UserName": {
-                  "style": "form"
-                },
-                "Password": {
-                  "style": "form"
-                }
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Bank/AddBank": {
-      "post": {
-        "tags": [
-          "Bank"
-        ],
-        "requestBody": {
-          "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/AddBankDto"
+                "$ref": "#/components/schemas/LoginDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/AddBankDto"
+                "$ref": "#/components/schemas/LoginDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/AddBankDto"
+                "$ref": "#/components/schemas/LoginDto"
               }
             }
           }
         },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Bank/GetAllBank": {
-      "get": {
-        "tags": [
-          "Bank"
-        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -483,16 +510,20 @@
                     "type": "string"
                   },
                   "CompanyPanCardFile": {
-                    "type": "string"
+                    "type": "string",
+                    "format": "binary"
                   },
                   "CompanyAadharCardFile": {
-                    "type": "string"
+                    "type": "string",
+                    "format": "binary"
                   },
                   "CompanyOfficalDocumnet": {
-                    "type": "string"
+                    "type": "string",
+                    "format": "binary"
                   },
                   "CompanyProfilePhoto": {
-                    "type": "string"
+                    "type": "string",
+                    "format": "binary"
                   }
                 }
               },
@@ -788,32 +819,6 @@
   },
   "components": {
     "schemas": {
-      "AddBankDto": {
-        "type": "object",
-        "properties": {
-          "bankName": {
-            "type": "string",
-            "nullable": true
-          },
-          "bankBranchCode": {
-            "type": "string",
-            "nullable": true
-          },
-          "bankBranchName": {
-            "type": "string",
-            "nullable": true
-          },
-          "bankUserName": {
-            "type": "string",
-            "nullable": true
-          },
-          "bankPassword": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "DocumentVerifyDto": {
         "type": "object",
         "properties": {
@@ -823,6 +828,24 @@
           "documentStatusDesciption": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginDto": {
+        "required": [
+          "password",
+          "username"
+        ],
+        "type": "object",
+        "properties": {
+          "username": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "password": {
+            "minLength": 1,
+            "type": "string"
           }
         },
         "additionalProperties": false

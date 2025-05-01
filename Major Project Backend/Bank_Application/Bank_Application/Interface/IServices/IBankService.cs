@@ -5,8 +5,7 @@ namespace Bank_Application.Interface.IServices
 {
     public interface IBankService
     {
-        public Bank AddBank(AddBankDto addbankDto);
-        public List<Bank> GetAllBank();
+        
 
     }
 }

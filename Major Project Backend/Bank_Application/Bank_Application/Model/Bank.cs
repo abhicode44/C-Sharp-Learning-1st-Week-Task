@@ -1,4 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace Bank_Application.Model
 {
@@ -13,11 +15,18 @@ namespace Bank_Application.Model
         public string BankUserName { get; set; }
         public string BankPassword { get; set;}
 
+        
+
+
+
     
         [ForeignKey("Role")]
         public int RoleId { get; set; }
 
         // Navigation Property
+
+        [JsonIgnore]
+        [ValidateNever]
         public Role Role { get; set; }
 
     }

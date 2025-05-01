@@ -18,13 +18,13 @@ namespace Bank_Application.Model.CompanyDto
 
         public string CompanyAccount_IFSCCode { get; set; }
 
-        public string CompanyPanCardFile { get; set; }
+        public  IFormFile CompanyPanCardFile { get; set; }
 
-        public string CompanyAadharCardFile { get; set; }
+        public IFormFile CompanyAadharCardFile { get; set; }
 
-        public string CompanyOfficalDocumnet { get; set; }
+        public IFormFile CompanyOfficalDocumnet { get; set; }
 
-        public string CompanyProfilePhoto { get; set; }
+        public IFormFile CompanyProfilePhoto { get; set; }
 
         
 

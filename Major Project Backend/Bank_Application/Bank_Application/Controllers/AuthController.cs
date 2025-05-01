@@ -30,15 +30,15 @@ namespace Bank_Application.Controllers
 
 
         [HttpPost("Login")]
-        public async Task<IActionResult> Login([FromForm] LoginDto loginDto)
+        public async Task<IActionResult> Login([FromBody] LoginDto loginDto)
         {
-            var adminEntity = _myContext.Admin.SingleOrDefault(u => u.AdminEmail == loginDto.UserName);
-            var companyEntity = _myContext.Companies.SingleOrDefault(c => c.CompanyEmail == loginDto.UserName);
-            var bankEntity = _myContext.Banks.SingleOrDefault(p => p.BankUserName == loginDto.UserName);
+            var adminEntity = _myContext.Admin.SingleOrDefault(u => u.AdminEmail == loginDto.username);
+            var companyEntity = _myContext.Companies.SingleOrDefault(c => c.CompanyEmail == loginDto.username);
+            var bankEntity = _myContext.Banks.SingleOrDefault(p => p.BankUserName == loginDto.username);
 
             if (adminEntity != null)
             {
-                if (BCrypt.Net.BCrypt.EnhancedVerify(loginDto.Password, adminEntity.AdminPassword))
+                if (BCrypt.Net.BCrypt.EnhancedVerify(loginDto.password, adminEntity.AdminPassword))
                 {
                     return await GenerateTokenForAdmin(adminEntity, _configuration);
                 }
@@ -47,7 +47,7 @@ namespace Bank_Application.Controllers
 
             if (companyEntity != null)
             {
-                if (BCrypt.Net.BCrypt.EnhancedVerify(loginDto.Password, companyEntity.CompanyPassword))
+                if (BCrypt.Net.BCrypt.EnhancedVerify(loginDto.password, companyEntity.CompanyPassword))
                 {
                     return await GenerateTokenForCompany(companyEntity, _configuration);
                 }
@@ -56,7 +56,7 @@ namespace Bank_Application.Controllers
 
             if (bankEntity != null)
             {
-                if (BCrypt.Net.BCrypt.EnhancedVerify(loginDto.Password, bankEntity.BankPassword))
+                if (BCrypt.Net.BCrypt.EnhancedVerify(loginDto.password, bankEntity.BankPassword))
                 {
                     return await GenerateTokenForBank(bankEntity, _configuration);
                 }
@@ -78,7 +78,11 @@ namespace Bank_Application.Controllers
                         new Claim(JwtRegisteredClaimNames.Sub, _configuration["Jwt:Subject"]),
                         new Claim(ClaimTypes.Role, role.RoleName),
                         new Claim("EmailId",loggeduser.AdminEmail),
-                        
+                        new Claim("AdminFirstName" , loggeduser.AdminFirstName),
+                        new Claim("AdminLastName" , loggeduser.AdminLastName),
+                        new Claim("ProfileImage", loggeduser.AdminProfilePhoto),
+
+
                     };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
@@ -112,6 +116,7 @@ namespace Bank_Application.Controllers
                         new Claim(JwtRegisteredClaimNames.Sub, _configuration["Jwt:Subject"]),
                         new Claim(ClaimTypes.Role, role.RoleName),
                          new Claim("EmailId",loggeduser.BankUserName),
+
                     };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));

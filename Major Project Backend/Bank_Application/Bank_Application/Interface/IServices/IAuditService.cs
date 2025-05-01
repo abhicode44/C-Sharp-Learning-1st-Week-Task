@@ -4,7 +4,7 @@ namespace Bank_Application.Interface.IServices
 {
     public interface IAuditService
     {
-        public Audit AddToAuditLog(string emailId, string activityPerformed , string roleName);
-
+        public Task<Audit> AddToAuditLog(string emailId, string activityPerformed, string roleName);
+       
     }
 }

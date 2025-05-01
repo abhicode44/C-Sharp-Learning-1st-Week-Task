@@ -9,21 +9,21 @@ namespace Bank_Application.Interface.IServices
 {
     public interface ICompanyService
     {
-        
 
-        public Company AddCompany(AddCompanyDto addCompanyDto);
-
-        public Benificiary AddInBoundBenificiary(AddInBoundBenificiaryDto addInBoundBenificiaryDto);
-
-        public Benificiary AddOutBoundBenificiary(AddOutBoundBenificiaryDto addOutBoundBenificiary);
        
-        public Transactionn AddTransaction(AddTransactionDto addTransactionDto);
+        public   Task<string> AddCompany(AddCompanyDto addCompanyDto);
+
+        public Task<Benificiary> AddInBoundBenificiary(AddInBoundBenificiaryDto addInBoundBenificiaryDto);
+
+        public Task<Benificiary> AddOutBoundBenificiary(AddOutBoundBenificiaryDto addOutBoundBenificiary);
+       
+        public Task<Transactionn> AddTransaction(AddTransactionDto addTransactionDto);
         
-        public List<Employee> AddEmploye(IFormFile csvFile);
+        public Task<List<Employee>> AddEmploye(IFormFile csvFile);
 
-        public List<Employee> GetAllEmployees();
+        public Task<List<Employee>> GetAllEmployees();
 
-        public SalaryDistribution AddSalaryDistribution(AddSalaryDistributionDto addSalaryDistributionDto);
+        public Task<SalaryDistribution> AddSalaryDistribution(AddSalaryDistributionDto addSalaryDistributionDto);
 
     }
 }

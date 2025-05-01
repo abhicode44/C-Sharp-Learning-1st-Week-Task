@@ -18,22 +18,9 @@ namespace Bank_Application.Controllers
         }
 
 
-        [HttpPost("AddBank")]
-        public IActionResult AddBank (AddBankDto addBankDto)
-        {
-            string password = BCrypt.Net.BCrypt.EnhancedHashPassword(addBankDto.BankPassword);
-            addBankDto.BankPassword = password; 
-            var bankEntity = bankService.AddBank(addBankDto);   
-            return Ok (bankEntity);
-        }
+       
 
-        [HttpGet("GetAllBank")]
-
-        public IActionResult GetAllBank()
-        {
-            var result = bankService.GetAllBank();
-            return Ok (result);
-        }
+       
 
         
 

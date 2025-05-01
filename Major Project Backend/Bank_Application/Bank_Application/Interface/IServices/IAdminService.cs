@@ -1,41 +1,49 @@
 ﻿using Bank_Application.Model;
 using Bank_Application.Model.AdminDto;
+using Bank_Application.Model.BankDto;
 using Bank_Application.Model.BenificiaryDto;
 using Bank_Application.Model.CompanyDto;
 using Bank_Application.Model.SalaryDistrubutionDto;
 using Bank_Application.Model.TransactionDto;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Bank_Application.Interface.IServices
 {
     public interface IAdminService
     {
-        public List<Admin> GetAllAdmin();
-        public Admin AddAdmin(AddAdminDto addAdminDto);
-        public Admin updateAdminActivation (int AdminId , AdminActivationDto activationDto);
+        public Task<List<Admin>> GetAllAdmin();
+       
+        public Task<string> AddAdmin(AddAdminDto addAdminDto);
 
-        public Company UpdateDocumentVerify(string CompanyEmail, DocumentVerifyDto documentVerifyDto);
+        Task<Bank> AddBank(AddBankDto addBankDto);
 
-        public List<Company> GetAllApprovedCompanies();
+        Task<List<Bank>> GetAllBank();
 
-        public List<Company> GetAllPendingCompanies();
+        public Task<Admin> updateAdminActivation (int AdminId , AdminActivationDto activationDto);
 
-        public List<Benificiary> GetAllPendingOutBenificiaryBoundCompany();
+        public Task<Company> UpdateDocumentVerify(string CompanyEmail, DocumentVerifyDto documentVerifyDto);
 
-        public List<Benificiary> GetAllApprovedOutBenificiaryBoundCompany();
+        public Task<List<Company>> GetAllApprovedCompanies();
 
-        public Benificiary VerifyOutBoundCompany(int BenificiaryId, VerifyOutBoundCompanyDto verifyOutBoundCompanyDto);
+        public Task<List<Company>> GetAllPendingCompanies();
 
-        public List<Transactionn> GetAllPendingTransactionRequest();
+        public Task<List<Benificiary>> GetAllPendingOutBenificiaryBoundCompany();
 
-        public Transactionn VerifyTransactionRequest(int TransactionId, VerifyTransactionDto verifyTransactionDto);
+        public Task<List<Benificiary>> GetAllApprovedOutBenificiaryBoundCompany();
 
-        public List<Transactionn> GetAllApprovedTransaction();
+        public Task<Benificiary> VerifyOutBoundCompany(int BenificiaryId, VerifyOutBoundCompanyDto verifyOutBoundCompanyDto);
 
-        public List<SalaryDistribution> GetAllPendingSalaryDistributions();
+        public Task<List<Transactionn>> GetAllPendingTransactionRequest();
 
-        public List<SalaryDistribution> GetAllApprovedSalaryDistributions();
+        public Task<Transactionn> VerifyTransactionRequest(int TransactionId, VerifyTransactionDto verifyTransactionDto);
+
+        public Task<List<Transactionn>> GetAllApprovedTransaction();
+
+        public Task<List<SalaryDistribution>> GetAllPendingSalaryDistributions();
+
+        public Task<List<SalaryDistribution>> GetAllApprovedSalaryDistributions();
 
 
-        public List<SalaryDistribution> VerifySalaryDistribution(int salaryDistributionId, VerifySalaryDistributionDto verifySalaryDistributionDto);
+        public Task<List<SalaryDistribution>> VerifySalaryDistribution(int salaryDistributionId, VerifySalaryDistributionDto verifySalaryDistributionDto);
     }
 }
