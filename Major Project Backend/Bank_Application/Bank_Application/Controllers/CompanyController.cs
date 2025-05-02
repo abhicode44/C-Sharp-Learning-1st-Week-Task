@@ -30,7 +30,7 @@ namespace Bank_Application.Controllers
             string password = BCrypt.Net.BCrypt.EnhancedHashPassword(addCompanyDto.CompanyPassword);
             addCompanyDto.CompanyPassword = password;
             var companyEntity = await companyService.AddCompany(addCompanyDto);
-            return Ok(companyEntity);
+            return Ok(new { message = "New Company Added" });
         }
 
 
