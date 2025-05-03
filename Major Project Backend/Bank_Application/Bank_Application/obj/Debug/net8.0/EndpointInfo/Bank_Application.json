@@ -353,11 +353,17 @@
                 "properties": {
                   "IsTransactionApproved": {
                     "type": "boolean"
+                  },
+                  "TransactionDescription": {
+                    "type": "string"
                   }
                 }
               },
               "encoding": {
                 "IsTransactionApproved": {
+                  "style": "form"
+                },
+                "TransactionDescription": {
                   "style": "form"
                 }
               }

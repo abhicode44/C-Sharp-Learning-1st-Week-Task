@@ -300,6 +300,7 @@ namespace Bank_Application.Services
                 throw new Exception($" This Transaction Id  {TransactionId} not found.");
             }
             transactionEntity.IsTransactionApproved = verifyTransactionDto.IsTransactionApproved;
+            transactionEntity.TransactionDescription = verifyTransactionDto.TransactionDescription;
             transactionRepository.Update(transactionEntity);
 
             string loggedInUserEmail = GetUserEmailFromJwt();

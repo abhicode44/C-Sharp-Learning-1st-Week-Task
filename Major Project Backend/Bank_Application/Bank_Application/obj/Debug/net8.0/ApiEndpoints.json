@@ -277,6 +277,11 @@
         "Name": "IsTransactionApproved",
         "Type": "System.Boolean",
         "IsRequired": false
+      },
+      {
+        "Name": "TransactionDescription",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
