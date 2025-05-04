@@ -45,5 +45,8 @@ namespace Bank_Application.Interface.IServices
 
 
         public Task<List<SalaryDistribution>> VerifySalaryDistribution(int salaryDistributionId, VerifySalaryDistributionDto verifySalaryDistributionDto);
+
+        public  Task <List<Audit>> GetAllAuditsLogs();
+
     }
 }

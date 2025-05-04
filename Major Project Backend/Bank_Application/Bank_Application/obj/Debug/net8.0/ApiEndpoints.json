@@ -159,6 +159,16 @@
   },
   {
     "ContainingType": "Bank_Application.Controllers.AdminController",
+    "Method": "GetAllAuditsLogs",
+    "RelativePath": "api/Admin/GetAllAuditLogs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bank_Application.Controllers.AdminController",
     "Method": "GetAllBank",
     "RelativePath": "api/Admin/GetAllBank",
     "HttpMethod": "GET",
@@ -199,27 +209,6 @@
   },
   {
     "ContainingType": "Bank_Application.Controllers.AdminController",
-    "Method": "VerifySalaryDistribution",
-    "RelativePath": "api/Admin/Verify-Salary-Distribution/{SalaryDistributionId}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "SalaryDistributionId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "IsSalaryCredit",
-        "Type": "System.Boolean",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Bank_Application.Controllers.AdminController",
     "Method": "UpdateDocumentVerify",
     "RelativePath": "api/Admin/VerifyCompanyDocument",
     "HttpMethod": "PUT",
@@ -256,6 +245,22 @@
         "Name": "IsBenificiaryApproved",
         "Type": "System.Boolean",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bank_Application.Controllers.AdminController",
+    "Method": "VerifySalaryDistribution",
+    "RelativePath": "api/Admin/VerifySalaryDistribution",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "verifySalaryDistributionDto",
+        "Type": "Bank_Application.Model.SalaryDistrubutionDto.VerifySalaryDistributionDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

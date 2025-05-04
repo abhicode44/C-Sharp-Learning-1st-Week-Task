@@ -413,41 +413,42 @@
         }
       }
     },
-    "/api/Admin/Verify-Salary-Distribution/{SalaryDistributionId}": {
+    "/api/Admin/VerifySalaryDistribution": {
       "put": {
         "tags": [
           "Admin"
         ],
-        "parameters": [
-          {
-            "name": "SalaryDistributionId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
         "requestBody": {
           "content": {
-            "multipart/form-data": {
+            "application/json": {
               "schema": {
-                "type": "object",
-                "properties": {
-                  "IsSalaryCredit": {
-                    "type": "boolean"
-                  }
-                }
-              },
-              "encoding": {
-                "IsSalaryCredit": {
-                  "style": "form"
-                }
+                "$ref": "#/components/schemas/VerifySalaryDistributionDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerifySalaryDistributionDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerifySalaryDistributionDto"
               }
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Admin/GetAllAuditLogs": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -852,6 +853,27 @@
           "password": {
             "minLength": 1,
             "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VerifySalaryDistributionDto": {
+        "type": "object",
+        "properties": {
+          "isSalaryCredit": {
+            "type": "boolean"
+          },
+          "salaryDistributionIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
+          },
+          "salaryDescription": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

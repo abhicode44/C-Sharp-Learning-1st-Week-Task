@@ -28,6 +28,7 @@ namespace Bank_Application.Services
         IGenericRepository<Benificiary> benificaryRepository;
         IGenericRepository<Transactionn> transactionRepository;
         IGenericRepository<SalaryDistribution> salaryDistributionRepository;
+        IGenericRepository<Audit> auditRepository;
         IAuditService auditService;
         IHttpContextAccessor _httpContextAccessor;
         Cloudinary _cloudinary;
@@ -39,7 +40,8 @@ namespace Bank_Application.Services
             IGenericRepository<Bank> bankRepository ,
             IGenericRepository<Benificiary> benificiaryRepository,
             IGenericRepository<Transactionn> transactionRepository ,
-            IGenericRepository<SalaryDistribution> salaryDistributionRepository , 
+            IGenericRepository<SalaryDistribution> salaryDistributionRepository ,
+            IGenericRepository<Audit> auditRepository ,
             IAuditService auditService , 
             IHttpContextAccessor httpContextAccessor,
             IOptions<CloudinarySettings> cloudinaryOptions,
@@ -54,9 +56,11 @@ namespace Bank_Application.Services
             this.benificaryRepository = benificiaryRepository;
             this.transactionRepository = transactionRepository;
             this.salaryDistributionRepository = salaryDistributionRepository;
+            this.auditRepository = auditRepository;
             this.auditService = auditService;
             this._httpContextAccessor = httpContextAccessor;
             this.mapper = mapper;
+            
 
 
             var acc = new Account(
@@ -354,42 +358,73 @@ namespace Bank_Application.Services
         }
 
 
-        public async  Task<List<SalaryDistribution>> VerifySalaryDistribution(int salaryDistributionId, VerifySalaryDistributionDto verifySalaryDistributionDto)
+        public async Task<List<SalaryDistribution>> VerifySalaryDistribution(int salaryDistributionId, VerifySalaryDistributionDto verifySalaryDistributionDto)
         {
             var records = await GetAllPendingSalaryDistributions();
-
             var updatedDistributions = new List<SalaryDistribution>();
 
+            // Prepare a list of IDs to process: single ID or batch from DTO
+            List<int> targetIds = new List<int>();
+
+            // Use HashSet for fast lookup in batch processing
+            HashSet<int> targetIdsSet = new HashSet<int>();
+
+            // If a list of IDs is provided, process in batch
+            if (verifySalaryDistributionDto.SalaryDistributionIds != null && verifySalaryDistributionDto.SalaryDistributionIds.Any())
+            {
+                targetIdsSet = new HashSet<int>(verifySalaryDistributionDto.SalaryDistributionIds);
+            }
+            // If single ID is provided, process that ID
+            else if (salaryDistributionId > 0)
+            {
+                targetIdsSet.Add(salaryDistributionId);
+            }
+
+            // If no target IDs, return early
+            if (targetIdsSet.Count == 0)
+            {
+                throw new Exception("No salary distribution IDs provided for processing.");
+            }
+
+            // Loop through all records and update the matching ones
             foreach (var found in records)
             {
-                if (found.SalaryDisbutionId == salaryDistributionId)
+                if (targetIdsSet.Contains(found.SalaryDisbutionId))
                 {
                     found.IsSalaryCredit = verifySalaryDistributionDto.IsSalaryCredit;
+                    found.SalaryDescription = verifySalaryDistributionDto.SalaryDescription;  // Assuming description can be passed as part of DTO
 
                     salaryDistributionRepository.Update(found);
                     updatedDistributions.Add(found);
                 }
             }
 
+            // If no records were updated, throw an exception
             if (updatedDistributions.Count == 0)
             {
-                throw new Exception($"This salary ID {salaryDistributionId} was not found in pending records.");
+                string missingIds = string.Join(", ", targetIdsSet);
+                throw new Exception($"No matching salary distributions found for the following IDs: {missingIds}");
             }
 
             string loggedInUserEmail = GetUserEmailFromJwt();
             string loggedInUserRole = GetUserRoleFromJwt();
 
-           
-            string activity = verifySalaryDistributionDto.IsSalaryCredit
-                ? $"User '{loggedInUserEmail}' verified salary distribution for SalaryDistributionId '{salaryDistributionId}'."
-                : $"User '{loggedInUserEmail}' marked salary distribution as not verified for SalaryDistributionId '{salaryDistributionId}'.";
+            // Log activity for all updated records in a single call
+            foreach (var item in updatedDistributions)
+            {
+                string activity = verifySalaryDistributionDto.IsSalaryCredit
+                    ? $"User '{loggedInUserEmail}' verified salary distribution for SalaryDistributionId '{item.SalaryDisbutionId}'."
+                    : $"User '{loggedInUserEmail}' marked salary distribution as not verified for SalaryDistributionId '{item.SalaryDisbutionId}'.";
 
-            auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
-
+                auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
+            }
 
             return updatedDistributions;
         }
 
-
+        public Task<List<Audit>> GetAllAuditsLogs()
+        {
+            return auditRepository.GetAll().ToListAsync();
+        }
     }
 }

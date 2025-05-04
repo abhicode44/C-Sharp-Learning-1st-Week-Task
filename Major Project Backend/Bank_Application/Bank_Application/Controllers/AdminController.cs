@@ -184,11 +184,27 @@ namespace Bank_Application.Controllers
         }
 
 
-        [HttpPut("Verify-Salary-Distribution/{SalaryDistributionId:int}")]
+
+        [HttpPut("VerifySalaryDistribution")]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> VerifySalaryDistribution( int SalaryDistributionId, [FromForm]  VerifySalaryDistributionDto verifySalaryDistributionDto)
+        public async Task<IActionResult> VerifySalaryDistribution([FromBody] VerifySalaryDistributionDto verifySalaryDistributionDto)
         {
-            var result = await  adminService.VerifySalaryDistribution(SalaryDistributionId, verifySalaryDistributionDto);
+            try
+            {
+                var result = await adminService.VerifySalaryDistribution(0, verifySalaryDistributionDto);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
+
+        [HttpGet("GetAllAuditLogs")]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> GetAllAuditsLogs()
+        {
+            var result = await adminService.GetAllAuditsLogs();
             return Ok(result);
         }
 
