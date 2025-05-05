@@ -119,8 +119,6 @@ namespace Bank_Application.Services
         }
 
 
-
-
         public async Task<Benificiary> AddInBoundBenificiary (AddInBoundBenificiaryDto addInBoundBenificiaryDto) 
         {
             var benificiaryEntity = new Benificiary
@@ -191,8 +189,6 @@ namespace Bank_Application.Services
 
             return transactionEntity ;
         }
-
-
 
 
         public async Task<List<Employee>> AddEmploye(IFormFile csvFile)
@@ -285,6 +281,38 @@ namespace Bank_Application.Services
 
         }
 
-       
+        public async Task<List<Benificiary>> GetAllInboundBenificiary()
+        {
+            string loggedInUserEmail = GetUserEmailFromJwt();
+            string loggedInUserRole = GetUserRoleFromJwt();
+            string activity = $"{loggedInUserEmail} retrieved the list of all Inbound Beneficiary List";
+
+            
+            auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
+
+            var inboundList = benificaryRepository.GetAll().Where(c => c.BenificiaryType == "Inbound" && c.CompanyEmail == loggedInUserEmail).ToList();
+
+            return inboundList;
+
+        }
+
+        public async Task<List<Benificiary>> GetAllOutboundBenificiary()
+        {
+            string loggedInUserEmail = GetUserEmailFromJwt();
+            string loggedInUserRole = GetUserRoleFromJwt();
+            string activity = $"{loggedInUserEmail} retrieved the list of all Inbound Beneficiary List";
+
+
+            auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
+
+            var outboundList = benificaryRepository.GetAll().Where(c => c.BenificiaryType == "Outbound" && c.CompanyEmail == loggedInUserEmail).ToList();
+
+            return outboundList;
+
+        }
+
+
+
+
     }
 }

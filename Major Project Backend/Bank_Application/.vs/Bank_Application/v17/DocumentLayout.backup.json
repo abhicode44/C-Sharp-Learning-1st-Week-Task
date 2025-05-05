@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\major project backend\\bank_application\\bank_application\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|solutionrelative:bank_application\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\major project backend\\bank_application\\bank_application\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|solutionrelative:bank_application\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\major project backend\\bank_application\\bank_application\\interface\\iservices\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|solutionrelative:bank_application\\interface\\iservices\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\major project backend\\bank_application\\bank_application\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|solutionrelative:bank_application\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\major project backend\\bank_application\\bank_application\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|solutionrelative:bank_application\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\major project backend\\bank_application\\bank_application\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|solutionrelative:bank_application\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,20 +67,12 @@
       "RelativeMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|solutionrelative:bank_application\\model\\salarydistribution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\major project backend\\bank_application\\bank_application\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|solutionrelative:bank_application\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\major project backend\\bank_application\\bank_application\\model\\transactionn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|solutionrelative:bank_application\\model\\transactionn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\major project backend\\bank_application\\bank_application\\model\\transactiondto\\addtransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|solutionrelative:bank_application\\model\\transactiondto\\addtransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\major project backend\\bank_application\\bank_application\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|solutionrelative:bank_application\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\major project backend\\bank_application\\bank_application\\model\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,16 +103,8 @@
       "RelativeMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|solutionrelative:bank_application\\model\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\major project backend\\bank_application\\bank_application\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|solutionrelative:bank_application\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\major project backend\\bank_application\\bank_application\\model\\audit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|solutionrelative:bank_application\\model\\audit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\major project backend\\bank_application\\bank_application\\interface\\iservices\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|solutionrelative:bank_application\\interface\\iservices\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\major project backend\\bank_application\\bank_application\\controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -121,10 +125,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\major project backend\\bank_application\\bank_application\\interface\\iservices\\iauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|solutionrelative:bank_application\\interface\\iservices\\iauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\major project backend\\bank_application\\bank_application\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|solutionrelative:bank_application\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC367EC9-0D07-46F7-91E9-968C3B419391}|Bank_Application\\Bank_Application.csproj|c:\\users\\abhishek chudasama\\desktop\\c sharp learning\\major project backend\\bank_application\\bank_application\\helper\\iphotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -226,11 +226,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Company.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\Company.cs",
               "RelativeDocumentMoniker": "Bank_Application\\Model\\Company.cs",
@@ -243,13 +243,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "CompanyService.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Services\\CompanyService.cs",
               "RelativeDocumentMoniker": "Bank_Application\\Services\\CompanyService.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Services\\CompanyService.cs",
-              "RelativeToolTip": "Bank_Application\\Services\\CompanyService.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAswB4BAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Services\\CompanyService.cs*",
+              "RelativeToolTip": "Bank_Application\\Services\\CompanyService.cs*",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAcwCoBAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T11:55:02.144Z",
               "IsPinned": true,
@@ -257,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "AdminService.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Services\\AdminService.cs",
               "RelativeDocumentMoniker": "Bank_Application\\Services\\AdminService.cs",
@@ -266,12 +266,23 @@
               "ViewState": "AgIAAKEBAAAAAAAAAAAnwKgBAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T08:19:41.52Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Interface\\IServices\\IAdminService.cs",
+              "RelativeDocumentMoniker": "Bank_Application\\Interface\\IServices\\IAdminService.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Interface\\IServices\\IAdminService.cs",
+              "RelativeToolTip": "Bank_Application\\Interface\\IServices\\IAdminService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAUwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T07:36:55.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AuditService.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Services\\AuditService.cs",
               "RelativeDocumentMoniker": "Bank_Application\\Services\\AuditService.cs",
@@ -279,177 +290,50 @@
               "RelativeToolTip": "Bank_Application\\Services\\AuditService.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAA4wBIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T12:32:13.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IAdminService.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Interface\\IServices\\IAdminService.cs",
-              "RelativeDocumentMoniker": "Bank_Application\\Interface\\IServices\\IAdminService.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Interface\\IServices\\IAdminService.cs*",
-              "RelativeToolTip": "Bank_Application\\Interface\\IServices\\IAdminService.cs*",
-              "ViewState": "AgIAACMAAAAAAAAAAAAUwDEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T07:36:55.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Program.cs",
-              "RelativeDocumentMoniker": "Bank_Application\\Program.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Program.cs*",
-              "RelativeToolTip": "Bank_Application\\Program.cs*",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAiwFkAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T08:23:32.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T12:32:13.307Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Bank_Application\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Bank_Application\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAALcAAAAAAAAAAAAuwMkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T14:12:59.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Transactionn.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\Transactionn.cs",
-              "RelativeDocumentMoniker": "Bank_Application\\Model\\Transactionn.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\Transactionn.cs",
-              "RelativeToolTip": "Bank_Application\\Model\\Transactionn.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAkAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T18:50:10.142Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Repository\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Bank_Application\\Repository\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Repository\\GenericRepository.cs",
-              "RelativeToolTip": "Bank_Application\\Repository\\GenericRepository.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAcwA8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:18:13.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SalaryDistribution.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\SalaryDistribution.cs",
-              "RelativeDocumentMoniker": "Bank_Application\\Model\\SalaryDistribution.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\SalaryDistribution.cs",
-              "RelativeToolTip": "Bank_Application\\Model\\SalaryDistribution.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBMAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T07:26:21.926Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MyContext.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Data\\MyContext.cs",
-              "RelativeDocumentMoniker": "Bank_Application\\Data\\MyContext.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Data\\MyContext.cs",
-              "RelativeToolTip": "Bank_Application\\Data\\MyContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAcAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:02:09.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PhotoService.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Helper\\PhotoService.cs",
-              "RelativeDocumentMoniker": "Bank_Application\\Helper\\PhotoService.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Helper\\PhotoService.cs",
-              "RelativeToolTip": "Bank_Application\\Helper\\PhotoService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA4wBMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T11:45:50.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "VerifyTransactionDto.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\TransactionDto\\VerifyTransactionDto.cs",
-              "RelativeDocumentMoniker": "Bank_Application\\Model\\TransactionDto\\VerifyTransactionDto.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\TransactionDto\\VerifyTransactionDto.cs",
-              "RelativeToolTip": "Bank_Application\\Model\\TransactionDto\\VerifyTransactionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T08:31:09.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "VerifySalaryDistributionDto.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\SalaryDistrubutionDto\\VerifySalaryDistributionDto.cs",
-              "RelativeDocumentMoniker": "Bank_Application\\Model\\SalaryDistrubutionDto\\VerifySalaryDistributionDto.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\SalaryDistrubutionDto\\VerifySalaryDistributionDto.cs",
-              "RelativeToolTip": "Bank_Application\\Model\\SalaryDistrubutionDto\\VerifySalaryDistributionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T07:24:16.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AddTransactionDto.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\TransactionDto\\AddTransactionDto.cs",
-              "RelativeDocumentMoniker": "Bank_Application\\Model\\TransactionDto\\AddTransactionDto.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\TransactionDto\\AddTransactionDto.cs",
-              "RelativeToolTip": "Bank_Application\\Model\\TransactionDto\\AddTransactionDto.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T06:30:31.248Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "CompanyController.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Controllers\\CompanyController.cs",
               "RelativeDocumentMoniker": "Bank_Application\\Controllers\\CompanyController.cs",
               "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Controllers\\CompanyController.cs",
               "RelativeToolTip": "Bank_Application\\Controllers\\CompanyController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAA1wDkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T09:16:11.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AddCompanyDto.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\CompanyDto\\AddCompanyDto.cs",
-              "RelativeDocumentMoniker": "Bank_Application\\Model\\CompanyDto\\AddCompanyDto.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\CompanyDto\\AddCompanyDto.cs",
-              "RelativeToolTip": "Bank_Application\\Model\\CompanyDto\\AddCompanyDto.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAcwBwAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ICompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Interface\\IServices\\ICompanyService.cs",
+              "RelativeDocumentMoniker": "Bank_Application\\Interface\\IServices\\ICompanyService.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Interface\\IServices\\ICompanyService.cs*",
+              "RelativeToolTip": "Bank_Application\\Interface\\IServices\\ICompanyService.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T13:47:48.584Z"
+              "WhenOpened": "2025-04-27T12:28:22.237Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Bank_Application\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Bank_Application\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAkwIwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T12:44:49.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\appsettings.json",
               "RelativeDocumentMoniker": "Bank_Application\\appsettings.json",
@@ -461,7 +345,139 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Bank_Application\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Bank_Application\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAMsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:12:59.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Program.cs",
+              "RelativeDocumentMoniker": "Bank_Application\\Program.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Program.cs",
+              "RelativeToolTip": "Bank_Application\\Program.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAiwFkAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T08:23:32.499Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "Transactionn.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\Transactionn.cs",
+              "RelativeDocumentMoniker": "Bank_Application\\Model\\Transactionn.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\Transactionn.cs",
+              "RelativeToolTip": "Bank_Application\\Model\\Transactionn.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T18:50:10.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Bank_Application\\Repository\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "Bank_Application\\Repository\\GenericRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:18:13.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SalaryDistribution.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\SalaryDistribution.cs",
+              "RelativeDocumentMoniker": "Bank_Application\\Model\\SalaryDistribution.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\SalaryDistribution.cs",
+              "RelativeToolTip": "Bank_Application\\Model\\SalaryDistribution.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T07:26:21.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MyContext.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Data\\MyContext.cs",
+              "RelativeDocumentMoniker": "Bank_Application\\Data\\MyContext.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Data\\MyContext.cs",
+              "RelativeToolTip": "Bank_Application\\Data\\MyContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAcAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:02:09.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PhotoService.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Helper\\PhotoService.cs",
+              "RelativeDocumentMoniker": "Bank_Application\\Helper\\PhotoService.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Helper\\PhotoService.cs",
+              "RelativeToolTip": "Bank_Application\\Helper\\PhotoService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA4wBMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T11:45:50.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "VerifyTransactionDto.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\TransactionDto\\VerifyTransactionDto.cs",
+              "RelativeDocumentMoniker": "Bank_Application\\Model\\TransactionDto\\VerifyTransactionDto.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\TransactionDto\\VerifyTransactionDto.cs",
+              "RelativeToolTip": "Bank_Application\\Model\\TransactionDto\\VerifyTransactionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T08:31:09.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VerifySalaryDistributionDto.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\SalaryDistrubutionDto\\VerifySalaryDistributionDto.cs",
+              "RelativeDocumentMoniker": "Bank_Application\\Model\\SalaryDistrubutionDto\\VerifySalaryDistributionDto.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\SalaryDistrubutionDto\\VerifySalaryDistributionDto.cs",
+              "RelativeToolTip": "Bank_Application\\Model\\SalaryDistrubutionDto\\VerifySalaryDistributionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T07:24:16.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddTransactionDto.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\TransactionDto\\AddTransactionDto.cs",
+              "RelativeDocumentMoniker": "Bank_Application\\Model\\TransactionDto\\AddTransactionDto.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\TransactionDto\\AddTransactionDto.cs",
+              "RelativeToolTip": "Bank_Application\\Model\\TransactionDto\\AddTransactionDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T06:30:31.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddCompanyDto.cs",
+              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\CompanyDto\\AddCompanyDto.cs",
+              "RelativeDocumentMoniker": "Bank_Application\\Model\\CompanyDto\\AddCompanyDto.cs",
+              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\CompanyDto\\AddCompanyDto.cs",
+              "RelativeToolTip": "Bank_Application\\Model\\CompanyDto\\AddCompanyDto.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:47:48.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "DocumentVerifyDto.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\CompanyDto\\DocumentVerifyDto.cs",
               "RelativeDocumentMoniker": "Bank_Application\\Model\\CompanyDto\\DocumentVerifyDto.cs",
@@ -473,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "AddBankDto.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\BankDto\\AddBankDto.cs",
               "RelativeDocumentMoniker": "Bank_Application\\Model\\BankDto\\AddBankDto.cs",
@@ -485,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Bank.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\Bank.cs",
               "RelativeDocumentMoniker": "Bank_Application\\Model\\Bank.cs",
@@ -497,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\Admin.cs",
               "RelativeDocumentMoniker": "Bank_Application\\Model\\Admin.cs",
@@ -509,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "AddAdminDto.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\AdminDto\\AddAdminDto.cs",
               "RelativeDocumentMoniker": "Bank_Application\\Model\\AdminDto\\AddAdminDto.cs",
@@ -533,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Audit.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Model\\Audit.cs",
               "RelativeDocumentMoniker": "Bank_Application\\Model\\Audit.cs",
@@ -545,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "IAuditService.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Interface\\IServices\\IAuditService.cs",
               "RelativeDocumentMoniker": "Bank_Application\\Interface\\IServices\\IAuditService.cs",
@@ -557,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "BankService.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Services\\BankService.cs",
               "RelativeDocumentMoniker": "Bank_Application\\Services\\BankService.cs",
@@ -569,19 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ICompanyService.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Interface\\IServices\\ICompanyService.cs",
-              "RelativeDocumentMoniker": "Bank_Application\\Interface\\IServices\\ICompanyService.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Interface\\IServices\\ICompanyService.cs",
-              "RelativeToolTip": "Bank_Application\\Interface\\IServices\\ICompanyService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA1wBsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T12:28:22.237Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "BankController.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Controllers\\BankController.cs",
               "RelativeDocumentMoniker": "Bank_Application\\Controllers\\BankController.cs",
@@ -593,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "IBankService.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Interface\\IServices\\IBankService.cs",
               "RelativeDocumentMoniker": "Bank_Application\\Interface\\IServices\\IBankService.cs",
@@ -605,7 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Interface\\lRepository\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "Bank_Application\\Interface\\lRepository\\IGenericRepository.cs",
@@ -614,18 +618,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T12:45:18.493Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Bank_Application\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Abhishek Chudasama\\Desktop\\C Sharp Learning\\Major Project Backend\\Bank_Application\\Bank_Application\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Bank_Application\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T12:44:49.334Z"
             },
             {
               "$type": "Document",

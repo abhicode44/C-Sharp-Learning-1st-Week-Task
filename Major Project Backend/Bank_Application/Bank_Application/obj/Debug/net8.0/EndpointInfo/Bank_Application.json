@@ -774,6 +774,30 @@
         }
       }
     },
+    "/api/Company/GetAllInboundCompany": {
+      "get": {
+        "tags": [
+          "Company"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Company/GetAllOutboundCompany": {
+      "get": {
+        "tags": [
+          "Company"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Company/AddSalaryDistribution": {
       "post": {
         "tags": [

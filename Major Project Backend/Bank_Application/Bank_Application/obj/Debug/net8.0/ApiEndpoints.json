@@ -504,6 +504,26 @@
   },
   {
     "ContainingType": "Bank_Application.Controllers.CompanyController",
+    "Method": "GetAllInboundBenificiary",
+    "RelativePath": "api/Company/GetAllInboundCompany",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bank_Application.Controllers.CompanyController",
+    "Method": "GetAllOutboundBenificiary",
+    "RelativePath": "api/Company/GetAllOutboundCompany",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bank_Application.Controllers.CompanyController",
     "Method": "AddEmploye",
     "RelativePath": "api/Company/UploadEmpolyees",
     "HttpMethod": "POST",

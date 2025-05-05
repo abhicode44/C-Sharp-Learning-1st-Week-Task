@@ -82,6 +82,24 @@ namespace Bank_Application.Controllers
             return Ok(result);
         }
 
+        [HttpGet("GetAllInboundCompany")]
+        [Authorize(Roles = "Company")]
+        public async Task<IActionResult> GetAllInboundBenificiary()
+        {
+            var result = await companyService.GetAllInboundBenificiary();
+            return Ok(result);
+        }
+
+        [HttpGet("GetAllOutboundCompany")]
+        [Authorize(Roles = "Company")]
+        public async Task<IActionResult> GetAllOutboundBenificiary()
+        {
+            var result = await companyService.GetAllOutboundBenificiary();
+            return Ok(result);
+        }
+
+
+
 
         [HttpPost("AddSalaryDistribution")]
         [Authorize(Roles = "Company")]

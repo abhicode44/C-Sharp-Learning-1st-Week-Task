@@ -148,6 +148,8 @@ namespace Bank_Application.Controllers
                         new Claim(JwtRegisteredClaimNames.Sub, _configuration["Jwt:Subject"]),
                         new Claim(ClaimTypes.Role, role.RoleName),
                         new Claim("EmailId",loggeduser.CompanyEmail),
+                         new Claim("CompanyName" , loggeduser.CompanyName),
+                        new Claim("CompanyProfileImage", loggeduser.CompanyProfilePhoto),
                     };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));

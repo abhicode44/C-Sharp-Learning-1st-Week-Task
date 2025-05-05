@@ -25,5 +25,9 @@ namespace Bank_Application.Interface.IServices
 
         public Task<SalaryDistribution> AddSalaryDistribution(AddSalaryDistributionDto addSalaryDistributionDto);
 
+        public Task<List<Benificiary>> GetAllInboundBenificiary();
+
+        public Task<List<Benificiary>> GetAllOutboundBenificiary();
+
     }
 }
