@@ -280,7 +280,7 @@ namespace Bank_Application.Services
 
             await  auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
 
-            var approvedOutBound = benificaryRepository.GetAll().Where(c => c.IsBenificiaryApproved == true).ToList();
+            var approvedOutBound = benificaryRepository.GetAll().Where(c => c.IsBenificiaryApproved == true && c.BenificiaryType == "Outbound").ToList();
             return approvedOutBound;
 
         }

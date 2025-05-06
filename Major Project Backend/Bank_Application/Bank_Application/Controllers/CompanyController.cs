@@ -98,6 +98,14 @@ namespace Bank_Application.Controllers
             return Ok(result);
         }
 
+        [HttpGet("GetAllApprovedBenificiaryCompany")]
+        [Authorize(Roles = "Company")]
+        public async Task<IActionResult> GetAllApprovedBenificiary()
+        {
+            var result = await companyService.GetAllApprovedBenificiary();
+            return Ok(result);
+        }
+
 
 
 

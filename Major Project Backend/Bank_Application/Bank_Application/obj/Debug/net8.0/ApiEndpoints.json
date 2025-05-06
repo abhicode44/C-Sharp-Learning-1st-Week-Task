@@ -494,6 +494,16 @@
   },
   {
     "ContainingType": "Bank_Application.Controllers.CompanyController",
+    "Method": "GetAllApprovedBenificiary",
+    "RelativePath": "api/Company/GetAllApprovedBenificiaryCompany",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bank_Application.Controllers.CompanyController",
     "Method": "GetAllEmployees",
     "RelativePath": "api/Company/GetAllEmployeesList",
     "HttpMethod": "GET",

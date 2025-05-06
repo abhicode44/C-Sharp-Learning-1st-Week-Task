@@ -15,6 +15,7 @@ using CloudinaryDotNet;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Options;
 using AutoMapper;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace Bank_Application.Services
 {
@@ -305,10 +306,24 @@ namespace Bank_Application.Services
 
             auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
 
-            var outboundList = benificaryRepository.GetAll().Where(c => c.BenificiaryType == "Outbound" && c.CompanyEmail == loggedInUserEmail).ToList();
+            var outboundList = benificaryRepository.GetAll().Where(c => c.BenificiaryType == "Outbound" && c.CompanyEmail == loggedInUserEmail && c.IsBenificiaryApproved == true).ToList();
 
             return outboundList;
 
+        }
+
+        public async Task<List<Benificiary>> GetAllApprovedBenificiary()
+        {
+            string loggedInUserEmail = GetUserEmailFromJwt();
+            string loggedInUserRole = GetUserRoleFromJwt();
+            string activity = $"{loggedInUserEmail} retrieved the list of all Approved Beneficiary List";
+
+
+            auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
+
+            var approvedlist = benificaryRepository.GetAll().Where(c => c.IsBenificiaryApproved && c.CompanyEmail == loggedInUserEmail).ToList();
+
+            return approvedlist;
         }
 
 

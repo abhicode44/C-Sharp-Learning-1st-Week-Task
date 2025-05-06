@@ -29,5 +29,7 @@ namespace Bank_Application.Interface.IServices
 
         public Task<List<Benificiary>> GetAllOutboundBenificiary();
 
+        public Task<List<Benificiary>> GetAllApprovedBenificiary();
+
     }
 }

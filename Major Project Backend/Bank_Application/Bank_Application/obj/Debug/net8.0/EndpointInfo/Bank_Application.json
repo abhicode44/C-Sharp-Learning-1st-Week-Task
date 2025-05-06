@@ -798,6 +798,18 @@
         }
       }
     },
+    "/api/Company/GetAllApprovedBenificiaryCompany": {
+      "get": {
+        "tags": [
+          "Company"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Company/AddSalaryDistribution": {
       "post": {
         "tags": [
