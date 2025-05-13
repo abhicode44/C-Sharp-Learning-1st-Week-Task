@@ -57,6 +57,7 @@ namespace Bank_Application.Repository
         public async Task<T> GetByEmail(string email)
         {
             return await _context.Set<T>().FindAsync(email);
+          // return _context.Employees.SingleOrDefault(e=>e.EmpEmail == email);
         }
     }
 }

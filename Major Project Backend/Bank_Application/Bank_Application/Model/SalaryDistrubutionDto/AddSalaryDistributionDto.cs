@@ -4,14 +4,14 @@ namespace Bank_Application.Model.SalaryDistrubutionDto
 {
     public class AddSalaryDistributionDto
     {
-        [Required]
-        public string EmployeeEmail { get; set; }
 
+        public List<string>? EmployeeEmails { get; set; } // List of employee emails for batch processing
+        public List<int> EmpSalaries { get; set; }        // List of corresponding salaries
+        public List<string> CompanyEmails { get; set; }  // List of company emails corresponding to each employee
 
-        [Required]
-        public int EmpSalary { get; set; }
-
-        [Required]
-        public string CompanyEmail { get; set; }
+        public bool IsValid()
+        {
+            return EmployeeEmails.Count == CompanyEmails.Count && EmployeeEmails.Count == EmpSalaries.Count;
+        }
     }
 }

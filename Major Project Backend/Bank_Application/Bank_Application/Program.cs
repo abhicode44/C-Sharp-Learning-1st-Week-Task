@@ -121,7 +121,10 @@ builder.Services.AddCors(options =>
 // 10. AutoMapper Configuration
 builder.Services.AddAutoMapper(typeof(MappingProfile)); // Add AutoMapper Profile
 
+//11. SMTP EMAIL Services
 
+builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("SmtpSettings"));
+builder.Services.AddScoped<IEmailServices, EmailServices>();
 
 var app = builder.Build();
 

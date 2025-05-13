@@ -111,11 +111,13 @@ namespace Bank_Application.Controllers
 
         [HttpPost("AddSalaryDistribution")]
         [Authorize(Roles = "Company")]
-        public async Task<IActionResult> AddSalaryDistribution([FromForm] AddSalaryDistributionDto addSalaryDistributionDto)
+        public async Task<IActionResult> AddSalaryDistribution([FromBody] AddSalaryDistributionDto addSalaryDistributionDto)
         {
             var result =  await companyService.AddSalaryDistribution(addSalaryDistributionDto);
             return Ok(result);
         }
+
+
 
     }
 }

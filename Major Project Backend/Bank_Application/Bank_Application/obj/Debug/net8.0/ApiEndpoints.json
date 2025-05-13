@@ -449,19 +449,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "EmployeeEmail",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "EmpSalary",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "CompanyEmail",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "addSalaryDistributionDto",
+        "Type": "Bank_Application.Model.SalaryDistrubutionDto.AddSalaryDistributionDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

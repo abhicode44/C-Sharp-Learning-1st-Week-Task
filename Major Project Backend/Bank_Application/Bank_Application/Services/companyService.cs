@@ -16,6 +16,8 @@ using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Options;
 using AutoMapper;
 using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Builder.Extensions;
 
 namespace Bank_Application.Services
 {
@@ -31,7 +33,8 @@ namespace Bank_Application.Services
         IMapper mapper;
         Cloudinary _cloudinary;
          IPhotoService _photoService;
-        
+        private readonly IEmailServices _emailService;
+
 
 
         public CompanyService(IGenericRepository<Company> companyRepository,
@@ -43,8 +46,8 @@ namespace Bank_Application.Services
             IHttpContextAccessor _httpContextAccessor,
             IMapper mapper,
             IOptions<CloudinarySettings> cloudinaryOptions,
-            IPhotoService photoService
-      
+            IPhotoService photoService ,
+            IEmailServices emailService
             )
 
         {
@@ -56,8 +59,9 @@ namespace Bank_Application.Services
             this._httpContextAccessor = _httpContextAccessor;
             this.auditService = auditService;
             this.mapper = mapper;
+            _emailService = emailService;
 
-           
+
             var acc = new Account(
            cloudinaryOptions.Value.CloudName,
            cloudinaryOptions.Value.ApiKey,
@@ -65,8 +69,6 @@ namespace Bank_Application.Services
             _photoService = photoService;
             _cloudinary = new Cloudinary(acc);
             
-
-
         }
 
         public string GetUserEmailFromJwt()
@@ -113,8 +115,9 @@ namespace Bank_Application.Services
             
             await repository.Add(companyEntity);
 
-     
-           
+            string subject = "Company Registration Successful";
+            string body = $"Dear {addCompanyDto.CompanyName}, " +  $"\n Your company has been successfully registered with us." + $"\n Thank you! ";
+            await  _emailService.SendEmail( addCompanyDto.CompanyEmail , subject, body);
 
             return "New Company Added " ;
         }
@@ -186,7 +189,7 @@ namespace Bank_Application.Services
             string loggedInUserRole = GetUserRoleFromJwt();
             string activity = $"Company '{loggedInUserEmail}'  made a transaction request to '{addTransactionDto.TransferToBenificaryCompanyEmail}' of amount {addTransactionDto.TransactionAmount}.";
 
-            auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
+            await  auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
 
             return transactionEntity ;
         }
@@ -209,14 +212,13 @@ namespace Bank_Application.Services
                 {
                     var existingEmployee = employeeRepository.GetByEmail(dto.EmpEmail);
 
-                    if (existingEmployee != null)
+                    if (existingEmployee.Result != null  )
                     {
                         continue;
                     }
 
                     var employee = new Employee
-                    {   
-
+                    {
                         EmpFirstName = dto.EmpFirstName,
                         EmpLastName = dto.EmpLastName,
                         EmpEmail = dto.EmpEmail,
@@ -230,7 +232,7 @@ namespace Bank_Application.Services
                         CompanyEmail = dto.CompanyEmail
                     };
                   
-                    employeeRepository.Add(employee);
+                    await employeeRepository.Add(employee);
                     employeeEntities.Add(employee);
                 }
 
@@ -240,12 +242,14 @@ namespace Bank_Application.Services
                     string loggedInUserRole = GetUserRoleFromJwt();
                     var activity = $" ({loggedInUserEmail}) added {employeeEntities.Count} new employees.";
 
-                    auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
+                    await auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
 
                 }
             }
             return employeeEntities;
         }
+
+
 
         public async  Task<List<Employee>> GetAllEmployees()
         {
@@ -255,32 +259,34 @@ namespace Bank_Application.Services
 
             auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
 
-            return employeeRepository.GetAll().ToList();
+            return employeeRepository.GetAll().Where(c => c.CompanyEmail == loggedInUserEmail).ToList();
 
         }
 
 
-        public async Task<SalaryDistribution> AddSalaryDistribution(AddSalaryDistributionDto addSalaryDistributionDto)
+        public async Task<List<SalaryDistribution>> AddSalaryDistribution(AddSalaryDistributionDto addSalaryDistributionDto)
         {
-            var salaryDistributionEntity = new SalaryDistribution
+            var salaryDistributions = new List<SalaryDistribution>();
+
+            for (int i = 0; i < addSalaryDistributionDto.EmployeeEmails.Count; i++)
             {
-                EmployeeEmail = addSalaryDistributionDto.EmployeeEmail,
-                EmpSalary = addSalaryDistributionDto.EmpSalary,
-                IsSalaryCredit = false,
-                SalaryDescription = "Pending",
-                CompanyEmail = addSalaryDistributionDto.CompanyEmail,
-                SalaryTransactionDate = DateTime.Now,
-            };
-            salaryDistributionRepository.Add(salaryDistributionEntity);
-            string loggedInUserEmail = GetUserEmailFromJwt();
-            string loggedInUserRole = GetUserRoleFromJwt();
+                var salaryDistributionEntity = new SalaryDistribution
+                {
+                    EmployeeEmail = addSalaryDistributionDto.EmployeeEmails[i],
+                    EmpSalary = addSalaryDistributionDto.EmpSalaries[i],
+                    CompanyEmail = addSalaryDistributionDto.CompanyEmails[i],
+                    IsSalaryCredit = false,
+                    SalaryDescription = "Pending",
+                    SalaryTransactionDate = DateTime.Now
+                };
 
-            string activity = $"{loggedInUserEmail} made a request for salary disbursement to Admin.";
+                await salaryDistributionRepository.Add(salaryDistributionEntity);
+                salaryDistributions.Add(salaryDistributionEntity);
+            }
 
-            auditService.AddToAuditLog(loggedInUserEmail, activity, loggedInUserRole);
-            return salaryDistributionEntity;
-
+            return salaryDistributions;
         }
+
 
         public async Task<List<Benificiary>> GetAllInboundBenificiary()
         {

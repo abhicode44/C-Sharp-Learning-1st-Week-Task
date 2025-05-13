@@ -6,11 +6,11 @@ namespace Bank_Application.Model
     public class Employee
     {
         [Key]
-        public int EmpId { get; set; }
+       public string EmpEmail { get; set; }
 
         public string EmpFirstName { get; set; }
         public string EmpLastName { get; set; }
-        public string EmpEmail { get; set; }
+        
 
         public string EmpPhone { get; set; }
 
@@ -26,8 +26,7 @@ namespace Bank_Application.Model
 
         public string CompanyEmail { get; set; }
 
-        [ForeignKey("CompanyEmail")]
-        public Company Company { get; set; }
+      
 
 
 
